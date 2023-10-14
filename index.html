@@ -1,0 +1,5288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software de gestión de viajes y gastos | Zoho Expense</title>
+    <link rel="shortcut icon" href="zexpenses\favicon3860.ico" type="image/x-icon">
+    <link rel="stylesheet" href="zxpnses\css\prd-home.css">
+    <link rel="stylesheet" href="zexpenses\css\global-cvs.css">
+	<link rel="SHORTCUT ICON" href="zexpenses/favicon.ico?v=1" type="image/x-icon">
+	<link href="zexpenses\css\expense-footer.css" rel="stylesheet" type="text/css">
+	<link href="zexpenses\css\prd-home.css" rel="stylesheet" type="text/css">
+    <!-- Añade una etiqueta meta con el atributo name="description" y un valor que resuma el propósito y el beneficio de tu software -->
+    <meta name="description" content="Zoho Expense es el software recomendado para optimizar los viajes y gastos de principio a fin, controlar los gastos, garantizar el cumplimiento y colaborar mejor. ¡Pruébalo gratis ahora!">
+    <!-- Añade una etiqueta meta con el atributo name="keywords" y un valor que contenga las palabras clave relevantes para tu software -->
+    <meta name="keywords" content="software, gestión, viajes, gastos, Zoho Expense, optimizar, controlar, cumplimiento, colaborar">
+</head>
+    <!-- Aquí puedes continuar con el contenido principal de tu página -->
+  <link href="zexpenss\css\prd-home.css" rel="stylesheet" type="text\css">
+  <style type="text/css">
+	font-weight
+
+
+.img-responsive {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block
+}
+
+.clearfix:after,.clearfix:before {
+	display: table;
+	content: " ";
+	clear: both
+}
+
+.header-small-dash {
+	position: relative
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+.header-small-dash:after {
+	content: "";
+	display: block;
+	width: 50px;
+	border: 1px solid #b8b8b8;
+	position: absolute;
+	left: 50%;
+	top: 120%;
+	margin-left: -25px
+}
+
+.ze-access {
+	text-transform: uppercase
+}
+
+.sticky-shadow {
+	box-shadow: 1px 2px 18px 5px hsla(0,0%,7%,.1);
+	border-radius: 5px
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px 25px;
+	font-size: 15px;
+	letter-spacing: -.03em;
+	line-height: 1.44;
+	cursor: pointer;
+	border: 1px solid #333
+}
+
+.footer {
+	background: #fcfdff;
+	padding: 40px 0
+}
+
+.footer-links ul {
+	width: 25%;
+	min-width: 192px;
+	padding-left: 0;
+	padding-bottom: 50px
+}
+
+.resources-section {
+	min-height: 260px
+}
+
+.footer-links ul:last-child {
+	min-width: 222px
+}
+
+.footer-links.footer-mobile {
+	display: -ms-flexbox!important;
+	display: flex!important;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.product-header .product-logo {
+	background: url(zexpenses/app-icon.svg) no-repeat;
+	padding-left: 46px;
+	background-size: 46px 46px
+}
+
+.product-logo {
+	background-repeat: no-repeat
+}
+
+.product-header,.product-header-inner {
+	border-bottom: none
+}
+
+.contactus-form-stickydiv {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 372px;
+	z-index: 100
+}
+
+.contactus-form-stickydiv.move-dropup-up {
+	bottom: 60px;
+	transition: bottom .2s
+}
+
+.contactus-form-stickydiv.demo-only {
+	width: auto
+}
+
+.drop-up-trigger>div {
+	display: inline-block
+}
+
+.bump {
+	animation: a .5s ease
+}
+
+.contactus-form-stickydiv * {
+	box-sizing: border-box
+}
+
+.contactus-form-stickydiv .contact-form {
+	width: 372px;
+	padding: 20px;
+	margin-top: 0
+}
+
+.contactus-form-stickydiv .contact-form .form-group {
+	margin-bottom: 9px
+}
+
+.contactus-form-stickydiv .contact-form .clr-bdr {
+	display: none
+}
+
+@keyframes a {
+	0% {
+		bottom: 0
+	}
+
+	25% {
+		bottom: .5em
+	}
+
+	50% {
+		bottom: 0
+	}
+
+	75% {
+		bottom: .5em
+	}
+
+	to {
+		bottom: 0
+	}
+}
+
+.icon-downarrow,.icon-mail {
+	background: url(zexpenses/images/common-icon.png) no-repeat;
+	width: 30px;
+	height: 20px;
+	display: inline-block
+}
+
+.icon-mail {
+	background-position: -492px -205px;
+	margin: 0 0 -5px
+}
+
+.icon-downarrow {
+	background-position: -586px -200px;
+	float: right
+}
+
+.drop-up-trigger {
+	float: right;
+	margin-right: 40px;
+	font-weight: 300;
+	color: #fff;
+	background-color: #444;
+	width: 180px;
+	padding: 5px;
+	cursor: pointer;
+	border: 1px solid #444;
+	border-bottom: none;
+	box-shadow: 0 0 6px 3px #e5e5e5;
+	border-radius: 5px 5px 0 0
+}
+
+.demo-sticky {
+	animation: .3s c;
+	background-image: url(zexpenses/images/demo-request.svg);
+	background-color: #fff;
+	margin: 15px 10px 30px auto;
+	border-radius: 50%;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	outline: none;
+	border: 0;
+	position: relative
+}
+
+.demo-pop-over {
+	animation: 1s d;
+	padding: 10px 20px;
+	position: absolute;
+	text-align: left;
+	left: -165px;
+	margin-right: 15px;
+	z-index: 10;
+	top: 11px;
+	box-shadow: 1px 1px 10px -1px #aaa;
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: #fff;
+	width: 150px
+}
+
+.demo-pop-over:after {
+	left: 100%;
+	top: 18px;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border: 1px solid transparent;
+	border-left-color: #fff;
+	border-width: 7px;
+	margin-top: -7px
+}
+
+.demo-only:hover .demo-sticky {
+	box-shadow: 1px 1px 8px -1px #ccc
+}
+
+.demo-only:hover .demo-pop-over {
+	box-shadow: 1px 1px 10px -1px #8f8f8f
+}
+
+.zsiq_flt_rel.zsiq_flt_rel {
+	background-color: #06c!important
+}
+
+.zsiq_flt_rel.zsiq_flt_rel .zsiq_user.siqico-chat {
+	background-color: #fff
+}
+
+.zsiq_flt_rel.zsiq_flt_rel .zsiq_user.siqico-chat:before {
+	color: #06c
+}
+
+.help {
+	background-position: -120px 0
+}
+
+.demo {
+	background-position: -52px 0
+}
+
+.contact {
+	background-position: 18px 0;
+	border-radius: 50%
+}
+
+.stickyform-container {
+	background-color: #fcfcfc;
+	clear: both;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 1px 3px #e5e5e5
+}
+
+.stickyform-container li {
+	display: block;
+	padding: 16px 16px 16px 75px;
+	border-bottom: 1px solid #f6f6f6;
+	cursor: pointer;
+	text-align: left
+}
+
+.stickyform-container li:last-child {
+	border-bottom: none
+}
+
+.stickyform-container a {
+	color: #333;
+	background-color: #fcfcfc;
+	display: block;
+	line-height: 29px
+}
+
+.stickyform-container .submit-button,.stickyform-container .submit-button:hover {
+	border-radius: 20px;
+	padding: 7px 30px;
+	margin-top: 0;
+	background-color: #36bba2;
+	border-color: #36bba2
+}
+
+.stickyform-container .captcha-container {
+	position: relative
+}
+
+.stickyform-container .reload-button {
+	display: inline-block;
+	padding-left: 0;
+	position: absolute;
+	top: 16px;
+	right: 42px
+}
+
+.stickyform-container .agree-privacy-policy {
+	margin: -15px 0 10px 17px;
+	text-align: left
+}
+
+.spin {
+	animation: b 1s infinite linear;
+	fill: #fff;
+	width: 15px;
+	height: 15px
+}
+
+@keyframes b {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(1turn)
+	}
+}
+
+.stickyform-container .form-control {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 6px;
+	padding: 9px 12px
+}
+
+.stickyform-container textarea.form-control {
+	padding-bottom: 0
+}
+
+.stickyform-container .contact-form {
+	border: none
+}
+
+.contact-form {
+	position: relative;
+	border: 1px solid #ddd;
+	width: 550px;
+	padding: 40px 40px 30px;
+	margin-top: 20px
+}
+
+.contact-form .form-control {
+	border-radius: 0;
+	box-shadow: none
+}
+
+.contact-form select {
+	height: 40px
+}
+
+.contact-form .form-group p {
+	margin-top: -10px;
+	margin-bottom: 0;
+	font-size: 12px
+}
+
+.contact-form .form-group div {
+	width: 90%;
+	display: inline-block
+}
+
+.contact-form .form-group span {
+	position: absolute;
+	padding-left: 20px
+}/*.ze-demo[href*="expense/demo-request"]{display:none}*/.mand {
+	color: #f24638;
+	margin-left: -15px
+}
+
+.submit-button,.submit-button:hover {
+	background: #48bbb4;
+	border-color: #48bbb4;
+	color: #fff;
+	border-radius: 0;
+	padding: 7px 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	border: 1px solid transparent;
+	cursor: pointer
+}
+
+.submit-button:focus {
+	outline: initial
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc
+}
+
+.form-control:focus {
+	border-color: #66afe9;
+	outline: 0
+}
+
+.has-error .form-control {
+	border: 1px solid #a94442
+}
+
+.hide-widget {
+	display: none!important
+}
+
+.text-danger {
+	color: #a94442!important
+}
+
+.hide {
+	display: none
+}
+
+.show {
+	display: block
+}
+
+.text-center {
+	text-align: center
+}
+
+.video-player {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	opacity: 0;
+	padding: 100px;
+	z-index: 1001;
+	transition: opacity .3s
+}
+
+.video-player.open {
+	opacity: 1
+}
+
+.video-player .player-wrapper {
+	max-width: 800px;
+	margin: auto
+}
+
+.video-player .player {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0
+}
+
+.video-player .player iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.close {
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	width: 32px;
+	height: 32px;
+	opacity: .3;
+	transition: opacity .25s;
+	cursor: pointer
+}
+
+.close:hover {
+	opacity: 1
+}
+
+.close:after,.close:before {
+	position: absolute;
+	left: 15px;
+	content: " ";
+	height: 33px;
+	width: 2px;
+	background-color: #666
+}
+
+.close:before {
+	transform: rotate(45deg)
+}
+
+.close:after {
+	transform: rotate(-45deg)
+}
+
+.social-fb-btn,.social-gplus-btn,.social-twitter-btn {
+	display: inline-block;
+	padding: 2px 8px;
+	font-weight: 700;
+	color: #fff
+}
+
+.social-twitter-btn {
+	background-color: #41b7d8
+}
+
+.social-fb-btn {
+	background-color: #3b5997
+}
+
+.social-gplus-btn {
+	background-color: #d64937
+}
+
+.footer-zohologo {
+	display: none
+}
+
+.common-footer {
+	overflow: visible
+}
+
+.common-footer ul {
+	box-sizing: content-box!important
+}
+
+.zlang-container .zlang-container-inner ul li {
+	float: none
+}
+
+.edition-select-box {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 195px
+}
+
+.edition-select-box a {
+	display: block;
+	padding: 10px;
+	position: relative
+}
+
+.edition-select-box .edition-dropdown {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	height: 100%;
+	width: 20px
+}
+
+.edition-select-box .edition-dropdown b {
+	background-image: url(zexpenses/images/footer-sprite-1x.png?v=2);
+	background-repeat: no-repeat;
+	background-position: -206px -17px;
+	display: block;
+	width: 8px;
+	height: 5px;
+	margin-top: 16px
+}
+
+.edition-select-box .edition-dropdown b.open-caret {
+	background-position: -227px -17px
+}
+
+.edition-select-list {
+	position: absolute;
+	z-index: 1200;
+	background-color: #fff;
+	margin-top: -3px;
+	width: 393px;
+	display: none;
+	box-shadow: 0 12px 34px 0 rgba(0,0,0,.2)
+}
+
+.edition-select-col {
+	display: inline-block;
+	width: 195px;
+	border: 1px solid #ccc
+}
+
+.edition-select-col+.edition-select-col {
+	border-left: 0
+}
+
+.edition-select-list-item {
+	border-bottom: 1px solid #ccc
+}
+
+.edition-select-list-item:last-child {
+	border-bottom: 0
+}
+
+.edition-select-list-item a {
+	display: block;
+	padding: 10px
+}
+
+.edition-select-list-item a:hover {
+	background-color: #f5f5f5
+}
+
+.edition-label {
+	margin-left: 34px
+}[class*=edition-image-] {
+	background: url(zexpenses/images/footer-sprite-1x.png?v=2);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 28px;
+	height: 16px
+}
+
+.edition-image-global {
+	background-position: -177px -3px;
+	width: 17px
+}
+
+.edition-image-us {
+	background-position: -73px -3px
+}
+
+.edition-image-uk {
+	background-position: -39px -3px
+}
+
+.edition-image-canada {
+	background-position: -106px -3px
+}
+
+.edition-image-australia {
+	background-position: -6px -3px
+}
+
+.edition-image-india {
+	background-position: -139px -3px
+}
+
+.edition-image-uae {
+	background-position: -40px -95px
+}
+
+.edition-image-sa {
+	background-position: -6px -95px
+}
+
+.books-logo,.checkout-logo,.inventory-logo,.payroll-logo,.subscriptions-logo {
+	background: url(zexpenses/images/footer-sprite-1x.png?v=2);
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px
+}
+
+.books-logo {
+	background-position: -84px -43px
+}
+
+.inventory-logo {
+	background-position: -8px -43px
+}
+
+.subscriptions-logo {
+	background-position: -148px -43px
+}
+
+.checkout-logo {
+	background-position: -208px -43px
+}
+
+.payroll-logo {
+	background-position: -207px -83px
+}
+
+.other-app-title {
+	color: #333;
+	font-weight: 600
+}
+
+.other-app-desc {
+	font-weight: 500;
+	font-size: 12px
+}
+
+.footer-links.footer-mobile {
+	max-width: 80%;
+	padding: 10px 0
+}
+
+.modal-edition-box-container {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	top: -100%;
+	z-index: 9999;
+	transition: all .2s linear
+}
+
+.modal-edition-box-backdrp {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	top: 0;
+	background-color: #333;
+	opacity: .9;
+	z-index: 9999
+}
+
+.modal-edition-box-content {
+	max-width: 450px;
+	background: #f9f6f8;
+	z-index: 6;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	z-index: 999999;
+	margin: 15vh auto;
+	text-align: center;
+	color: #454345
+}
+
+.modal-edition-box-content h4 {
+	font-weight: 700;
+	font-size: 26px
+}
+
+.modal-edition-box-content .edition-box-desc {
+	font-size: 18px;
+	margin: 20px auto 30px;
+	color: #6d6d6d;
+	font-weight: 400
+}
+
+.edition-box-prim-button,.edition-box-sec-button {
+	display: inline-block;
+	margin: 0 10px
+}
+
+.edition-box-prim-button button,.edition-box-sec-button button {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: .2px;
+	line-height: 1.44;
+	cursor: pointer
+}
+
+.edition-box-prim-button button {
+	padding: 8px 15px;
+	background-color: #00add5;
+	color: #fff;
+	border: 1px solid #00add5
+}
+
+.edition-box-sec-button button {
+	padding: 8px 25px;
+	color: #00add5;
+	border: 2px solid #00add5
+}
+
+.edition-box-prim-button .edition-label {
+	margin-left: 40px
+}
+
+.edition-box-prim-button [class*=edition-image-] {
+	margin-top: 3px
+}
+
+.modal-edition-box .btn-default {
+	background-color: transparent;
+	border-color: #00add5;
+	color: #00add5
+}
+
+.btn-prim:focus,.edition-box-prim-button button:hover {
+	background-color: #009abd;
+	border-color: #009abd;
+	outline: none
+}
+
+.select-placeholder {
+	color: #999
+}
+
+.text-black {
+	color: #000!important
+}
+
+.footer-links ul.branding-text {
+	width: 100%;
+	text-align: left;
+	line-height: 25px
+}
+
+.footer-links ul.branding-text a {
+	color: #00add5
+}
+
+.footer-links ul.edition-footer-section {
+	width: 25%
+}
+
+.footer-links ul.mobile-apps-section {
+	width: 42%
+}
+
+.footer-links ul.contact-us {
+	width: 33%
+}
+
+.mobile-apps-section img {
+	height: 30px;
+	margin-right: 10px
+}
+
+.contact-us {
+	width: 35%
+}
+
+.contact-us li:first-child {
+	padding-left: 0!important
+}
+
+.contact-us li:not(:first-child) {
+	width: 46%;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	color: #555
+}
+
+.contact-us li:nth-child(odd) {
+	padding-left: 4%
+}
+
+.contact-us li a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #00add5
+}
+
+.footer-links .other-finance-apps {
+	width: 100%;
+	border-top: 1px solid #ddd;
+	overflow: visible;
+	position: relative;
+	padding: 25px 13px
+}
+
+.footer-links .other-finance-apps .other-finance-apps-title {
+	position: absolute;
+	top: -25px;
+	padding: 10px 30px;
+	left: 36%;
+	background: #fcfdff;
+	color: #222;
+	font-size: 14px;
+	font-weight: 600
+}
+
+.other-finance-apps li {
+	display: inline-block;
+	min-width: 260px;
+	padding-top: 20px!important
+}
+
+.toll-free-number {
+	padding: 20px 0;
+	color: #f55d49;
+	text-align: right;
+	line-height: 1;
+	font-weight: 600
+}
+
+.product-header-top .toll-free-number {
+	padding: 15px 0 6px
+}
+
+.toll-free-number small {
+	color: #777;
+	font-size: 10px
+}
+
+.billed-monthly,.billed-yearly-text {
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.3;
+	margin-bottom: 20px
+}
+
+.billed-monthly {
+	margin-bottom: 12px
+}
+
+.billed-yearly-text span {
+	color: #ffffffb3
+}
+
+@media screen and (max-width:1042px) {
+	.footer-links ul.edition-footer-section {
+		width: 40%
+	}
+
+	.footer-links ul.mobile-apps-section {
+		width: 60%
+	}
+
+	.footer-links ul.contact-us {
+		width: 40%;
+		margin-left: 42%
+	}
+}
+
+@media screen and (max-width:991px) {
+	.footer-links ul {
+		width: 33%
+	}
+
+	.footer-links ul.mobile-apps-section {
+		width: 56%
+	}
+
+	.footer-links ul.contact-us {
+		margin: 0;
+		width: 44%
+	}
+}
+
+@media screen and (max-width:940px) {
+	.toll-free-number {
+		display: none
+	}
+}
+
+@media screen and (max-width:800px) {
+	.edition-select-list {
+		width: 196px
+	}
+
+	.edition-select-col+.edition-select-col {
+		border-top: 0;
+		border-left: 1px solid #ccc
+	}
+
+	.footer-links ul {
+		float: none;
+		padding-bottom: 25px;
+		margin: 10px
+	}
+
+	.resources-section {
+		min-height: inherit
+	}
+
+	.footer-links ul.edition-footer-section,.footer-links ul.mobile-apps-section {
+		width: 100%
+	}
+
+	.footer-links ul.contact-us {
+		width: 60%
+	}
+}
+
+@media screen and (max-width:767px) {
+	.ze-dropdown-cover,.ze-dropdown-menu:hover .ze-dropdown-list {
+		visibility: hidden!important
+	}
+
+	.zgh-accounts .zgh-login {
+		box-sizing: border-box
+	}
+
+	.ze-dropdown-menu .ze-arrow-down,.ze-more.ze-dropdown-menu,.ze-solutions.ze-dropdown-menu {
+		display: none
+	}
+
+	.sub-menu-customer,.sub-menu-faq,.sub-menu-gstguide,.sub-menu-help,.sub-menu-mobile,.sub-menu-resources {
+		display: block!important
+	}
+}
+
+@media screen and (min-width:768px) {
+	.product-header {
+		background: #ffefe7
+	}
+
+	.product-header .ze-product-text {
+		margin-top: -5px
+	}
+
+	.product-menu li a {
+		color: #000
+	}
+}
+
+@media screen and (max-width:650px) {
+	.video-player {
+		padding: 120px 15px
+	}
+
+	.footer-links ul.contact-us {
+		width: 70%
+	}
+
+	.footer-links .other-finance-apps .other-finance-apps-title {
+		left: 26%
+	}
+}
+
+@media screen and (max-width:492px) {
+	.footer-links ul.contact-us {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:481px) {
+	#contactus-form-stickydiv,.ze-demo {
+		display: none
+	}
+
+	.ze-demo[href*="expense/demo-request"] {
+		display: inline-block
+	}
+
+	.footer-links .other-finance-apps .other-finance-apps-title {
+		left: 16%
+	}
+}
+
+@media screen and (max-width:380px) {
+	.edition-box-sec-button {
+		margin: 10px
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.books-logo,.checkout-logo,.edition-select-box .edition-dropdown b,.inventory-logo,.payroll-logo,.subscriptions-logo,[class*=edition-image-] {
+		background-image: url(zexpenses/images/footer-sprite-2x.png);
+		background-size: 254px 121px
+	}
+}
+
+@keyframes c {
+	0% {
+		opacity: 0;
+		transform: scale(.4)
+	}
+
+	to {
+		opacity: 1;
+		transform: scale(1)
+	}
+}
+
+@keyframes d {
+	0%,60% {
+		margin-left: 20px;
+		opacity: 0
+	}
+
+	to {
+		margin-left: 0;
+		opacity: 1;
+	}
+}</style>
+  <style type="text/css">@font-face {
+	font-family: averta_regular;
+	src: url(zexpenses/fonts/averta-regular-webfont.eot);
+	src: url(zexpenses/fonts/averta-regular-webfont.woff) format("woff"),url(zexpenses/fonts/averta-regular-webfont.ttf) format("truetype"),url(/expense/fonts/averta-regular-webfont.svg) format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+.carousel-indicators {
+	position: unset;
+	width: unset;
+	padding: 0;
+	margin: 45px 0 0
+}
+
+.carousel-indicators li {
+	border: 0
+}
+
+#demorequest-modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.5);
+	opacity: 0;
+	padding: 40px;
+	z-index: 1001;
+	transition: opacity .3s;
+	overflow-y: auto;
+	font-family: averta_regular,Arial,Helvetica,sans-serif;
+	line-height: 1.8;
+	color: #20284d
+}
+
+#demorequest-modal.open {
+	opacity: 1
+}
+
+#demorequest-modal p {
+	color: #333
+}
+
+.demorequest-left-section * {
+	box-sizing: unset
+}
+
+.demorequest-left-section {
+	background: #fff6f2;
+	padding: 50px 40px;
+	width: 580px;
+	box-sizing: border-box;
+	text-align: center
+}
+
+.testimonial-carousel-title {
+	font-size: 20px;
+	margin-top: 6px
+}
+
+.rating-section {
+	padding-top: 20px;
+	margin: 0 20px;
+	border-top: 1px solid #f1e4dc
+}
+
+.rating-section-title {
+	font-size: 20px;
+	margin-bottom: 30px
+}
+
+.demorequest-right-section {
+	background: #fff;
+	padding: 30px 50px;
+	width: 500px;
+	position: relative;
+	box-sizing: border-box
+}
+
+.demorequest-right-section .close-btn {
+	padding: 10px;
+	border: 0;
+	border-radius: 50%;
+	background: #efefef;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: auto;
+	min-width: auto
+}
+
+.demorequest-right-section .close-btn img {
+	display: block;
+	width: 10px
+}
+
+.demorequest-form-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 22px
+}
+
+.demorequest-form {
+	margin-top: 20px
+}
+
+.demorequest-form * {
+	box-sizing: border-box
+}
+
+.select-placeholder {
+	color: #999
+}
+
+.text-black {
+	color: #000!important
+}
+
+.demorequest-form .form-group div {
+	width: 100%;
+	display: inline-block
+}
+
+.demorequest-form .form-group span {
+	position: absolute;
+	top: -5px;
+	right: -11px
+}
+
+.demorequest-form .form-group {
+	position: relative;
+	margin-bottom: 9px
+}
+
+.demorequest-form .form-control {
+	padding: 9px 12px;
+	border-radius: 0;
+	border-color: #e6e6e6;
+	height: 40px;
+	box-shadow: unset
+}
+
+.demorequest-form .form-control:focus {
+	box-shadow: unset
+}
+
+.demorequest-form select.form-control {
+	appearance: menulist
+}
+
+.demorequest-form .form-control-static {
+	padding: 0
+}
+
+.demorequest-form p {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0
+}
+
+.testimonial-carousel-wrapper {
+	margin-top: 10px
+}
+
+.demo-testimonial-section {
+	height: 235px;
+	border-radius: 18px;
+	background: #fff;
+	padding: 25px;
+	text-align: center
+}
+
+.demo-testimonial-two {
+	padding-top: 50px;
+	padding-bottom: 0
+}
+
+.demo-testimonial-section .testimonial-person {
+	background-image: url(zexpenses/images/index/customer-sprite-1x.png?v=1);
+	background-size: 869px 717px;
+	display: inline-block
+}
+
+.demo-testimonial-one .testimonial-person {
+	background-position: -170px -37px;
+	height: 30px;
+	width: 200px
+}
+
+.demo-testimonial-two .testimonial-person {
+	background-position: -6px -37px;
+	height: 30px;
+	width: 190px
+}
+
+.demo-testimonial-three .testimonial-person {
+	background-position: -546px -125px;
+	height: 58px;
+	width: 110px
+}
+
+.demo-testimonial-section p {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 2;
+	text-align: center
+}
+
+.demo-testimonial-section .testimonial-person-name {
+	margin-top: 15px;
+	line-height: 1;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+.demo-testimonial-section .testimonial-company {
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-top: 10px
+}
+
+.demorequest-form .demo-submit-button {
+	background-color: #f55d49;
+	border-color: #f55d49;
+	color: #fff;
+	margin: 20px auto 10px;
+	display: block;
+	padding: 7px 35px;
+	border-radius: 2px;
+	text-transform: none
+}
+
+.testimonial-carousel-wrapper .carousel-container {
+	min-height: unset
+}
+
+.testimonial-carousel-wrapper .carousel-content {
+	min-height: 270px
+}
+
+.carousel-container {
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	min-height: 390px
+}
+
+.carousel-content {
+	min-height: 360px
+}
+
+.carousel-content li {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	transition: left .6s ease-in-out
+}
+
+.carousel-indicators {
+	margin-top: 45px
+}
+
+.carousel-indicators li {
+	visibility: visible;
+	cursor: pointer
+}
+
+.carousel-indicators #item1,.carousel-indicators #item2,.carousel-indicators #item3 {
+	background-color: #ff7775;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	opacity: .2;
+	margin-right: 5px;
+	margin-bottom: 25px
+}
+
+.carousel-indicators li.active#item1,.carousel-indicators li.active#item2,.carousel-indicators li.active#item3 {
+	opacity: .6
+}
+
+@media screen and (max-width:1160px) {
+	#demorequest-modal {
+		padding: 0
+	}
+}
+
+@media screen and (max-width:960px) {
+	.demorequest-left-section {
+		display: none
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.testimonial-person {
+		background-image: url(zexpenses/images/index/customer-sprite-2x.png?v=1)
+	}
+}</style>
+  <style type="text/css">@font-face {
+	font-family: averta_regular;
+	src: url(zexpenses/fonts/averta-regular-webfont.eot);
+	src: url(zexpenses/fonts/averta-regular-webfont.woff) format("woff"),url(zexpenses/fonts/averta-regular-webfont.ttf) format("truetype"),url(zexpenses/fonts/averta-regular-webfont.svg) format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family:averta_semibold;src:url(zexpenses/fonts/averta-semibold-webfont.eot);src:url(zexpenses/fonts/averta-semibold-webfont.woff) format("woff"),url(zexpenses/fonts/averta-semibold-webfont.ttf) format("truetype"),url(zexpenses/fonts/averta-semibold-webfont.svg) format("svg");font-weight:400;font-style:normal;font-display:swap
+}
+
+body {
+	font-family: averta_regular,Arial,Helvetica,sans-serif;
+	line-height: 1.8;
+	overflow-x: hidden;
+	color: #20284d;
+	background: #fff
+}
+
+.covid-webinar-banner {
+	display: none;
+	position: relative;
+	background: #673636;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center
+}
+
+.covid-webinar-banner svg {
+	width: 25px;
+	height: 25px;
+	fill: #fff;
+	vertical-align: text-top;
+	margin-right: 5px
+}
+
+.covid-webinar-banner a {
+	color: #fdee9f
+}
+
+.covid-webinar-banner .ze-caret-arrow-right {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-bottom: 4px solid transparent;
+	border-left: 5px solid #fdee9f;
+	border-top: 4px solid transparent
+}
+
+.covid-webinar-banner .banner-close {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 15px
+}
+
+.ze-arrow-down {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #444
+}
+
+.ze-btn {
+	padding: 14px 40px
+}
+
+.btn {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: .2px;
+	border-radius: 30px;
+	font-family: averta_regular,Arial,Helvetica,sans-serif
+}
+
+.btn:focus {
+	outline: none
+}
+
+a.more-details {
+	display: inline-block;
+	height: 30px;
+	color: #0091dc;
+	font-weight: 700
+}
+
+a.more-details:hover {
+	font-size: 16.5px;
+	transition: font-size .2s
+}
+
+.ze-screenshot {
+	position: relative;
+	margin: -30px auto 220px
+}
+
+.ze-screenshot img {
+	max-width: 1280px;
+	position: relative;
+	top: 27px;
+	margin-bottom: -150px
+}
+
+.ze-btn-filled {
+	background-color: #f55d49;
+	border-color: #f55d49;
+	color: #fff
+}
+
+.ze-btn-outline {
+	background-color: #fff;
+	border-color: #f55d49;
+	color: #f55d49
+}
+
+.ze-btn-filled,.ze-btn-outline {
+	transform: translateY(0);
+	transition: transform .5s,box-shadow .5s;
+	box-shadow: 0 0
+}
+
+.ze-btn-filled:hover,.ze-btn-outline:hover {
+	transform: translateY(-3px);
+	transition: all .5s;
+	box-shadow: 0 10px 12px -3px rgba(80,27,27,.25)
+}
+
+.ze-btn-freeplan {
+	color: #000;
+	background-color: transparent;
+	border-color: #000;
+	font-size: 14px
+}
+
+h1 {
+	color: #20284d;
+	line-height: normal;
+	text-shadow: none;
+	font-size: 55px;
+	letter-spacing: -1.9px
+}
+
+img.lazy-bg {
+	filter: blur(10px)
+}
+
+.ze-intro {
+	background: #ffefe7;
+	text-align: center;
+	margin-bottom: 40px;
+	position: relative;
+	min-height: 500px
+}
+
+.ze-intro-wrapper {
+	padding: 70px 0 35px
+}
+
+.ze-intro-help {
+	max-width: 820px;
+	margin: 15px auto;
+	font-size: 19px
+}
+
+.ze-module-help {
+	font-size: 17px
+}
+
+.modules-section {
+	margin-top: 140px
+}
+
+.modules-section img {
+	width: 60px
+}
+
+.modules-list {
+	display: table;
+	max-width: 1280px;
+	margin: 50px 15% 60px
+}
+
+.module {
+	display: table-cell;
+	padding: 45px 40px;
+	vertical-align: top;
+	width: 30%
+}
+
+.ze-module-title {
+	font-size: 22px;
+	line-height: 34px;
+	margin: 10px 0 7px;
+	font-weight: 900;
+	font-family: averta_semibold,serif
+}
+
+.footer-cta-section {
+	background: linear-gradient(180deg,#ffefe7,#fff);
+	padding: 50px 0 120px;
+	margin-top: 120px;
+	border-bottom: 1px solid #ddd
+}
+
+.footer-cta-section h2 {
+	width: 60%;
+	font-size: 45px;
+	margin-bottom: 10px
+}
+
+.footer {
+	background: #fff;
+	border: none
+}
+
+.ze-access,.ze-demo {
+	padding: 18px 30px;
+	margin-top: 25px
+}
+[name=changeTextEUDC] {
+	display: none
+}
+
+.ze-demo {
+	margin-left: 20px
+}
+
+.dashboard-screenshot-img {
+	display: block;
+	margin: auto;
+	width: 90%
+}
+
+.ze-more-integ {
+	display: none
+}
+
+.cust-testimonial-section {
+	margin-top: 140px
+}
+
+.testimonial-wrapper {
+	padding: 5% 10%;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center
+}
+
+.testimonial-section {
+	width: 50%;
+	border: 1px solid #efefef;
+	margin-right: 3%;
+	transition: all .25s;
+	cursor: pointer;
+	color: #20284d
+}
+
+.testimonial-section:last-child {
+	margin-right: 0
+}
+
+.testimonial-section:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 0 20px #eaeaea
+}
+
+.researcher {
+	padding: 25px 0 5px
+}
+
+.testimonial-one .researcher {
+	background-color: #fff7f5
+}
+
+.testimonial-two .researcher {
+	background-color: #f5f5f5
+}
+
+.testimonial-three .researcher {
+	background-color: #eff5ff
+}
+
+.testimonial-one .testimonial-person {
+	background-position: -222px -17px;
+	width: 250px
+}
+
+.testimonial-two .testimonial-person {
+	background-position: -685px -128px
+}
+
+.testimonial-three .testimonial-person {
+	background-position: -53px -16px
+}
+
+.testimonial-person {
+	background-image: url(zexpenses/images/index/customer-sprite-1x.png?v=1);
+	background-size: 1099px 927px;
+	height: 100px;
+	width: 154px;
+	display: inline-block
+}
+
+.testimonial-section .testimonial-person-name {
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 35px
+}
+
+.testimonial-section .testimonial-company {
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0 0 25px;
+	text-transform: uppercase
+}
+
+.storyline {
+	padding: 30px 10%;
+	min-height: 215px
+}
+
+.storyline p {
+	font-size: 16px;
+	max-width: 300px;
+	line-height: 32px;
+	margin: 10px auto;
+	color: #20284d
+}
+
+.watch-container {
+	position: absolute;
+	top: 44%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 205px;
+	padding: 40px
+}
+
+.watch-container .watch {
+	display: inline-block;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	padding: 10px 10px 4px;
+	border-radius: 30px
+}
+
+.watch-container .watch-content {
+	font-size: 13px
+}
+
+.play-icon-wrapper {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	position: relative;
+	background: red;
+	display: inline-block
+}
+
+.play-icon {
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 6px solid #fff;
+	border-bottom: 4px solid transparent;
+	position: absolute;
+	top: 5px;
+	left: 7px
+}
+
+.social-media {
+	font-size: 13px;
+	padding: 10px;
+	text-align: right;
+	border: 1px solid #ededed
+}
+
+.feature-arrow-right {
+	margin-left: 3px;
+	display: inline-block;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 6px solid #0091dc
+}
+
+.features-section {
+	margin: 100px auto 0;
+	max-width: 1200px
+}
+
+.features-section h2 {
+	padding-bottom: 30px
+}
+
+#feature-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	align-items: start;
+	margin-top: 40px
+}
+
+.feature-images {
+	width: 57%;
+	margin-right: 4%;
+	background: #fff4ee;
+	padding: 40px 0 60px 60px
+}
+
+.feature-image-small {
+	display: none
+}
+
+.feature-list {
+	margin-top: -12px;
+	width: 35%
+}
+
+.feature-item .btn {
+	font-size: 19px;
+	border: none;
+	background: none;
+	color: #0091dc;
+	width: 100%;
+	text-align: left;
+	border-radius: 0;
+	padding: 12px 8px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	letter-spacing: .5px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.feature-item .ze-arrow-down {
+	border-top-color: #0091dc
+}
+
+.feature-desc {
+	visibility: hidden;
+	opacity: 0;
+	max-height: 0
+}
+
+.feature-desc .more-details {
+	font-size: 13px;
+	position: relative
+}
+
+.feature-desc a.more-details:hover {
+	font-size: 13.5px
+}
+
+.feature-analyze .feature-analyze-desc,.feature-approve .feature-approve-desc,.feature-receipt .feature-receipt-desc,.feature-reimburse .feature-reimburse-desc,.feature-report .feature-report-desc {
+	visibility: visible;
+	opacity: 1;
+	overflow: hidden;
+	max-height: 285px;
+	padding: 10px 8px 20px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	transition: max-height 1s
+}
+
+.feature-image,.feature-image-small {
+	visibility: hidden;
+	opacity: 0;
+	height: 0
+}
+
+.feature-analyze .feature-analyze-image,.feature-approve .feature-approve-image,.feature-receipt .feature-receipt-image,.feature-reimburse .feature-reimburse-image,.feature-report .feature-report-image {
+	visibility: visible;
+	opacity: 1;
+	height: auto;
+	margin-top: 45px;
+	transition: opacity 1s ease-out
+}
+
+div.feature-desc {
+	font-family: averta_regular;
+	line-height: 24px
+}
+
+.feature-highlights {
+	margin: 18px 0 25px
+}
+
+.feature-highlight {
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 5px;
+	font-size: 16px
+}
+
+.tick-icon {
+	background: url(zexpenses\images\tick-black.svg) no-repeat;
+	width: 18px;
+	height: 14px;
+	position: absolute;
+	left: 0;
+	top: 7px
+}
+
+.pricing-section-wrapper {
+	background: #fff4ee
+}
+
+.pricing-section {
+	display: -ms-flexbox;
+	display: flex;
+	margin: 140px auto;
+	padding: 100px 12%;
+	max-width: 1140px;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.pricing-title {
+	width: 28%;
+	margin-left: 4%;
+	margin-right: 6%;
+	text-align: left
+}
+
+.pricing-containers {
+	width: 56%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.pricing-containers .premium-plan {
+	background: #f55d49;
+	color: #fff;
+	padding: 40px 40px 60px;
+	min-width: 230px
+}
+
+.premium-plan-features {
+	height: 300px;
+	min-width: 230px;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: justify;
+	padding: 50px 40px;
+	text-align: left;
+	background: #fff
+}
+
+.premium-plan-features .feature-highlight {
+	margin-bottom: 18px
+}
+
+.min-users {
+	height: 0;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #ffffffb3
+}
+
+.ze-price-amount {
+	font-size: 75px;
+	position: relative;
+	line-height: 1.2;
+	display: inline-block;
+	font-weight: 700
+}
+
+.ze-price-symbol {
+	position: absolute;
+	font-size: 16px;
+	top: 16px;
+	left: -32px
+}
+
+.pricing-containers div.plan-name {
+	font-size: 21px;
+	margin: 0 auto 25px;
+	line-height: 1.5
+}
+
+.pricing-section .more-details-small {
+	display: none
+}
+
+.all-tiers-section {
+	margin: 120px 0 70px
+}
+
+.tiers-wrapper {
+	margin-top: 30px;
+	background: #fff4ee;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.business-tier {
+	margin: 50px 10px;
+	padding: 30px;
+	max-width: 300px;
+	background: #fff
+}
+
+.business-title {
+	text-align: left;
+	font-weight: 700;
+	font-size: 23px
+}
+
+.business-content {
+	text-align: left;
+	margin: 20px 0 0;
+	font-size: 16px
+}
+
+.business-border {
+	border-bottom: 4px solid #f55d49;
+	width: 30px;
+	margin: 5px 0
+}
+
+.mobile-section {
+	display: -ms-flexbox;
+	display: flex;
+	margin: 140px auto 100px;
+	padding: 0 10%;
+	max-width: 1280px
+}
+
+.mobile-image {
+	width: 50%
+}
+
+.mobile-image-small {
+	display: none
+}
+
+.mobile-desc {
+	width: 45%;
+	margin: auto 0 auto 5%
+}
+
+.mobile-help {
+	margin: 20px 0;
+	width: 85%;
+	font-family: averta_regular;
+	font-size: 17px;
+	line-height: 1.5
+}
+
+.download-apps {
+	margin: 10px 0 30px;
+	display: inline-block
+}
+
+.download-apps-icon a,.download-apps a {
+	background-image: url(zexpnses\mobile\sprite-icons.png);
+	background-repeat: no-repeat;
+	background-size: 416px 253px
+}
+
+.download-apps a {
+	width: 165px;
+	height: 50px;
+	display: inline-block;
+	text-indent: -999em;
+	transform: scale(.9);
+	margin-right: 0
+}
+
+.ze-apple-store {
+	background-position: -232px -21px
+}
+
+.ze-google-play {
+	background-position: -232px -100px
+}
+
+.download-apps-icon a {
+	width: 48px;
+	height: 48px;
+	text-indent: -999em;
+	display: inline-block;
+	margin-right: 13px
+}
+
+.download-apps-icon .icon-iphone {
+	background-position: -9px -21px
+}
+
+.download-apps-icon .icon-android {
+	background-position: -86px -21px
+}
+
+.download-apps-icon {
+	display: none
+}
+
+@media screen and (min-width:1600px) {
+	.modules-list {
+		margin: 50px auto
+	}
+
+	.testimonial-wrapper {
+		max-width: 1280px;
+		margin: 0 auto
+	}
+}
+
+@media screen and (max-width:1265px) {
+	.footer-cta-section h2,h2 {
+		width: 70%
+	}
+
+	.features-section {
+		margin: 100px 20px 0
+	}
+
+	.ze-screenshot img {
+		top: 50px
+	}
+
+	.modules-list {
+		margin: 50px 10%
+	}
+}
+
+@media screen and (max-width:1196px) {
+	.modules-list {
+		margin: 50px 7%
+	}
+
+	.pricing-section {
+		padding: 100px 6%
+	}
+
+	.testimonial-wrapper {
+		padding: 5% 3%
+	}
+}
+
+@media screen and (max-width:1170px) {
+	.integrated-apps-image {
+		display: block;
+		margin: 40px auto
+	}
+
+	.integrated-apps {
+		display: none
+	}
+}
+
+@media screen and (max-width:1100px) {
+	#feature-container {
+		-ms-flex-direction: column;
+		flex-direction: column;
+		margin-top: 0
+	}
+
+	.feature-images {
+		display: none
+	}
+
+	.feature-image-small {
+		display: block
+	}
+
+	.feature-analyze .feature-analyze-desc,.feature-approve .feature-approve-desc,.feature-receipt .feature-receipt-desc,.feature-reimburse .feature-reimburse-desc,.feature-report .feature-report-desc {
+		max-height: 585px
+	}
+
+	.feature-analyze .feature-analyze-image,.feature-approve .feature-approve-image,.feature-receipt .feature-receipt-image,.feature-reimburse .feature-reimburse-image,.feature-report .feature-report-image {
+		margin: 10px 0 30px
+	}
+
+	.feature-item .btn {
+		font-size: 18px
+	}
+
+	.feature-images,.feature-list {
+		width: 60%;
+		margin: 0 auto
+	}
+
+	.pricing-section {
+		padding: 100px 4%
+	}
+
+	.mobile-section {
+		padding: 0 5%
+	}
+}
+
+@media screen and (max-width:1008px) {
+	.ze-intro-help {
+		font-size: 18px
+	}
+
+	h1 {
+		font-size: 40px
+	}
+
+	.footer-cta-section h2,h2 {
+		width: 80%
+	}
+
+	.modules-section {
+		margin-top: 80px
+	}
+
+	.modules-list {
+		margin: 50px 1%
+	}
+
+	.pricing-section {
+		-ms-flex-direction: column;
+		flex-direction: column
+	}
+
+	.pricing-title {
+		width: 100%;
+		text-align: center
+	}
+
+	.pricing-containers {
+		width: 100%;
+		margin: 30px 0;
+		-ms-flex-pack: center;
+		justify-content: center
+	}
+
+	.pricing-title .more-details {
+		display: none
+	}
+
+	.pricing-section .more-details-small {
+		display: block
+	}
+
+	.testimonial-wrapper {
+		padding: 5% 1%
+	}
+
+	.mobile-image {
+		display: none
+	}
+
+	.mobile-image-small {
+		display: block;
+		width: 70%;
+		margin: 0 auto
+	}
+
+	.mobile-desc {
+		width: 75%;
+		margin: 0 auto;
+		text-align: center
+	}
+
+	.mobile-help,.mobile-title {
+		width: 100%
+	}
+
+	.mobile-more {
+		margin-top: 40px
+	}
+}
+
+@media screen and (max-width:970px) {
+	.mobile-section {
+		padding: 0
+	}
+}
+
+@media screen and (max-width:905px) {
+	.feature-list {
+		width: 70%
+	}
+
+	.tiers-wrapper {
+		display: block;
+		padding: 70px
+	}
+
+	.business-tier {
+		width:50%,
+		
+	}
+
+	.testimonial-wrapper {
+		padding: 0;
+		display: block
+	}
+
+	.testimonial-section {
+		width: 50%;
+		margin: 40px auto!important;
+		display: block;
+		min-height: 500px
+	}
+
+	.mobile-desc {
+		width: 85%
+	}
+
+	.download-apps {
+		max-width: 600px!important
+	}
+}
+
+@media screen and (max-width:802px) {
+	h2 {
+		font-size: 30px
+	}
+
+	.footer-cta-section h2 {
+		font-size: 35px
+	}
+
+	.ze-module-title {
+		font-size: 20px;
+		line-height: 30px
+	}
+
+	.ze-module-help {
+		font-size: 16px
+	}
+
+	.ze-intro-help {
+		width: 90%
+	}
+}
+
+@media screen and (max-width:767px) {
+	.covid-webinar-banner {
+		display: none!important
+	}
+
+	.modules-section {
+		margin-bottom: 30px
+	}
+
+	.features-section {
+		margin: 80px auto 0
+	}
+
+	.features-section h2 {
+		padding-bottom: 0
+	}
+
+	.testimonial-section {
+		width: 65%
+	}
+
+	.pricing-section {
+		margin: 80px auto
+	}
+
+	.modules-section {
+		margin-top: 50px
+	}
+
+	.cust-testimonial-section {
+		margin-top: 80px
+	}
+
+	.mobile-section {
+		margin: 80px auto 40px
+	}
+
+	.mobile-more {
+		text-align: center
+	}
+}
+
+@media screen and (max-width:650px) {
+	.ze-intro-help {
+		font-size: 16px
+	}
+
+	h1 {
+		font-size: 30px
+	}
+
+	.testimonial-section {
+		width: 75%
+	}
+
+	.modules-section {
+		padding: 20px 15px
+	}
+
+	body {
+		line-height: 1.5
+	}
+
+	h2 {
+		font-size: 26px;
+		margin-bottom: 15px;
+		line-height: 38px
+	}
+
+	.footer-cta-section h2 {
+		font-size: 30px
+	}
+
+	h3 {
+		font-size: 22px
+	}
+
+	.ze-demo {
+		margin-left: 0
+	}
+
+	.module,.modules-list {
+		width: auto;
+		max-width: none;
+		display: block
+	}
+
+	.modules-list {
+		margin: 10px 40px 0
+	}
+
+	.module {
+		padding: 30px 0
+	}
+
+	.pricing-containers {
+		display: inline-block;
+		width: 100%;
+		margin-top: 20px
+	}
+
+	.premium-plan,.premium-plan-features {
+		width: 50%;
+		margin: 1
+	}
+
+	.premium-plan-features,.pricing-containers .premium-plan {
+		min-width: 10px;
+		height: unset
+	}
+}
+
+@media screen and (max-width:555px) {
+	.feature-item .btn {
+		font-size: 17px
+	}
+
+	.testimonial-section {
+		width: 90%
+	}
+
+	.download-apps {
+		display: none
+	}
+
+	.download-apps-icon {
+		display: block;
+		margin: 10px 0 30px
+	}
+
+	.download-apps-icon svg {
+		width: 50px;
+		margin: 0 15px
+	}
+
+	.premium-plan,.premium-plan-features {
+		width: 60%
+	}
+}
+
+@media screen and (max-width:380px) {
+	.premium-plan,.premium-plan-features {
+		width: 70%
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.footer-cta-section {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.testimonial-person {
+		background-image: url(zexpenses\images\index\customer-sprite-2x.png?v=1)
+	}
+}
+</style>
+<style type="text/css">.trusted-by {
+	margin: 0 auto 30px
+}
+
+.customers-wrapper.desktop-view,.trusted-by {
+	display: block
+}
+
+.customers-wrapper.mobile-view,.customers-wrapper.mobile-view-small,.customers-wrapper.pad-view {
+	display: none
+}
+
+.customers-wrapper .customer-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.customers-wrapper .customer {
+	background-image: url(zexpenses\images\index\customer-sprite-1x.png?v=1);
+	background-size: 1099px 927px;
+	height: 127px;
+	width: 225px;
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef
+}
+
+.customers-wrapper .customer:last-child {
+	border-right: 0
+}
+
+.customers-wrapper .customer-row:last-child .customer {
+	border-bottom: 0
+}
+
+.customer.razorpay {
+	background-position: -18px -2px
+}
+
+.customer.foodpanda {
+	background-position: -228px -2px
+}
+
+.customer.baggit {
+	background-position: -446px 3px
+}
+
+.customer.east-west-seed {
+	background-position: -649px 4px
+}
+
+.customer.unete {
+	background-position: -869px -2px
+}
+
+.customer.globus {
+	background-position: -18px -104px
+}
+
+.customer.next-story-group {
+	background-position: -233px -136px
+}
+
+.customer.plivo {
+	background-position: -446px -136px
+}
+
+.customer.paper-boat {
+	background-position: -657px -136px
+}
+
+.customer.purolite {
+	background-position: -860px -106px
+}
+
+.customer.derivco {
+	background-position: -18px -228px
+}
+
+.customer.southern-cross-protection {
+	background-position: -228px -264px
+}
+
+.customer.mas-acme {
+	background-position: -446px -214px
+}
+
+.customer.loginext {
+	background-position: -657px -216px
+}
+
+.customer.avanti {
+	background-position: -869px -264px
+}
+
+.customer.yulu {
+	background-position: -18px -394px
+}
+
+.customer.remington-seeds {
+	background-position: -228px -394px
+}
+
+.customer.jumbotail {
+	background-position: -439px -394px
+}
+
+.customer.inpex {
+	background-position: -657px -334px
+}
+
+.customer.mmt {
+	background-position: -864px -332px
+}
+
+.customer.aparajitha {
+	background-position: -24px -533px
+}
+
+.customer.jetsmart {
+	background-position: -234px -533px
+}
+
+.customer.exotel {
+	background-position: -444px -433px
+}
+
+.customer.sunking {
+	background-position: -649px -434px
+}
+
+.customer.lacipc {
+	background-position: -869px -434px
+}
+
+.customer.bmgi {
+	background-position: -25px -661px
+}
+
+.customer.rpg-foundation {
+	background-position: -230px -656px
+}
+
+.customer.velocix {
+	background-position: -440px -542px
+}
+.customer.huace {
+	background-position: -440px -648px
+}
+.customer.aibeiqi {
+	background-position: -856px -642px;
+}
+.customer.boxun {
+	background-position: -238px -744px;
+}
+.customer.siteer {
+	background-position: -38px -744px;
+}
+.customer.tanke {
+	background-position: -638px -648px;
+}
+
+.customer.synertrade {
+	background-position: -655px -550px
+}
+
+.customer.goibibo {
+	background-position: -862px -647px
+}
+
+.customer.samsonite {
+	background-position: -23px -658px
+}
+
+.customer.lifecell {
+	background-position: -243px -783px
+}
+
+.carousel-container {
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	min-height: 390px
+}
+
+.carousel-content {
+	min-height: 360px
+}
+
+.carousel-content li {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	transition: left .6s ease-in-out
+}
+
+.carousel-indicators {
+	margin-top: 45px
+}
+
+.carousel-indicators li {
+	visibility: visible;
+	cursor: pointer
+}
+
+.carousel-indicators #item1,.carousel-indicators #item2,.carousel-indicators #item3 {
+	background-color: #ff7775;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	opacity: .2;
+	margin-right: 5px;
+	margin-bottom: 25px
+}
+
+.carousel-indicators li.active#item1,.carousel-indicators li.active#item2,.carousel-indicators li.active#item3 {
+	opacity: .6
+}
+
+@media screen and (max-width:1199px) and (min-width:991px) {
+	.customers-wrapper .customer {
+		background-size: 900px;
+		height: 120px;
+		width: 192px
+	}
+
+	.customer.razorpay {
+		background-position: -6px 4px
+	}
+
+	.customer.foodpanda {
+		background-position: -180px 5px
+	}
+
+	.customer.baggit {
+		background-position: -356px 10px
+	}
+
+	.customer.east-west-seed {
+		background-position: -529px 0
+	}
+
+	.customer.unete {
+		background-position: -702px 4px
+	}
+
+	.customer.globus {
+		background-position: -11px -104px
+	}
+
+	.customer.next-story-group {
+		background-position: -180px -104px
+	}
+
+	.customer.plivo {
+		background-position: -356px -104px
+	}
+
+	.customer.paper-boat {
+		background-position: -529px -104px
+	}
+
+	.customer.purolite {
+		background-position: -702px -104px
+	}
+
+	.customer.derivco {
+		background-position: -6px -209px
+	}
+
+	.customer.southern-cross-protection {
+		background-position: -180px -209px
+	}
+
+	.customer.mas-acme {
+		background-position: -356px -209px
+	}
+
+	.customer.loginext {
+		background-position: -529px -209px
+	}
+
+	.customer.avanti {
+		background-position: -702px -209px
+	}
+
+	.customer.yulu {
+		background-position: -11px -316px
+	}
+
+	.customer.remington-seeds {
+		background-position: -180px -316px
+	}
+
+	.customer.jumbotail {
+		background-position: -356px -316px
+	}
+
+	.customer.inpex {
+		background-position: -529px -316px
+	}
+
+	.customer.mmt {
+		background-position: -702px -316px
+	}
+
+	.customer.aparajitha {
+		background-position: -11px -429px
+	}
+
+	.customer.jetsmart {
+		background-position: -180px -429px
+	}
+
+	.customer.exotel {
+		background-position: -356px -429px
+	}
+
+	.customer.sunking {
+		background-position: -529px -426px
+	}
+
+	.customer.lacipc {
+		background-position: -702px -429px
+	}
+
+	.customer.bmgi {
+		background-position: -11px -536px
+	}
+
+	.customer.rpg-foundation {
+		background-position: -180px -530px
+	}
+
+	.customer.velocix {
+		background-position: -356px -531px;
+	}
+	.customer.aibeiqi {
+		background-position: -690px -628px;
+	}
+	.customer.huace {
+		background-position: -360px -634px;
+	}
+	.customer.siteer {
+		background-position: -20px -733px;
+	}
+	.customer.boxun {
+		background-position: -190px -728px;
+	}
+	.customer.tanke {
+		background-position: -512px -634px;
+	}
+
+
+	.customer.synertrade {
+		background-position: -529px -531px
+	}
+
+	.customer.goibibo {
+		background-position: -702px -524px
+	}
+
+	.customer.samsonite {
+		background-position: -11px -636px
+	}
+
+	.customer.lifecell {
+		background-position: -196px -634px
+	}
+}
+
+@media screen and (max-width:990px) {
+	.customers-wrapper.desktop-view {
+		display: none
+	}
+
+	.customers-wrapper.pad-view {
+		display: block
+	}
+}
+
+@media screen and (max-width:767px) {
+	.customers-wrapper.pad-view {
+		display: none
+	}
+
+	.customers-wrapper.mobile-view {
+		display: block
+	}
+
+	.trusted-by {
+		margin-bottom: 10px;
+		padding-top: 50px
+	}
+}
+
+@media screen and (max-width:480px) {
+	.customers-wrapper.mobile-view {
+		display: none
+	}
+
+	.customers-wrapper.mobile-view-small {
+		display: block
+	}
+
+	.customers-wrapper .customer {
+		border-bottom: 0
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.customers-wrapper .customer {
+		background-image: url(zexpenses\images\index\customer-sprite-2x.png?v=1)
+	}
+}</style>
+  <style type="text/css">.ze-integ-list-wrapper {
+	margin: 50px auto;
+	padding: 30px 0;
+	max-width: 1000px
+}
+
+.ze-integ-image-for-mobile {
+	display: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px
+}
+
+.ze-integ-list {
+	position: relative;
+	box-sizing: border-box;
+	height: 530px;
+	padding: 10px 0 64px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin: 20px;
+	overflow: visible
+}
+
+.ze-integ-list a {
+	display: block;
+	background: url(zexpenses\images\index\integration-sprite-1x.png?v=1) no-repeat;
+	background-size: 985px 700px!important;
+	transition: all .2s ease-in-out
+}
+
+.ze-integ-list div {
+	opacity: 0;
+	transform: scaleX(.6);
+	position: absolute
+}
+
+.ze-integ-list div:hover:not(.zoho-expense) a {
+	transform: translateY(-2px);
+	transition: all .2s
+}
+
+.ze-integ-list .evernote a {
+	background-position: -84px -64px;
+	height: 36px;
+	width: 161px
+}
+
+.ze-integ-list .uber a {
+	background-position: -385px -70px;
+	height: 24px;
+	width: 230px
+}
+
+.ze-integ-list .qb a {
+	background-position: -728px -63px;
+	height: 37px;
+	width: 186px
+}
+
+.ze-integ-list .dropbox a {
+	background-position: -84px -176px;
+	height: 35px;
+	width: 171px
+}
+
+.ze-integ-list .slack a {
+	background-position: -350px -179px;
+	height: 30px;
+	width: 112px
+}
+
+.ze-integ-list .icici a {
+	background-position: -548px -172px;
+	height: 38px;
+	width: 191px
+}
+
+.ze-integ-list .forte a {
+	background-position: -825px -177px;
+	height: 34px;
+	width: 89px
+}
+
+.ze-integ-list .lyft a {
+	background-position: -83px -293px;
+	height: 52px;
+	width: 74px
+}
+
+.ze-integ-list .gsuite a {
+	background-position: -323px -303px;
+	height: 26px;
+	width: 99px
+}
+
+.ze-integ-list .office365 a {
+	background-position: -555px -303px;
+	height: 32px;
+	width: 142px
+}
+
+.ze-integ-list .box a {
+	background-position: -858px -304px;
+	height: 30px;
+	width: 56px
+}
+
+.ze-integ-list .gdrive a {
+	background-position: -83px -420px;
+	height: 28px;
+	width: 170px
+}
+
+.ze-integ-list .people a {
+	background-position: -332px -400px;
+	height: 81px;
+	width: 108px
+}
+
+.ze-integ-list .onedrive a {
+	background-position: -534px -420px;
+	height: 29px;
+	width: 163px
+}
+
+.ze-integ-list .amex a {
+	background-position: -823px -388px;
+	height: 91px;
+	width: 91px
+}
+
+.ze-integ-list .xero a {
+	background-position: -72px -541px;
+	height: 96px;
+	width: 96px
+}
+
+.ze-integ-list .mastercard a {
+	background-position: -288px -552px;
+	height: 75px;
+	width: 97px
+}
+
+.ze-integ-list .visa a {
+	background-position: -515px -574px;
+	height: 31px;
+	width: 100px
+}
+
+.ze-integ-list .zoho-expense a {
+	background-position: -728px -557px;
+	width: 83px;
+	height: 81px
+}
+
+.ze-integ-list .zoho-expense {
+	top: 41%;
+	left: 42%;
+	border-radius: 50%;
+	padding: 25px;
+	border: 1px solid #e95357
+}
+
+.ze-integ-list .evernote {
+	top: 30%;
+	left: 0
+}
+
+.ze-integ-list .uber {
+	top: 4%;
+	left: 12%
+}
+
+.ze-integ-list .qb {
+	top: 77%;
+	left: 41%
+}
+
+.ze-integ-list .dropbox {
+	top: 6%;
+	left: 68%
+}
+
+.ze-integ-list .slack {
+	top: 44%;
+	left: 69%
+}
+
+.ze-integ-list .icici {
+	top: 20%;
+	left: 29%
+}
+
+.ze-integ-list .forte {
+	top: 44%;
+	left: 19%
+}
+
+.ze-integ-list .lyft {
+	top: 21%;
+	left: 57%
+}
+
+.ze-integ-list .gsuite {
+	top: 66%;
+	left: 23%
+}
+
+.ze-integ-list .office365 {
+	top: 57%;
+	left: 83%
+}
+
+.ze-integ-list .box {
+	top: 94%;
+	left: 15%
+}
+
+.ze-integ-list .gdrive {
+	top: -6%;
+	left: 44%
+}
+
+.ze-integ-list .people {
+	top: 96%;
+	left: 35%
+}
+
+.ze-integ-list .onedrive {
+	top: 28%;
+	left: 82%
+}
+
+.ze-integ-list .amex {
+	top: 60%;
+	left: 2%
+}
+
+.ze-integ-list .xero {
+	top: 95%;
+	left: 59%
+}
+
+.ze-integ-list .mastercard {
+	top: 80%;
+	left: 78%
+}
+
+.ze-integ-list .visa {
+	top: 66%;
+	left: 63%
+}
+
+.animation .ze-integ-list div {
+	opacity: 1;
+	transform: scale(1)
+}
+
+.animation .ze-integ-list .zoho-expense {
+	transition: .5s ease
+}
+
+.animation .ze-integ-list .amex,.animation .ze-integ-list .box,.animation .ze-integ-list .dropbox,.animation .ze-integ-list .evernote,.animation .ze-integ-list .gdrive,.animation .ze-integ-list .mastercard,.animation .ze-integ-list .office365,.animation .ze-integ-list .onedrive,.animation .ze-integ-list .people,.animation .ze-integ-list .uber,.animation .ze-integ-list .xero {
+	transition: 2s ease .7s
+}
+
+.animation .ze-integ-list .forte,.animation .ze-integ-list .gsuite,.animation .ze-integ-list .icici,.animation .ze-integ-list .lyft,.animation .ze-integ-list .qb,.animation .ze-integ-list .slack,.animation .ze-integ-list .visa {
+	transition: 2s ease .4s
+}
+
+.ze-more-integ {
+	margin: auto;
+	display: block;
+	padding: 50px 0 5px;
+	border-bottom: 2px solid #0091dc;
+	width: 148px;
+	font-weight: 800
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.ze-integ-list a {
+		background: url(zexpenses\images\index\integration-sprite-2x.png?v=1) no-repeat
+	}
+}
+
+@media screen and (max-width:991px) {
+	.ze-integ-list-wrapper {
+		display: none
+	}
+
+	.ze-integ-list a {
+		background: url(.) no-repeat
+	}
+
+	.ze-integ-image-for-mobile {
+		display: block;
+		background: url(zexpenses\images\index\integrated-apps-mobile.png?v=1) no-repeat;
+		background-size: contain;
+		height: 510px
+	}
+}
+
+@media screen and (max-width:850px) {
+	.ze-integ-image-for-mobile {
+		height: 450px
+	}
+}
+
+@media screen and (max-width:767px) {
+	.ze-integ-image-for-mobile {
+		height: 400px
+	}
+}
+
+@media screen and (max-width:640px) {
+	.ze-integ-image-for-mobile {
+		height: 340px
+	}
+}
+
+@media screen and (max-width:580px) {
+	.ze-integ-image-for-mobile {
+		height: 300px
+	}
+}
+
+@media screen and (max-width:500px) {
+	.ze-integ-image-for-mobile {
+		height: 280px
+	}
+}
+
+@media screen and (max-width:440px) {
+	.ze-integ-image-for-mobile {
+		height: 220px
+	}
+}
+
+@media screen and (max-width:359px) {
+	.ze-integ-image-for-mobile {
+		height: 180px
+	}
+}</style>
+  <style type="text/css">.rating-section {
+	text-align: center
+}
+
+.rating-wrapper {
+	margin: 40px auto 80px;
+	padding: 0 10px
+}
+
+.rating-wrapper.tab-view {
+	display: none
+}
+
+.rating-wrapper .rating-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	max-width: 1080px;
+	margin: auto;
+	border-top: 1px solid #efefef;
+	border-left: 1px solid #efefef
+}
+
+.rating-wrapper .rating-row:last-child {
+	border-bottom: 1px solid #efefef
+}
+
+.rating-wrapper .rating-block {
+	height: 100px;
+	min-width: 359px;
+	display: -ms-flexbox;
+	display: flex;
+	border-right: 1px solid #efefef
+}
+
+.rating-wrapper .rating-logo-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 22px
+}
+
+.rating-wrapper .rating-block .rating-logo {
+	height: 42px;
+	width: 180px
+}
+
+.rating-wrapper .rating-block .rating-logo,.rating-wrapper .rating-block .rating-stars {
+	background-image: url(zexpenses\images\index\rating-1x.png?v=1);
+	background-size: 805px 250px
+}
+
+.rating-wrapper .rating-block .rating-stars {
+	height: 19px;
+	width: 113px
+}
+
+.rating-block.finances-online .rating-logo {
+	background-position: -60px -28px
+}
+
+.rating-block.getapp .rating-logo {
+	background-position: -315px -28px
+}
+
+.rating-block.captera .rating-logo {
+	background-position: -591px -28px
+}
+
+.rating-block.g2crowd .rating-logo {
+	background-position: -60px -121px
+}
+
+.rating-block.g-play .rating-logo {
+	background-position: -315px -121px
+}
+
+.rating-block.qb .rating-logo {
+	background-position: -591px -121px
+}
+
+.rating-block.captera .rating-stars,.rating-block.finances-online .rating-stars,.rating-block.g2crowd .rating-stars,.rating-block.g-play .rating-stars,.rating-block.getapp .rating-stars,.rating-block.qb .rating-stars {
+	background-position: -65px -204px
+}
+
+.rating-wrapper .rating {
+	color: #777;
+	font-size: 12px;
+	text-align: left
+}
+
+.rating-wrapper .rating .achieved-rate {
+	font-family: averta_semibold,serif;
+	color: #000;
+	font-size: 36px;
+	line-height: 1.1
+}
+
+.rating-wrapper .rating-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.rating-section .rating-badge-container {
+	max-width: 500px;
+	padding: 20px;
+	margin: auto
+}
+
+@media screen and (max-width:1196px) {
+	.rating-wrapper.large-view {
+		display: none
+	}
+
+	.rating-wrapper.tab-view {
+		display: block
+	}
+
+	.rating-wrapper .rating-row {
+		max-width: 721px
+	}
+}
+
+@media screen and (max-width:767px) {
+	.rating-wrapper .rating-row {
+		display: block;
+		border: 0!important
+	}
+
+	.rating-wrapper .rating-block {
+		border: 1px solid #efefef;
+		max-width: 350px;
+		margin: auto
+	}
+}
+
+@media screen and (max-width:650px) {
+	.ratings {
+		width: 500px
+	}
+}
+
+@media screen and (max-width:555px) {
+	.ratings {
+		width: 400px
+	}
+}
+
+@media screen and (max-width:380px) {
+	.rating-wrapper .rating-row {
+		display: block
+	}
+
+	.rating-wrapper .rating-block {
+		min-width: 260px;
+		border: 1px solid #efefef
+	}
+
+	.rating-wrapper .rating-block .rating-logo {
+		background-size: 644px 200px;
+		height: 32px;
+		width: 141px
+	}
+
+	.rating-wrapper .rating-block .rating-stars {
+		background-size: 644px 200px;
+		height: 15px;
+		width: 92px
+	}
+
+	.rating-block.finances-online .rating-logo {
+		background-position: -48px -23px
+	}
+
+	.rating-block.getapp .rating-logo {
+		background-position: -252px -23px
+	}
+
+	.rating-block.captera .rating-logo {
+		background-position: -473px -23px
+	}
+
+	.rating-block.g2crowd .rating-logo {
+		background-position: -48px -98px
+	}
+
+	.rating-block.g-play .rating-logo {
+		background-position: -251px -98px
+	}
+
+	.rating-block.qb .rating-logo {
+		background-position: -473px -98px
+	}
+
+	.rating-block.captera .rating-stars,.rating-block.finances-online .rating-stars,.rating-block.g2crowd .rating-stars,.rating-block.g-play .rating-stars,.rating-block.getapp .rating-stars {
+		background-position: -52px -164px
+	}
+
+	.rating-block.qb .rating-stars {
+		background-position: -251px -164px
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:2dppx),only screen and (min-resolution:192dpi) {
+	.rating-wrapper .rating-block .rating-logo,.rating-wrapper .rating-block .rating-stars {
+		background-image: url(zexpenses\images\index\rating-2x.png?v=1)
+	}
+}</style>
+
+  <style type="text/css">
+    body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.ze-dropdown-menu {
+  position: relative;
+}
+
+.sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+  display: none !important;
+}
+
+.ze-dropdown-cover {
+  visibility: hidden;
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+
+.ze-dropdown-list {
+  visibility: hidden;
+  position: absolute;
+  width: 508px;
+  left: -292px;
+  top: 60px;
+  padding: 25px 40px;
+  background: #fff;
+  text-align: left;
+  font-size: 14px;
+  z-index: 10000;
+  box-shadow: 0 20px 50px rgba(28, 67, 140, 0.15);
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+  border-top: 2px solid #f55d49;
+}
+
+.ze-solutions .ze-dropdown-list {
+  width: 220px;
+  left: -40px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-more .ze-dropdown-list {
+  width: 85px;
+  left: -100px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-dropdown-menu:hover .ze-dropdown-list,
+.ze-dropdown-menu:hover .ze-dropdown-cover {
+  visibility: visible !important;
+  opacity: 1;
+}
+
+.product-header, .product-header-inner {
+  overflow: visible !important;
+}
+
+.ze-dropdown-list > ul > li {
+  margin-left: 67px;
+  cursor: pointer;
+  line-height: 25.2px;
+}
+
+.ze-dropdown-list > ul a {
+  color: #000 !important;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+}
+
+.ze-solutions .ze-dropdown-list > ul a, .ze-more .ze-dropdown-list > ul a {
+  padding: 5px 0 !important;
+}
+
+.ze-dropdown-list > ul a:hover {
+  color: #009DF7 !important;
+}
+
+.integrations-header {
+  color: #000 !important;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+a + .integrations-header {
+  margin-top: 20px;
+}
+
+.ze-dropdown-list > ul a.more-integrations {
+  color: #009DF7 !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+
+.ze-dropdown-menu .ze-arrow-down {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #444;
+}
+
+.more-integrations .ze-caret-arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #009DF7;
+  border-top: 4px solid transparent;
+}
+h2{
+	font-size:37px!important;
+	width:50%!important;
+	margin:0 auto!important;
+	line-height:50px!important;
+	letter-spacing:-1.3px!important;
+}
+h1,h2{
+	font-family:averta_semibold,serif!important;
+	font-weight:900!important;
+	  }
+.mobile-title{
+	width:85%!important;
+	margin:0!important;
+	  }
+.pricing-title h2{
+	width:100%!important;
+	  }
+
+@media screen and (max-width: 767px) {
+  .ze-dropdown-menu:hover .ze-dropdown-list, .ze-dropdown-cover {
+    visibility: hidden !important;
+  }
+
+  .ze-dropdown-menu .ze-arrow-down, .ze-solutions.ze-dropdown-menu, .ze-more.ze-dropdown-menu {
+    display: none;
+  }
+
+  .sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+    display: block !important;
+  }
+}
+.download-apps a{height: 52px!important;}
+  </style>
+
+<!-- InstanceEndEditable -->
+
+
+<!-- InstanceBeginEditable name="head" -->
+  
+<!-- InstanceEndEditable -->
+</head>
+
+<header>
+<!-- InstanceBeginEditable name="EditRegion3" --><!-- InstanceEndEditable -->
+<!-- header start -->
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<div class="header" id="header">
+	<header>
+		<div class="product-header">
+			<div class="product-header-inner clearfix">
+				<a class="product-logo" href="zexpenses">Expense</a>
+				<span class="sub-menu-icon">Menu</span>
+					<div class="product-header-inner clearfix">
+						<span class="sub-menu-icon">Menu</span>
+						<ul class="product-menu scale">
+							<li class="tour"><a href="receipt-tracking\index.html">Funciones</a></li>
+							<li class="pricing"><a href="ask-price.html">Precio</a></li>
+							<li class="tour"><a href="https://www.zoho.com.cn/expense/mobile-apps/">Apps</a></li>
+							<li class="tour"><a href="articles.html">Blog</a></li>
+							<li class="tour"><a href="contact-us.html">Contacto</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</header>
+	<body>
+		<li class="integrations-nav ze-dropdown-menu">
+  <a href="/expense/addons/">
+    Integrations <span class="ze-arrow-down"></span>
+  </a>
+  <div class="ze-dropdown-cover">
+  </div>
+  <div class="ze-dropdown-list" style="position: absolute; visibility: hidden;">
+    <ul class="clearfix">
+      <li>
+        <div class="integrations-header">Accounting & Invoicing</div>
+        <a href="/expense/expense-reporting/">Zoho Books</a>
+        <a href="/expense/quickbooks-integration/">QuickBooks Online</a>
+        <a href="/expense/quickbooks-desktop-integration/">QuickBooks Desktop</a>
+        <a href="/expense/xero-integration/">Xero</a>
+        <a href="/expense/invoice-integration/">Zoho Invoice</a>
+
+        <div class="integrations-header">Online Reimbursement</div>
+        <a href="/expense/online-reimbursements-via-ach/forte/">Forte</a>
+        <a href="/expense/online-expense-reimbursement/icici-integration/">ICICI</a>
+        <div class="integrations-header">CRM</div>
+        <a href="/expense/crm-integration/">Zoho CRM</a>
+      </li>
+      <li>
+        <div class="integrations-header">HR</div>
+        <a href="/expense/people-integration/">Zoho People</a>
+        <div class="integrations-header">Productivity</div>
+        <a href="/expense/cliq-integration/">Zoho Cliq</a>
+        <a href="/expense/slack-integration/">Slack</a>
+        <div class="integrations-header">Others</div>
+        <a href="/g-suite/expense/">G Suite</a>
+        <a href="/expense/help/integrations/office-365-integration.html">Office 365</a>
+        <a href="/expense/lyft-integration/">Lyft</a>
+        <a href="/expense/uber-integration/">Uber</a>
+      </li>
+      <li>
+        <div class="integrations-header">Documents</div>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Zoho Docs</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Dropbox</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Google Drive</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Evernote</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">One Drive</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Box</a>
+        <a href="/expense/addons" class="more-integrations">
+          More Integrations
+          <span class="ze-caret-arrow-right"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+      <li class="ze-dropdown-menu ze-solutions">
+  <a style="cursor: pointer">
+    Solutions <span class="ze-arrow-down"></span>
+  </a>
+  <div class="ze-dropdown-cover">
+  </div>
+  <div class="ze-dropdown-list" style="position: absolute; visibility: hidden;">
+    <ul class="clearfix">
+      <li>
+        <a href="/expense/travel-expense-reporting/">Travel and Expense Management</a>
+        <a href="/expense/corporate-card-management/">Corporate Card Reconciliation</a>
+        <a href="/expense/expense-report-automation/">Expense Report Automation</a>
+        <a href="/expense/receipt-scanner-app/">Receipt Management</a>
+      </li>
+    </ul>
+  </div>
+</li>
+      <li class="accountants"><a href="/expense/become-a-partner/">Accountants</a></li>
+      <li class="ze-dropdown-menu ze-more">
+  <a style="cursor: pointer">
+    More <span class="ze-arrow-down"></span>
+  </a>
+  <div class="ze-dropdown-cover">
+  </div>
+  <div class="ze-dropdown-list" style="position: absolute; visibility: hidden;">
+    <ul class="clearfix">
+      <li>
+        <a href="/expense/mobile-apps/">Mobile</a>
+        <a href="/expense/case-study/">Customers</a>
+        
+        <a href="/expense/support/">Resources</a>
+        <a href="/expense/kb/">FAQ</a>
+        <a href="/expense/help/">Help Docs</a>
+      </li>
+    </ul>
+  </div>
+</li>
+      <li class="sub-menu-mobile">
+        <a href="/expense/mobile-apps/">Mobile</a>
+      </li>
+      <li class="sub-menu-customer">
+        <a href="/expense/case-study/">Customers</a>
+      </li>
+      
+      <li class="sub-menu-resources">
+        <a href="/expense/support/">Resources</a>
+      </li>
+      <li class="sub-menu-faq">
+        <a href="/expense/kb/">FAQ</a>
+      </li>
+      <li class="sub-menu-help">
+        <a href="/expense/help/">Help Docs</a>
+      </li>-->
+<div class="product-header-top slide">
+  <span class="sub-menu-icon">Menu</span>
+  <ul class="product-menu scale">
+  <!--<ul class="clearfix">
+      <li>
+        <div class="integrations-header">Accounting & Invoicing</div>
+        <a href="/expense/expense-reporting/">Zoho Books</a>
+        <a href="/expense/quickbooks-integration/">QuickBooks Online</a>
+        <a href="/expense/quickbooks-desktop-integration/">QuickBooks Desktop</a>
+        <a href="/expense/xero-integration/">Xero</a>
+        <a href="/expense/invoice-integration/">Zoho Invoice</a>
+
+        <div class="integrations-header">Online Reimbursement</div>
+        <a href="/expense/online-reimbursements-via-ach/forte/">Forte</a>
+        <a href="/expense/online-expense-reimbursement/icici-integration/">ICICI</a>
+        <div class="integrations-header">CRM</div>
+        <a href="/expense/crm-integration/">Zoho CRM</a>
+      </li>
+      <li>
+        <div class="integrations-header">HR</div>
+        <a href="/expense/people-integration/">Zoho People</a>
+        <div class="integrations-header">Productivity</div>
+        <a href="/expense/cliq-integration/">Zoho Cliq</a>
+        <a href="/expense/slack-integration/">Slack</a>
+        <div class="integrations-header">Others</div>
+        <a href="/g-suite/expense/">G Suite</a>
+        <a href="/expense/help/integrations/office-365-integration.html">Office 365</a>
+        <a href="/expense/lyft-integration/">Lyft</a>
+        <a href="/expense/uber-integration/">Uber</a>
+      </li>
+      <li>
+        <div class="integrations-header">Documents</div>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Zoho Docs</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Dropbox</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Google Drive</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Evernote</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">One Drive</a>
+        <a href="/expense/help/receipts/#uploading-from-cloud">Box</a>
+        <a href="/expense/addons" class="more-integrations">
+          More Integrations
+          <span class="ze-caret-arrow-right"></span>
+        </a>
+      </li>
+    </ul>-->
+  </div>
+</li>
+    <li class="ze-dropdown-menu ze-solutions">
+  <a style="cursor: pointer">
+    Solutions <span class="ze-arrow-down"></span>
+  </a>
+  <div class="ze-dropdown-cover">
+  </div>
+  <div class="ze-dropdown-list" style="position: absolute; visibility: hidden;">
+    <ul class="clearfix">
+      <!--<li>
+        <a href="/expense/travel-expense-reporting/">Travel and Expense Management</a>
+        <a href="/expense/corporate-card-management/">Corporate Card Reconciliation</a>
+        <a href="/expense/expense-report-automation/">Expense Report Automation</a>
+        <a href="/expense/receipt-scanner-app/">Receipt Management</a>
+      </li>-->
+    </ul>
+  </div>
+</li>
+    <!--<li class="accountants"><a href="/expense/become-a-partner/">Accountants</a></li>-->
+<li class="sub-menu-mobile">
+	<a href="/expense/mobile-apps/">Mobile</a>
+</li>
+<li class="sub-menu-customer">
+    <a href="/expense/case-study/">Customers</a>
+</li>
+<li class="sub-menu-resources">
+    <a href="/expense/support/">Resources</a>
+</li>
+<li class="sub-menu-faq">
+      <a href="/expense/kb/">FAQ</a>
+</li>
+    <li class="sub-menu-help">
+      <a href="/expense/help/">Help Docs</a>
+    </li>
+  </ul>
+</div>
+</div>
+  <div class="body-container">
+    <div class="ze-intro">
+      <div class="ze-intro-wrapper">
+        <h1>Transforma la complicada tarea de reportar gastos en un proceso sencillo y eficiente</h1>
+		<div class="ze-intro-help">Plataforma de gestión de gastos que automatiza la generación de informes, simplificando los procesos de aprobación y reembolsos</div>
+        <a href="request-demo.html" class="btn ze-btn-outline ze-demo" role="button">Agenda tu deno </a>
+        <button type="button" class="btn ze-btn-outline ze-demo" onclick="showDemoRequestModal()">
+          Solicitar cotizacion
+        </button>
+        <a href="ask-price.html" target="_blank" class="btn ze-btn-outline ze-demo">Solicitar cotización </a>
+      </div>
+      <div class="ze-screenshot">
+        <picture>
+          <source media="(max-width: 650px)" type="image/jpeg" alt="Mobile expense reporting software" srcset="\zexpenses\images\index\expense-dashboard-mobile-1x.png?v=1 1x, \zexpenses\images\index\expense-dashboard-mobile-2x.png?v=1 2x">
+		  <source media="(min-width: 651px)" type="image/jpeg" srcset="\zexpenses\images\index\expense-dashboard-1x.png?v=1 1x, \zexpenses\images\index\expense-dashboard-2x.png?v=1 2x">
+        <img alt="Expense" src="\zexpenses\images\index\expense-dashboard-1x.png?v=1" srcset="/expense/images/index/expense-dashboard-2x.png?v=1 2x" class="dashboard-screenshot-img">
+        </picture>
+        <a id="product-video" href="https://www.youtube.com/watch?v=I0DEUEF3mAQ">
+          <div class="watch-container">
+            <div class="watch">
+              <div class="watch-content">
+                <div class="play-icon-wrapper">
+                  <div class="play-icon"></div>
+                </div>
+                <div style="margin-left: 5px; display: inline-block; vertical-align: text-bottom;">
+                  Watch the overview video
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+	<img alt="Trusted By" src="zexpenses\images\index\trusted-by-2x.png" srcset="zexpenses\images\index\trusted-by-2x.png?v=1 2x" class="trusted-by">
+	<div class="customers-wrapper desktop-view">
+		<div class="customer-row">
+			<div class="customer inpex"></div>
+			<div class="customer foodpanda"></div>
+			<div class="customer tanke"></div>
+			<div class="customer mmt"></div>
+			<div class="customer synertrade"></div>
+			<div class="customer derivco"></div>
+		</div>
+		<div class="customer-row">
+			<div class="customer mas-acme"></div>
+			<div class="customer purolite"></div>
+			<div class="customer samsonite"></div>
+			<div class="customer sunking"></div>
+			<div class="customer lacipc"></div>
+		</div>
+		<div class="customer-row">
+			<div class="customer loginext"></div>
+			<div class="customer east-west-seed"></div>
+			<div class="customer exotel"></div>
+			<div class="customer globus"></div>
+			<div class="customer velocix"></div>
+		</div>
+			<div class="customer-row">    
+			<div class="customer aibeiqi"></div>
+			<div class="customer huace"></div>
+			<div class="customer siteer"></div>
+			<div class="customer boxun"></div>
+			<div class="customer tanke"></div>
+		</div>
+	</div>
+	<div class="customers-wrapper pad-view">  
+    <div class="customer-row">
+		<div class="customer inpex"></div>
+		<div class="customer foodpanda"></div>
+		<div class="customer mmt"></div>
+    </div>
+	<div class="customer-row">
+		<div class="customer synertrade"></div>
+		<div class="customer derivco"></div>
+		<div class="customer mas-acme"></div>
+    </div>
+    <div class="customer-row">
+		<div class="customer purolite"></div>
+		<div class="customer east-west-seed"></div>
+		<div class="customer sunking"></div>
+    </div>
+    <div class="customer-row">
+		<div class="customer lacipc"></div>
+		<div class="customer loginext"></div>
+		<div class="customer velocix"></div>
+    </div>
+    <div class="customer-row">
+		<div class="customer exotel"></div>
+		<div class="customer globus"></div>
+		<div class="customer samsonite"></div>
+    </div>
+    <div class="customer-row">
+		<div class="customer aibeiqi"></div>
+		<div class="customer huace"></div>
+		<div class="customer siteer"></div>
+    </div>
+    <div class="customer-row">
+		<div class="customer boxun"></div>
+		<div class="customer tanke"></div>
+    </div>
+</div>
+<div class="customers-wrapper mobile-view">
+  <div class="carousel-container">
+    <ul class="carousel-content">
+      <li style="left:0px;opacity:1;">
+        <div class="carousel-element">
+          <div class="carousel-element-x">
+            <div class="carousel-item">
+              <div class="customer-row">                
+                  <div class="customer inpex"></div>
+                  <div class="customer foodpanda"></div>                
+              </div>
+              <div class="customer-row">                
+                  <div class="customer synertrade"></div>
+                  <div class="customer derivco"></div>                
+              </div>
+              <div class="customer-row">                
+                  <div class="customer mmt"></div>
+                  <div class="customer lacipc"></div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="left:100%;opacity:1;">
+        <div class="carousel-element">
+          <div class="carousel-element-x">
+            <div class="carousel-item">
+              <div class="customer-row">                
+                  <div class="customer globus"></div>
+                  <div class="customer east-west-seed"></div>                
+              </div>
+              <div class="customer-row">
+                  <div class="customer sunking"></div>
+                  <div class="customer mas-acme"></div>
+              </div>
+              <div class="customer-row">              
+                  <div class="customer samsonite"></div>
+                  <div class="customer velocix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="carousel-indicators">
+      <li id="item1" class="active"></li>
+      <li id="item2"></li>
+    </ul>
+  </div>
+</div>
+<div class="customers-wrapper mobile-view-small">
+  <div class="carousel-container">
+    <ul class="carousel-content">
+      <li style="left:0px;opacity:1;">
+        <div class="carousel-element">
+          <div class="carousel-element-x">
+            <div class="carousel-item">
+              <div class="customer-row">                
+                  <div class="customer inpex"></div>                
+              </div>
+              <div class="customer-row">                
+                  <div class="customer synertrade"></div>                
+              </div>
+              <div class="customer-row">                
+                  <div class="customer sunking"></div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="left:100%;opacity:1;">
+        <div class="carousel-element">
+          <div class="carousel-element-x">
+            <div class="carousel-item">
+              <div class="customer-row">                
+                  <div class="customer mmt"></div>
+              </div>
+              <div class="customer-row">                
+                  <div class="customer globus"></div>
+              </div>
+              <div class="customer-row">                
+                  <div class="customer lacipc"></div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li style="left:-100%;opacity:1;">
+        <div class="carousel-element">
+          <div class="carousel-element-x">
+            <div class="carousel-item">
+              <div class="customer-row">                
+                  <div class="customer samsonite"></div>
+              </div>
+              <div class="customer-row">
+				<div class="customer velocix"></div>               
+              </div>
+              <div class="customer-row">               
+                  <div class="customer exotel"></div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="carousel-indicators">
+      <li id="item1" class="active"></li>
+      <li id="item2"></li>
+      <li id="item3"></li>
+    </ul>
+  </div>
+</div>
+    <div class="modules-section">
+      <h2 class="text-center">Gestión de viajes y gastos para empresas en crecimiento</h2>
+      <div class="modules-list">
+        <div>
+          <div class="module">
+            <img alt="Auto-scan expenses with expense reporting software - Zoho Expense" src="zexpenses\images\index\modules/autoscan-receipts.svg">
+            <div class="ze-module-title">Escanneo automatizado</div>
+            <div class="ze-module-help">Simplemente haga clic en la imagen del recibo y toda la información importante se analizará y se creará automáticamente como un gasto.</div>
+          </div>
+          <div class="module">
+            <img alt="Direct feeds for corporate cards - Zoho Expense" src="zexpenses\images\index\modules/corporate-card-reconcilation.svg" style="width: 70px;">
+            <div class="ze-module-title" style="margin-top: 0;">Conciliación automática de tarjetas corporativas</div>
+            <div class="ze-module-help">Acceda a los registros de cuentas corporativas directamente desde la entidad emisora de las tarjetas de su empresa y automatice la conciliación de transacciones con las tarifas correspondientes.</div>
+          </div>
+
+          <div class="module">
+            <img alt="Configure and customise approvals in your expense report software - Zoho Expense" src="images/index/modules/multilevel-approval.svg">
+            <div class="ze-module-title">Simplifique el proceso de autorización</div>
+            <div class="ze-module-help">Implemente flujos de autorización automatizado y multifacético para una verificación exhaustiva de todos los gastos</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="module">
+            <img alt="Set up multiple policies for branches - Zoho Expense" src="images/index/modules/policy-compliance.svg">
+            <div class="ze-module-title">Cumplimiento de políticas</div>
+            <div class="ze-module-help">Promueva el cumplimiento de las políticas por parte de los empleados estableciendo límites de gasto y nunca exceda los gastos de viaje.</div>
+          </div>
+          <div class="module">
+            <img alt="Audit expenses with expense reporting software - Zoho Expense" src="images/index/modules/report-auditing.svg">
+            <div class="ze-module-title">Auditoría</div>
+            <div class="ze-module-help">Configuración para auditar los gastos eficientemente, permitiendo la detección y de gastos de viaje, gastos duplicados y gastos no deducibles en cuestiones fiscales.</div>
+          </div>
+
+          <div class="module">
+            <img alt="Account for expenses with built-in integrations - Zoho Expense" src="/expense/images/index/modules/automatic-accounting.svg">
+            <div class="ze-module-title">Contabilidad automatizada</div>
+            <div class="ze-module-help">Sincronización automática con diversos sistemas contables, garantizando una gestión eficaz de los gastos en su contabilidad..</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="features-section">
+      <h2 class="text-center">Del Gasto al Reembolso</h2>
+      <div id="feature-container" class="feature-receipt">
+        <div class="feature-images">
+          <div class="feature-image feature-receipt-image">
+            <img alt="Software de Reembolso Financiero-Zoho Expense" src="images/index/features/receipt.svg" width="90%">
+          </div>
+          <div class="feature-image feature-report-image">
+            <img alt="Reembolso de Gastos de Viaje-Zoho Expense" src="images/index/features/report.svg" width="90%">
+          </div>
+          <div class="feature-image feature-approve-image">
+            <img alt="Plataforma de reembolsos-Zoho Expense" src="images/index/features/approve.svg" width="90%">
+          </div>
+          <div class="feature-image feature-reimburse-image">
+            <img alt="Reembolso de Gastos-Zoho Expense" src="images/index/features/reimburse.svg" width="90%">
+          </div>
+          <div class="feature-image feature-analyze-image">
+            <img alt="Sistema de Reembolso de Gastos-Zoho Expense" src="images/index/features/analyze.svg" width="90%">
+          </div>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <button type="button" class="btn feature-title" onclick="showFeatureInfo('feature-receipt')">
+              <span>Procesamiento automatizado</span>
+              <span class="ze-arrow-down"></span>
+            </button>
+            <div class="feature-desc feature-receipt-desc">
+              <div class="feature-image-small feature-receipt-image">
+                <div>
+                  <img alt="Expense software - Auto-scan receipts, add mileage and per diem expenses" src="/images/index/features/receipt.svg" width="90%">
+                </div>
+              </div>
+              <div class="feature-subtitle">Todo lo que necesita es un teléfono inteligente con la aplicación Zoho Gaste. Los usuarios pueden hacer clic en la imagen del recibo para crear automáticamente un gasto.</div>
+              <div class="feature-highlights">
+                <div class="feature-highlight">
+                  <span class="tick-icon"></span>Escanea los comprobantes automáticamente.</div>
+                <div class="feature-highlight">
+                  <span class="tick-icon"></span>Registro de kilometraje.</div>
+                <div class="feature-highlight">
+                  <span class="tick-icon"></span>Conecte tarjetas de débito/crédito.</div>
+                <div class="feature-highlight">
+                  <span class="tick-icon"></span>Multidivisa.</div>
+              </div>
+              <a href="receipt-tracking" class="more-details">Más información</a>
+            </div>
+          </div>
+          <div class="feature-item">
+            <button type="button" class="btn feature-title" onclick="showFeatureInfo('feature-report')">
+              <span>Optimiza la comprobación de los de gastos corporativos</span>
+              <span class="ze-arrow-down text"></span>
+			  <span class="ze-arrow-up text"></span>
+            </button>
+            <div class="feature-desc feature-report-desc">
+              <div class="feature-image-small feature-report-image">
+                <div>
+                  <img alt="Software de reembolsos-Zoho Expense" src="images/index/features/report.svg" width="90%">
+                </div>
+              </div>
+              <div class="feature-subtitle">
+                Carga de forma masiva los gastos para elaborar el rport de gastos y proceder a su envío para su posterior autorización.
+              </div>
+              <div class="feature-highlights">
+                <div class="feature-highlight">
+                  <span class="tick-icon" src="zexpenses\images\tick-black.svg"></span>Programe fechas de vencimiento en reportes y gastos</div>
+                <div class="feature-highlight">
+                  <span class="tick-icon" src="zexpenses\images\tick-black.svg"></span>Identifique incumpliimiento de políticas y emita advertencias sobre gastos duplicados o gastos no permitidos.</div>
+                <div class="feature-highlight">
+                  <span class="tick-icon" src="zexpenses\images\tick-black.svg"></span>Comunicación con a los usuarios con comentarios en línea de manera efectiva.</div>
+              </div>
+              <a href="expense-reports" class="more-details">Más información</a>
+            </div>
+          </div>
+          <div class="feature-item">
+            <button type="button" class="btn feature-title" onclick="showFeatureInfo('feature-approve')">
+              <span>Autorización en tiempo real</span>
+              <span class="ze-arrow-down text"></span>
+            </button>
+            <div class="feature-desc feature-approve-desc">
+              <div class="feature-image-small feature-approve-image">
+                <div>
+                  <img alt="Expense" src="images/index/features/approve.svg" width="90%">
+                </div>
+              </div>
+              <div class="feature-subtitle">
+                Diversas opciones para elaborar la comprobación de viaticos y gastos corporativos.
+			</div>
+              <div class="feature-highlights">
+                <div class="feature-highlight">
+					<div class="feature-highlights">
+						<div class="feature-highlight">
+							<span class="tick-icon"></span> Establecer flujos de aprobación no lineales y de múltiples etapas.
+						</div>
+						<div class="feature-highlight">
+							<span class="tick-icon"></span> Recibir notificaciones sobre infracciones de políticas.
+						</div>
+						<div class="feature-highlight">
+							<span class="tick-icon"></span> Configurar aprobaciones automáticas o rechazos automáticos.
+						</div>
+						<div class="feature-highlight">
+							<span class="tick-icon"></span> Recordatorios sobre elementos pendientes de aprobación.
+						</div>
+					</div>
+					<a href="expense-report-approval" class="more-details">Obtén más información</a>					
+                </div>
+            </div>
+			<div class="feature-item">
+			<button type="button" class="btn feature-title" onclick="showFeatureInfo('feature-reimburse')">
+				<span>Acelera el proceso de reembolsos</span>
+				<span class="ze-arrow-down"></span>
+			</button>
+			<div class="feature-desc feature-reimburse-desc">
+				<div class="feature-image-small feature-reimburse-image">
+					<div>
+						<img alt="Sistema de reembolsos financieros Zoho Expense" src="images/index/features/reimburse.svg" width="90%">
+					</div>
+				</div>
+				<span class="feature-subtitle">Los empleados ya no tienen que aguardar semanas para recibir sus reembolsos. Mantén un seguimiento eficiente de los reembolsos pendientes y asegúrate de realizarlos puntualmente.</span>
+				<div class="feature-highlights">
+					<div class="feature-highlight">
+						<span class="tick-icon"></span>Reduzca el tiempo de espera de los empleados mediante el seguimiento de los reembolsos pendientes.
+					</div>
+					<div class="feature-highlight">
+						<span class="tick-icon"></span>Reciba notificaciones en tiempo real sobre los reembolsos.</div>
+						<a href="expense-reimbursement-software" class="more-details">Más información</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="feature-item">
+			<button type="button" class="btn feature-title" onclick="showFeatureInfo('feature-analyze')">
+				<span>Análisis exhaustivo de los gastos</span>
+				<span class="ze-arrow-down"></span>
+			</button>
+			<div class="feature-desc feature-analyze-desc">
+				<div class="feature-image-small feature-analyze-image">
+					<div>
+						<img alt="Sistema de gestión de reembolso de gastos de viaje-Zoho Expense" src="zexpenses/images/index/features/analyze.svg" width="90%">
+					</div>
+				</div>
+				<div class="feature-subtitle">Rastrea cada centavo gastado y obtén un control absoluto sobre los gastos de la organización a través de un análisis de costos exhaustivo y detallado.</div>
+				<div class="feature-highlight">
+					<span class="tick-icon"></span>Obtén acceso a una amplia gama de más de 25 tipos de informes analíticos.</div>
+				<div class="feature-highlight">
+					<span class="tick-icon"></span>Configura el envío periódico de informes analíticos</div>
+				<div class="feature-highlight">
+					<span class="tick-icon"></span>Emplea informes de seguimiento de auditoría para una auditoría de gastos más eficiente y detallada.</div>
+					<a href="expense-report-analytics" class="more-details">Más información</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+    <div class="cust-testimonial-section">
+      <h2 class="text-center">Con la confianza de miles de empresas<span style="color: #f55d49">en más de 150 países</span></h2>
+      <div class="testimonial-wrapper">
+        <a href="javascript:;" class="testimonial-section testimonial-one">
+          <div class="researcher">
+            <span class="testimonial-person"></span>
+          </div>
+          <div class="storyline">
+            <h3 class="testimonial-person-name">Emmanuel Maytorena</h3>
+            <div class="testimonial-company">Contralor, foodpanda</div>
+            <p>"Desde que implementamos Zoho Expense, la comprobación de los gastos se ha vuelto increíblemente sencilla. Hemos notado una gran reducción de tiempos en la gestión de gastos y reembolsos.</p>
+          </div>
+        </a> 
+        <a href="javascript:;" class="testimonial-section testimonial-three">
+          <div class="researcher">
+            <span class="testimonial-person"></span>
+          </div>
+          <div class="storyline details">
+            <h3 class="testimonial-person-name">Siddharth Dhamija</h3>
+            <div class="testimonial-company">Razorpay</div>
+            <p>"Desde que implementamos Zoho Expense, la comprobación de los gastos se ha vuelto increíblemente sencilla. Hemos notado una gran reducción de tiempos en la gestión de gastos y reembolsos.</p>
+          </div>
+        </a>
+        <a href="javascript:;" class="testimonial-section testimonial-two">
+          <div class="researcher">
+            <span class="testimonial-person"></span>
+          </div>
+          <div class="storyline details">
+            <h3 class="testimonial-person-name">Armando Herrera</h3>
+            <div class="testimonial-company">Paperboat</div>
+            <p>El sistema no solo facilita el trajo en la parte operativa, también brinda apoyo al equipo de contabilidad. Todos los reportes de los gastos se pueden consultar en un solo lugar. Lo que hace extraordinaria la experiencia con Zoho es que nos ofrecen una asistencia continua para cada consulta, por pequeña que sea. Zoho simplifica nuestra vida.</p>
+          </div>
+        </a>
+      </div><!--<div class="text-center" style="margin-top: -20px;"><a href="/expense/case-study" class="more-details">查看更多客户留言 <span class="feature-arrow-right"></span></a></div>-->
+    </div>
+    <div class="all-tiers-section">
+      <h2 class="text-center">Sistema diseñado para todo tipo de empresas</h2>
+      <div class="tiers-wrapper">
+          <div class="business-tier">
+			<div class="business-tier">
+				<div class="business-title">Gastos de viaje</div>
+				<div class="business-border"></div>
+				<div class="business-content">No deje que sus gastos de viaje interfieran con su trabajo. Utilice la aplicación móvil para escanear recibos automáticamente, agregar gastos en varias monedas y presentar informes.</div>
+			</div>
+			<div class="business-tier">
+				<div class="business-title">Gerentes y administradores</div>
+				<div class="business-border"></div>
+				<div class="business-content">No se preocupe por esperar aprobaciones o gastos excesivos de los empleados. Apruebe informes automáticamente según los estándares configurados y controle los gastos mediante políticas.</div>
+			</div>
+			<div class="business-tier">
+				<div class="business-title">CFO y departamento de finanzas</div>
+				<div class="business-border"></div>
+				<div class="business-content">Evite que las tediosas aprobaciones de gastos lo abrumen. Zoho Expense proporciona un informe de seguimiento de auditoría para rastrear los gastos y marcar automáticamente comportamientos que violen las políticas.</div>
+			</div>
+			</div>			
+			<div class="ze-integration-section text-center" style="margin-top: 100px;">
+				<h2 class="ze-integration-module-title">Integraciónes: Transforme sus informes de gastos en línea</h2>
+			</div>
+			<div class="img-container"></div>
+			<div class="ze-integ-list-wrapper">
+			<div class="ze-integ-list">
+				<div class="ze-integ-app evernote">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a></div>
+				<div class="ze-integ-app uber">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app qb">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app dropbox">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app slack">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app icici">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app forte">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app lyft">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app gsuite">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app office365">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app box">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app gdrive">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app people">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app onedrive">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app amex">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app xero">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app mastercard">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app visa">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+				<div class="ze-integ-app zoho-expense">
+				<a target="" rel="noopener noreferrer" href="javascript:;"></a>
+				</div>
+			</div>
+			</div>
+<!--<a href="/expense/addons/" class="ze-more-integ more-details">
+  更多集成
+</a>-->
+    <div class="pricing-section-wrapper">
+      <div class="pricing-section text-center">
+        <div class="pricing-title">
+          <h2>Precios asequibles</h2>
+          <h3 style="font-size: 18px;">Solución portátil y eficiente para tus necesidades financieras.</h3>
+          <a href="/expense/pricing" target="_blank" rel="noopener noreferrer" class="more-details" style="margin-top: 10px;">Mas Informcaion <span class="feature-arrow-right"></span></a>
+        </div>
+        <div class="pricing-containers">
+          <div class="premium-plan">
+            <div class="plan-name">Premium</div>
+            <span class="ze-price-amount">
+              <b id="price-value" name="yearlyPrice" style="letter-spacing: -3px;">
+                
+                  420
+                
+              </b>
+              <span id="price-symbol" class="ze-price-symbol" >
+                
+                  <span name="changeTextUSDC">$</span>
+                  <span name="changeTextEUDC">€</span>
+                
+              </span>
+            </span>
+
+            <div class="billed-yearly-text">Facturado anual/<br> <span>Por Usuario</span></div>
+
+            <a href="/expense/signup" class="btn ze-access ze-btn-filled" style="font-size: 14px; color: #000; background: #fff; border: 0;">
+              Programa tu demo
+            </a>
+            <div class="min-users">*10 Usuarios</div>
+          </div>
+          <div class="premium-plan-features">
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Almacenamiento ilimitado</div>
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Escaneos ilimitado</div>
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Reportes automátizados
+            </div>
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Flujos personalizables
+            </div>
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Integración contable
+            </div>
+            <div class="feature-highlight">
+              <span class="tick-icon"></span>Conciliación de tarjetas corporativas
+            </div>
+          </div>
+        </div>
+
+        <a href="zexpense\pricing" target="_blank" rel="noopener noreferrer" class="more-details more-details-small" style="margin-top: 10px;">Más información<span class="feature-arrow-right"></span></a>
+      </div>
+    </div>
+
+    <div class="mobile-section">
+      <div class="mobile-image text-center">
+        <img class="lazy-bg"
+         src="zexpenses\images\index\expense-mobile-placeholder.jpg"
+         data-src="zexpenses\images\index\expense-mobile-1x.jpg"
+         data-srcset="zexpenses\images\index\expense-mobile-2x.jpg 2x, zexpenses\images\index\expense-mobile-1x.jpg 1x"
+         alt="移动报销app - Zoho Expense"
+         width="90%">
+      </div>
+      <div class="mobile-desc">
+        <h2 class="mobile-title">Aplicación diseñada para una experiencia óptima en móviles y PC.</h2>
+        <div class="mobile-help">
+			Ofrecemos aplicaciones nativas tanto para iOS como para Android. Esto significa que puedes gestionar tus informes de gastos de manera eficiente y sin la necesidad de depender de tu ordenador de sobremesa.</div>
+        <div class="download-apps">
+          <a href="https://apps.apple.com/cn/app/id966094166" target="_blank" rel="nofollow noopener" class="ze-apple-store">Appstore</a>
+		  <a href="https://appstore.huawei.com/app/C10819460" target="_blank" rel="nofollow noopener" class="ze-google-play">Huawei AppGallery</a>
+		</div>
+		<div class="download-apps-icon">
+		</div>
+		<div class="mobile-image-small">
+		  <img class="lazy-bg"
+			   src="zexpenses\images\index\expense-mobile-placeholder.jpg"
+			   data-src="images/index/expense-mobile-1x.jpg"
+			   data-srcset="images/index/expense-mobile-2x.jpg 2x, images/index/expense-mobile-2x.jpg 1x"
+			   alt="Aplicación de reembolso de gastos - Zoho Expense">
+		</div>		
+		<div class="mobile-more">
+		  <a href="/expense/mobile-apps" class="more-details">Obtenga más información sobre nuestras aplicaciones móviles <span class="feature-arrow-right"></span></a>
+		</div>		
+        </div>
+      </div>
+    </div>
+    <div class="rating-section">
+  <h2>Mejor calificado</h2>
+  <div class="rating-wrapper large-view">
+    <div class="rating-row">
+      <div class="rating-block finances-online">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">9</span>/10
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-getapp">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.59</span>/5</div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block captera">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.6</span>/5</div><div class="rating-stars"></div>
+        </div>
+      </div>
+    </div>
+    <div class="rating-row">
+      <div class="rating-block g2crowd">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.5</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block g-play">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.5</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block qb">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.6</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rating-wrapper tab-view">
+    <div class="rating-row">
+      <div class="rating-block finances-online">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">9</span>/10
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block getapp">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.59</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+    </div>
+    <div class="rating-row">
+      <div class="rating-block captera">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.6</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block g2crowd">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.5</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+    </div>
+    <div class="rating-row">
+      <div class="rating-block g-play">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.5</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+      <div class="rating-block qb">
+        <div class="rating-logo-container">
+          <div class="rating-logo"></div>
+        </div>
+        <div class="rating-container">
+          <div class="rating">
+            <span class="achieved-rate">4.6</span>/5
+          </div>
+          <div class="rating-stars"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rating-badge-container">
+    <img class="lazy-bg"
+     src="images/index/rating-image-placeholder.png"
+     data-src="images/index/rating-image.png"
+     data-srcset="images/index/rating-image-2x.png 2x, images/index/rating-image-1x.png?v=1 1x"
+     alt="Sistema de reembolso de gastos de viajes-Zoho Expense"
+     width="90%">
+  </div>
+</div>
+<div class="sección-de-llamado-a-la-acción-del-pie-de-página text-center">
+	<h2>Haga que los informes de gastos sean completamente sin esfuerzo</h2>
+	<div style="font-size: 18px; padding: 0 5px;">Zoho Expense - Software de informes de gastos diseñado para aliviar su carga.</div>
+	<a href="/expense/signup" class="btn ze-btn ze-btn-filled ze-access">Pruébelo gratis</a>
+	<!--<button type="button" class="btn ze-btn ze-btn-outline ze-demo" onclick="showDemoRequestModal()">Solicitar una demostración</button>-->
+	<a href="https://www.zoho.com.cn/expense/request-demo.html" class="btn ze-btn ze-btn-outline ze-demo">
+	  Programar una demostración
+	</a>
+  </div> 
+
+  <div id="video-player" class="video-player hide">
+    <i class="close"></i>
+    <div class="player-wrapper">
+      <div id="player" class="player"></div>
+      <div class="social-media">
+         <!--ignore lint-->
+      </div>
+    </div>
+  </div>
+</body>
+  <div class="footer">
+  <!--<div class="footer-links  footer-mobile">
+    <ul>
+      <li>Features</li>
+      <li><a href="receipt-tracking/">Expenses</a></li>
+      <li><a href="/mileage-reimbursement-tracker/">Mileage Tracking</a></li>
+      <li><a href="/expense/expense-report-automation/">Expense Reporting Automation</a></li>
+      <li><a href="/expense/corporate-card-management/">Corporate Card Reconciliation</a></li>
+      <li><a href="/expense/direct-feed-for-corporate-cards/">Direct Feeds</a></li>
+      <li><a href="/expense/expense-report-approval/">Expense Report Approval</a></li>
+      <li><a href="/expense/policies/">Expense Policies</a></li>
+      
+      <li><a href="/expense/expense-reporting/">Zoho Books Integration</a></li>
+      <li><a href="/expense/crm-integration/">Zoho CRM Integration</a></li>
+      <li><a href="/expense/people-integration/">Zoho People Integration</a></li>
+      <li><a href="/expense/quickbooks-integration/">QuickBooks Integration</a></li>
+    </ul>
+
+    <ul>
+      <li>Quick Links</li>
+      <li><a href="/expense/receipt-tracking/">All Features</a></li>
+      <li><a href="/expense/pricing/">Pricing</a></li>
+      <li><a href="/expense/become-a-partner/">Become a partner</a></li>
+      <li><a href="/expense/case-study/">Customers</a></li>
+      <li><a href="/expense/addons/">Integrations</a></li>
+      <li><a href="/expense/mobile-apps/">Expense Reporting Mobile Apps</a></li>
+      <li><a href="/expense/support/">Resources</a></li>
+      <li><a href="/expense/expense-report-generator/">Free Expense Report Generator</a></li>
+      <li><a href="/expense/expense-report-template/">Free Expense Report Template</a></li>
+      <li><a href="/financeplus/gdpr.html">GDPR and Zoho Finance</a></li>
+    </ul>
+
+    <ul class="resources-section">
+      <li>Resources</li>
+      <li><a href="/expense/welcome-guide/">Welcome Guide</a></li>
+      <li><a href="/expense/kb/">FAQs</a></li>
+      <li><a href="/expense/help/">Help Documentation</a></li>
+      <li><a href="/expense/webinars/">Webinars</a></li>
+      <li><a href="/expense/whats-new.html">What's New</a></li>
+      <li><a href="/expense/release-notes.html">Release Notes</a></li>
+      <li><a href="https://zohofinance.uservoice.com/forums/286043-zoho-expense">Feedback Forum</a></li>
+      <li><a href="/expense/blog/">Blogs</a></li>
+      <li><a href="/expense/resources/">Essential Business Guides</a></li>
+    </ul>
+
+    <ul class="industry-section">
+      <li>Expense Reporting for:</li>
+      <li><a href="/expense/enterprise-expense-management/">Enterprises</a></li>
+      <li><a href="/expense/free-expense-reporting-software/">Small business</a></li>
+      <li><a href="/expense/self-employed-expense-tracking/">Self-employed</a></li>
+      <li><a href="/expense/expense-reporting-for-nonprofits/">Non-profits</a></li>
+      <li><a href="/expense/expense-reporting-software-for-hospitals/">Healthcare</a></li>
+      <li><a href="/expense/expense-reporting-for-educational-institutions/">Education</a></li>
+      <li><a href="/expense/expense-reporting-software-for-manufacturing-industry/">Manufacturing</a></li>
+      <li><a href="/expense/marketing-expense-management/">Marketing</a></li>
+      <li><a href="/expense/expense-reporting-for-consulting-firms/">Consultants</a></li>
+    </ul>
+
+    <ul class="branding-text">
+      Learn how Zoho Expense helps with your <a href="/expense/expense-tracking-software/">expense tracking</a>,<a href="/expense/expense-management-software/"> management</a>, and <a href="/expense/expense-reimbursement-software/">reimbursement</a>.
+    </ul>
+
+    
+      <ul class="edition-footer-section">
+        <li  name="changeText" >Select Edition</li>
+        <li  name="changeText" >
+          <div onfocusout="hideSelectList()">
+            <div class="edition-select-box" onclick="selectListAction()">
+              <a href="javascript:void(0)">
+                      
+                          <div class="edition-image-global"></div>
+                      
+
+                      <div class="edition-label">
+                          
+                              Global
+                          
+                      </div>
+                      <div class="edition-dropdown"><b id="select-caret"></b></div>
+                  </a>
+            </div>
+            <div class="edition-select-list">
+              <div class="edition-select-col">
+                <div class="edition-select-list-item" onclick="switchEdition('global')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-global"></div>
+                    <div class="edition-label">Global</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('us')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-us"></div>
+                    <div class="edition-label">United States</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('uk')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-uk"></div>
+                    <div class="edition-label">United Kingdom</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('ca')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-canada"></div>
+                    <div class="edition-label">Canada</div>
+                  </a>
+                </div>
+              </div>
+              <div class="edition-select-col">
+                <div class="edition-select-list-item" onclick="switchEdition('au')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-australia"></div>
+                    <div class="edition-label">Australia</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('in')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-india"></div>
+                    <div class="edition-label">India</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('sa')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-sa"></div>
+                    <div class="edition-label">Saudi Arabia</div>
+                  </a>
+                </div>
+                <div class="edition-select-list-item" onclick="switchEdition('ae')">
+                  <a href="javascript:void(0)">
+                    <div class="edition-image-uae"></div>
+                    <div class="edition-label">United Arab Emirates</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    
+
+    <ul class="mobile-apps-section">
+      <li>Available On</li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://itunes.apple.com/app/id966094166?mt=8"><img alt="link for App Store" src="/expense/common/app-store.png"></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.zoho.expense"><img alt="link for Google Play" src="/expense/common/google-play.png"></a>
+      </li>
+    </ul>
+
+    <ul class="contact-us">
+      <li>Call us 24x5 (or) <a href="mailto:support@zohoexpense.com">Send us an Email</a></li>
+      <li>US - 8443165544</li>
+      <li>Australia - 1800911076</li>
+      <li>UK - 08000856099</li>
+      <li>UAE - 80004440824</li>
+    </ul>
+
+    <ul class="other-finance-apps">
+      <span class="other-finance-apps-title">OTHER ZOHO FINANCE APPS</span>
+      <li>
+        <a href="/books/?footer_source=expense" target="_blank" rel="noopener noreferrer">
+          <div class="books-logo"></div>
+          <div>
+            <span class="other-app-title">Books</span>
+            <div class="other-app-desc">Online Accounting Software</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/inventory/?footer_source=expense" target="_blank" rel="noopener noreferrer">
+          <div class="inventory-logo"></div>
+          <div>
+            <span class="other-app-title">Inventory</span>
+            <div class="other-app-desc">Online Inventory Management</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/subscriptions/?footer_source=expense" target="_blank" rel="noopener noreferrer">
+          <div class="subscriptions-logo"></div>
+          <div>
+            <span class="other-app-title">Subscriptions</span>
+            <div class="other-app-desc">Subscription Management Software</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="/checkout/?footer_source=expense" target="_blank" rel="noopener noreferrer">
+          <div class="checkout-logo"></div>
+          <div>
+            <span class="other-app-title">Checkout</span>
+            <div class="other-app-desc">Online Payments Software</div>
+          </div>
+        </a>
+      </li>
+      
+    </ul>
+
+
+  </div>-->
+
+ <!--  <div class="common-footer">
+    <div class="zoho-links">
+      <a href="/expense/../">Zoho首页</a>
+      <a href="/expense/../aboutus.html">关于我们</a>
+      <a href="/expense/../contactus.html">联系我们</a>
+      <a href="/expense/../security.html">安全保障</a>
+      <a href="/expense/../ipr_complaints.html">知识产权申诉</a>
+      <a href="/expense/../policy.html">反垃圾邮件政策</a>
+      <a href="/expense/../terms.html">服务条款</a>
+      <a href="/expense/../privacy.html">隐私政策</a>
+    </div>
+	  <div class="zoho-links"><p>© 2020, Zoho Corporation Pvt. Ltd. 保留所有权利.</p></div>
+    <div class="zoho-links"><p>北京市海淀区后屯路28号KPHZ国际技术转移中心三层 400-660-8680 京ICP备15015257号 京ICP证150718号</p></div>
+  </div>
+</div>-->
+  <div id="demorequest-modal" class="hide">
+  <div style="display: flex; justify-content: center;">
+    <div class="demorequest-left-section">
+      <div>
+        <img src="images/double-quotes.svg" width="40px" alt="double quotes">
+        <div class="testimonial-carousel-title">Hear what our customers say</div>
+        <div class="testimonial-carousel-wrapper">
+          <div class="carousel-container">
+            <ul class="carousel-content">
+              <li style="left:10px;opacity:1;">
+                <div class="demo-testimonial-one demo-testimonial-section">
+                  <div class="testimonial-person"></div>
+                  <p>"The best thing that I like about Zoho Expense is how it allows everyone to convert a paper receipt into a digital format by snapping it with their mobile's camera. Without Zoho Expense, we would probably be using another system with a less optimal balance between costs and features."</p>
+                  <div class="testimonial-person-name">Eva Versloot</div>
+                  <div class="testimonial-company">Head of Finance, foodpanda</div>
+                </div>
+              </li>
+              <li style="left:70%;opacity:1;">
+                <div class="demo-testimonial-two demo-testimonial-section">
+                  <div class="testimonial-person"></div>
+                  <p>"Expense reporting has been so easy after we started using Zoho Expense. The efficiency of expense reporting and reimbursement has improved multifold."</p>
+                  <div class="testimonial-person-name">Siddharth Dhamija</div>
+                  <div class="testimonial-company">Razorpay</div>
+                </div>
+              </li>
+
+              <li style="left:70%;opacity:1;">
+                <div class="demo-testimonial-three demo-testimonial-section">
+                  <div class="testimonial-person"></div>
+                  <p>"Not just for all business teams, Zoho has helped the accounting team as well. Expense related reports are all available at one place. A remarkable thing about the Zoho experience, is the constant support they give us, for every little query. Zoho has made life easier for us."</p>
+                  <div class="testimonial-person-name">Hector Beverages</div>
+                  <div class="testimonial-company">Paperboat</div>
+                </div>
+              </li>
+            </ul>
+            <ul class="carousel-indicators">
+              <li id="item1" class="active"></li>
+              <li id="item2"></li>
+              <li id="item3"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="rating-section">
+        <div class="rating-section-title">Rated by the best</div>
+        <img src="images/index/rating-image-with-star-1x.png" srcset="images/index/rating-image-with-star-2x.png 2x" width="300">
+      </div>
+    </div>
+    <div class="demorequest-right-section">
+      <button type="button" class="btn close-btn" onclick="hideDemoRequestModal()">
+        <img alt="close" src="images/cross-thin.svg">
+      </button>
+      <div class="demorequest-form-title">Request a demo</div>
+      <form action="https://crm.zoho.com/crm/WebToCaseForm" name="WebToCases15842001547337727" class="demorequest-form" method="post" onsubmit="return validateDemoForm();">
+		<p style="display:none;">
+    <input type="text" style="display:none;" name="xnQsjsdp" value="3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594">
+    <input type="hidden" name="zc_gad" id="zc_gad" value="">
+    <input type="text" style="display:none;" name="xmIwtLD" value="dcbe8ecbdabe526a6fd3a62f60179822f1e1aaefa5bf74ecf4aebd406d1a1075">
+    <input type="text" style="display:none;" name="actionType" value="Q2FzZXM=">
+    <input type="text" style="display:none;" name="returnURL" value="https://www.zoho.com/expense/thank-you.html"> <!--ignore lint-->
+  </p>
+
+  <div class="form-group">
+    <div>
+      <input class="form-control" type="text" placeholder="Name" name="Reported By" id="demo_name">
+      <p class="text-danger" id="demo_name_error" style="display:none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+  <div class="form-group">
+    <div>
+      <input class="form-control" type="text" placeholder="Company Name" name="CASECF4" id="demo_company_name">
+      <p class="text-danger" id="demo_company_name_error" style="display:none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+  <div class="form-group">
+    <div>
+      <input class="form-control" type="text" placeholder="Job Title" name="CASECF34" id="demo_job_title">
+      <p class="text-danger" id="demo_job_title_error" style="display:none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+  <div class="form-group">
+    <div>
+      <input class="form-control" type="text" placeholder="Work Email" name="Email" id="demo_email">
+      <p class="text-danger" id="demo_email_error" style="display:none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+  <div class="form-group phone-form-group">
+    <div>
+      <input class="form-control" type="text" placeholder="Phone No" name="Phone" id="demo_phone">
+      <p class="text-danger" id="demo_phone_error" style="display:none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+  <div class="form-group user-count">
+    <div>
+      <span class="select-drop-down"></span>
+      <select name="CASECF2" class="form-control select-placeholder" id="demo_no_of_users" onchange="noOfUsersChanged();">
+        <option value="" selected="">No. of Users</option>
+        <option value="Less than 10">Less than 10 Users</option>
+        <option value="10 - 50">10 to 50 Users</option>
+        <option value="51-100">51 to 100 Users</option>
+        <option value="More than 100">More than 100 Users</option>
+        <option value="More than 500" class="enterprise-option">More than 500 Users</option>
+        <option value="More than 1000" class="enterprise-option">More than 1000 Users</option>
+      </select>
+    </div>
+    <span class="mand form-control-static">*</span>
+    <p class="text-danger" id="demo_no_of_users_error" style="display: none">This field is mandatory.</p>
+  </div>
+  <div class="form-group">
+    <div>
+      <textarea class="form-control demo-message" name="Description" placeholder="Description" style="height: 60px;margin-top:0;font-family:'open sans', arial;" id="demo_message"></textarea>
+      <p class="text-danger" id="demo_message_error" style="display: none">This field is mandatory.</p>
+    </div>
+    <span class="mand form-control-static">*</span>
+  </div>
+
+  <input type="hidden" class="req-text" name="Subject" value="Zoho Expense - Request a Demo">
+
+  <div>
+    <div>
+      
+      <div class="captcha-container" style="width: 50%; display: inline-block;">
+        <img id="imgid" src="https://crm.zoho.com/crm/CaptchaServlet?formId=dcbe8ecbdabe526a6fd3a62f60179822f1e1aaefa5bf74ecf4aebd406d1a1075&grpid=3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594" width="80%">
+        <a href="javascript:;" onclick="reloadImg()" class="reload-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 512 512"><path d="M485.5 256c-8.4 0-15.4 6.5-16 14.9-4.1 57.8-31.8 110.9-77.4 147.4-89.5 71.7-220.7 57.3-292.5-32.2-34.6-43.4-50.4-97.7-44.3-152.9C61.4 178 88.6 128.4 132 93.7c89.5-71.7 220.7-57.3 292.5 32.2 1 1.2 1.9 2.4 2.9 3.7l-69.5-7.7c-8.8-1-16.7 5.4-17.7 14.1-1 8.8 5.4 16.7 14.1 17.7L474.9 167l13.3-120.6c1-8.8-5.4-16.7-14.1-17.7-8.8-1-16.7 5.4-17.7 14.1l-7 63s0-.1-.1-.1c-40.1-50-97.3-81.5-161-88.5S161.9 28.4 111.9 68.5c-50 40.1-81.5 97.3-88.5 161s11.2 126.4 51.3 176.4c40.1 50 97.3 81.5 161 88.5 9 1 17.9 1.5 26.8 1.5 54.3 0 106.6-18.3 149.7-52.8 52.6-42.2 84.6-103.5 89.3-170.2.7-9-6.7-16.9-16-16.9z"/></svg>
+        </a>
+      </div>
+
+      <div class="form-group" style="width: 48%; display: inline-block;">
+        <div>
+          <input class="form-control" type="text" maxlength="80" name="enterdigest" id="enterdigest" placeholder="Enter the captcha"/>
+        </div>
+        <span class="mand form-control-static">*</span>
+      </div>
+    </div>
+    <p class="text-danger" id="enterdigest_error" style="display: none">Type the characters you see in the picture above</p>
+  </div>
+  <input type="hidden" name="CASECF13">  
+  <input type="hidden" name="CASECF30">
+  <input type="hidden" class="req-text" name="Type" value="LN - Zoho Expense Demo">
+  <input type="hidden" class="req-text" name="CASECF9" value="Expense">  
+  <iframe name="captchaFrame" style="display:none;"></iframe>
+  <button type="submit" class="btn demo-submit-button">
+    <svg id="spin" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewbox="0 0 32 32" class="spin" style="fill: #fff; display: none;">
+      <path d="M4.681 27.305c-1.506-1.508 1.993-5.032 4.863-6.905 0.551 0.807 1.249 1.505 2.055 2.055-1.88 2.866-5.412 6.358-6.918 4.85zM17.449 23.678c-0.471 0.088-0.956 0.135-1.452 0.135s-0.983-0.047-1.454-0.136c-0.7 3.355-0.677 8.323 1.455 8.324s2.153-4.967 1.451-8.322zM8.188 15.997c0-0.497 0.047-0.984 0.137-1.455-3.355-0.701-8.323-0.678-8.324 1.454s4.967 2.154 8.322 1.452c-0.088-0.47-0.135-0.955-0.134-1.451zM11.599 9.545c-1.874-2.87-5.4-6.37-6.908-4.863s1.987 5.039 4.854 6.917c0.551-0.806 1.248-1.504 2.055-2.054zM14.547 8.323c0.472-0.089 0.959-0.136 1.456-0.135 0.495 0 0.98 0.047 1.45 0.135 0.704-3.355 0.686-8.322-1.446-8.323s-2.158 4.968-1.46 8.323zM20.397 22.458c1.877 2.868 5.407 6.365 6.915 4.857s-1.99-5.035-4.859-6.911c-0.551 0.806-1.249 1.503-2.056 2.053zM20.408 9.55c0.805 0.551 1.502 1.25 2.052 2.056 2.868-1.875 6.369-5.406 4.861-6.915s-5.037 1.99-6.913 4.859zM23.813 16.003c-0 0.496-0.047 0.981-0.136 1.451 3.354 0.704 8.322 0.687 8.323-1.445s-4.968-2.159-8.323-1.461c0.088 0.472 0.135 0.958 0.135 1.455z"></path>
+    </svg>
+    Submit
+  </button>
+
+  <p class="agree-privacy-policy" style="font-size: 13px; text-align: center;">By clicking <b>Submit</b>, you agree to our <a style="display: inline-block; text-decoration:underline" href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</p>
+</form>
+
+<script type="text/javascript">
+  function convertToTitleCase(text = '') {
+    var textSplit = text.toLowerCase().split(' ');
+    var titleCaseWords = [];
+
+    for(var i = 0; i < textSplit.length; i++) {
+      titleCaseWords.push(textSplit[i].charAt(0).toUpperCase() + textSplit[i].slice(1));
+    }
+
+    return titleCaseWords.join(' ');
+  }
+
+  function onLoad() {
+    if (window.CountryName) {
+      var demoLocation = $('#demo_location');
+      demoLocation.val(convertToTitleCase(window.CountryName));
+      demoLocation.addClass('text-black');
+
+      
+      if (window.CountryName === 'Mexico') {
+        $('#demo_state_wrapper').removeClass('hide');
+      }
+    }
+  }
+
+  
+  function reloadImg() {
+    if(document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
+      document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
+    }  else {
+      document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
+    }
+  }
+</script>
+
+<script type="text/javascript">"use strict";function validateForm(e){e&&($("#contact-name")[0].value=$("#email")[0].value);for(var o,t=["contact-name","email","message"],a=[],n=0;n<t.length;n++)!1===(o=validateField(t[n]))&&a.push(o);return $("#source-url").val(window.location.href),!(a.length>0)}function noOfUsersChanged(){var e=$("#demo_no_of_users");"No. of Users"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black")}function countryChanged(){var e=$("#demo_location");"Country"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black");var o=$("#demo_state_wrapper");"United States"===e.find(":selected").text()?o.removeClass("hide"):o.addClass("hide")}function validateDemoForm(){var e=decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent("ZohoExpenseRef").replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||"",o=document.querySelector('input[name="CASECF13"]');o&&(o.value=window.location.href);var t=document.querySelector('input[name="CASECF30"]');t&&(t.value=e);for(var a,n=["demo_name","demo_company_name","demo_job_title","demo_email","demo_message","demo_phone","demo_no_of_users","demo_location","enterdigest"],l=[],r=0;r<n.length;r++)!1===(a=validateField(n[r]))&&l.push(a);var d=l.length>0;d||(document.getElementById("spin").style.display="inline-block","United States"!==$("#demo_location").val()&&document.getElementById("demo_state").removeAttribute("name"));return!d}function validateField(e){var o=$("#"+e).val(),t=""!==(o=void 0!==o&&null!==o?o.trim():"");return toggleError(e,t),t}function toggleError(e,o){var t=$("#"+e).parents(".form-group"),a=$("#"+e+"_error");!o?(t.addClass("has-error"),a.css("display","block")):(t.removeClass("has-error"),a.css("display","none"))}</script>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  if (document.documentElement.clientWidth > 960) {
+    
+    var carouselScript = document.createElement('script');
+    carouselScript.src = '/expense/js/carousel.js';
+    carouselScript.async = true;
+
+    document.getElementsByTagName('body')[0].append(carouselScript);
+  }
+</script>
+
+<script type="text/javascript">
+  function showDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('hide');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('open');
+    });
+
+    
+    var body = document.body;
+    body.style.height = '100vh';
+    body.style.overflowY = 'hidden';
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.add('hide');
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      $zoho.salesiq.floatbutton.visible('hide');
+      if ($zoho.salesiq.floatwindow) {
+        $zoho.salesiq.floatwindow.minimize();
+      }
+    }
+
+    onLoad();
+  }
+
+  function hideDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('open');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('hide');
+    }, 450);
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      var $contactForm = document.getElementById('contactus-form-stickydiv');
+      if($contactForm) {
+        $contactForm.classList.add('move-dropup-up');
+      }
+      $zoho.salesiq.floatbutton.visible('show');
+    }
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.remove('hide');
+
+    
+    var body = document.body;
+    body.style.height = '';
+    body.style.overflowY = '';
+  }
+</script>
+
+<!--<div class="contactus-form-stickydiv demo-only" id="contactus-form-stickydiv">
+  <button type="button" class="demo-sticky" id="trigger-sticky" onclick="showDemoRequestModal()">
+    <div class="demo-pop-over">
+      Request a demo
+    </div>
+  </button>
+</div>-->
+<script src="js/prd-common.js"></script>
+<script src="js/index.js?v=2" type="text/javascript"></script>
+<script type="text/javascript">
+  var name = "ZohoExpenseRef";
+  var pageURL = "ZohoExpensePageURL";
+  createCookie(name,pageURL);
+  function zohoGASignupEvent() { }
+  function zohoFedClickEvent() { }
+  function zcTrackClick() { }
+</script>
+<script type="text/javascript">"use strict";function isEUCountry(t){return-1!==(window.countryEu||[]).indexOf(t)}function setContentForGlobalEdition(){isEUCountry(window.CountryCode)?($('[name="changeTextUSDC"]').hide(),$('[name="changeTextEUDC"]').show()):($('[name="changeTextEUDC"]').hide(),$('[name="changeTextUSDC"]').show(),"NZ"===window.CountryCode?$('[name="changeTextUSDC"]').html("A$"):"MX"===window.CountryCode&&($('[name="changeTextUSDC"]').html("Mex$"),$('[name="yearlyPrice"]').html("45"),$('[name="monthlyPrice"]').html("54")))}function getIPLocation(){var t=document.createElement("script");t.type="text/javascript",t.src="https://iplocation.zoho.com/getipinfo?type=jsonp&callback=setIPLocation",document.body.appendChild(t)}function setIPLocation(t){window.CountryCode=t.COUNTRY_CODE,setContentForGlobalEdition()}window.CountryCode?setContentForGlobalEdition():getIPLocation();</script>
+    <script type="text/javascript">
+    var app_id = "10116";var cvalue = "0";document.write(unescape(""));
+    $('#product-video').on('click', function(event) {
+      var videoPlayerContainer = $('#video-player');
+      videoPlayerContainer.removeClass('hide');
+      window.setTimeout(function() {
+        videoPlayerContainer.addClass('open');
+        videoPlayerContainer.find('#player').html(
+          '<iframe id="yt-product-video" src="https://www.youtube.com/embed/I0DEUEF3mAQ?autoplay=1&rel=0&showinfo=0&autohide=1&enablejsapi=1" frameborder="0" allowfullscreen></iframe>'
+        );
+      });
+      event.preventDefault();
+    });
+
+    $('#video-player').on('click', function() {
+      var $this = $(this);
+      $this.removeClass('open');
+      $this.find('#yt-product-video').remove();
+      window.setTimeout(function() {
+        $this.addClass('hide');
+      }, 450);
+    });
+    function showFeatureInfo(targetFeature) {
+      document.getElementById('feature-container').className = targetFeature;
+    }
+    $(window).scroll(function() {
+      var sTop = $(window).scrollTop();
+      var integSecPosition = $('.ze-integration-section').offset().top-($(window).height()-$('.ze-integration-section').innerHeight()/2);
+      if(integSecPosition < sTop){
+        $('.ze-integ-list-wrapper').addClass("animation");
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    if (document.documentElement.clientWidth < 768) {
+      var carouselScript = document.createElement('script');
+      carouselScript.src = 'js/carousel.js';
+      carouselScript.async = true;
+
+      document.getElementsByTagName('body')[0].append(carouselScript);
+    }
+  </script>
+  <script type="text/javascript">"use strict";document.addEventListener("DOMContentLoaded",function(){var e=[].slice.call(document.querySelectorAll("img.lazy-bg")),t=!1,n=function n(){if(!1===t){t=!0;var i=setTimeout(function(){e.forEach(function(t){t.getBoundingClientRect().top<=window.innerHeight&&t.getBoundingClientRect().bottom>=0&&"none"!==window.getComputedStyle(t).display&&(t.src=t.dataset.src,t.srcset=t.dataset.srcset,t.classList.remove("lazy-bg"),0===(e=e.filter(function(e){return e!==t})).length&&(document.removeEventListener("scroll",n),window.removeEventListener("resize",n),window.removeEventListener("orientationchange",n),clearTimeout(i)))}),t=!1},200)}};document.addEventListener("scroll",n),window.addEventListener("resize",n),window.addEventListener("orientationchange",n)});</script>
+  
+
+<!-- InstanceEndEditable -->
+
+<!-- footer start -->
+
+<div class="región región-pie-de-página">
+	<section id="bloque-enlaces-de-navegación-de-zoho-páginas-de-producto-en-el-pie-de-página">
+	 <div class="envoltura-de-sección-de-pie-de-página dos-columnas">
+	  <div class="envoltura-de-contenido">
+	   <div class="envoltura-de-sección-de-promoción">
+	   </div>
+	   <div class="envoltura-de-enlaces-de-pie-de-página">
+		<div class="enlaces-de-producto cuatro-columnas">
+		 <div class="características-de-pie-de-página">
+			<h4>Funcionalidades del producto</h4>
+		  <ul>
+		   <li><a href="https://www.zoho.com.cn/expense/receipt-tracking/">Seguimiento de recibos</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/connect-debit-credit-card/">Tarjetas bancarias</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-reports/">Informes</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-report-approval/">Aprobación</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-report-analytics/">Análisis</a></li>
+		  </ul>
+		 </div>
+		 <div class="explorar-de-pie-de-página">
+		  <h4>Precios del producto</h4>
+		  <ul>
+		   <li><a href="https://www.zoho.com.cn/expense/pricing/">Precios</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/pricing-comparison/">Comparación de funciones de versiones</a></li>
+		  </ul>
+		 </div>
+		 <div class="soluciones-de-pie-de-página">
+		  <h4>Aplicaciones móviles</h4>
+		  <ul>
+		   <li><a href="https://www.zoho.com.cn/expense/mobile-apps/">Aplicación móvil</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/receipt-scanner-app/">Aplicación de escáner de recibos</a></li>
+		  </ul>
+		 </div>
+		 <div class="soluciones-de-pie-de-página">
+		  <h4>Enlaces rápidos</h4>
+		  <ul>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-management-software/">Software de gestión de gastos</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-reimbursement-software/">Software de reembolso de gastos</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/per-diem/">Aplicación de gestión de dietas</a></li>
+		   <li><a href="https://www.zoho.com.cn/expense/expense-report-automation/">Automatización de informes de gastos</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="common-links common-links-js"></div>
+    </div>
+   </section>
+  </div>
+  <div class="footer">
+	<div class="common-footer">
+	  <div class="zoho-links">
+	  </div>
+	  <div class="zoho-links"><p>© <span id="fyear">2023</span>, Zoho Corporation Pvt. Ltd. Todos los derechos reservados.</p></div>
+	  <div class="zoho-links"><p>Piso 3, Centro Internacional de Transferencia de Tecnología KPHZ, No. 28 Houtun Road, Distrito de Haidian, Beijing, Teléfono: 400-660-8680, Número de ICP de Beijing: 15015257, Número de Certificado ICP de Beijing: 150718</p></div>
+	</div>
+  </div>
+  
+<!-- footer end -->
+
+<!-- InstanceBeginEditable name="EditRegion5" --><!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+</html>

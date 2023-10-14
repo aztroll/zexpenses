@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Contacto</title>
+    <!-- Aquí irá nuestro CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        input[type="submit"] {
+            background-color: #009688;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        </style>
+        
+</head>
+<body>
+    <h1>Contacto</h1>
+    <form id="contactForm">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="empresa">Empresa:</label><br>
+        <input type="text" id="empresa" name="empresa"><br>
+        <div class="input-field col s12 m12 l6">
+            <select id="estado" name="estado">
+                <!-- Aquí irán las opciones de los estados -->
+            </select>
+            <label for="estado">Estado</label>
+        </div>
+        <div class="input-field col s12 m12 l6">
+            <select id="municipio" name="municipio">
+                <!-- Aquí irán las opciones de las ciudades -->
+            </select>
+            <label for="municipio">Municipio</label>
+        </div><br>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Enviar<i class="material-icons right">send</i></button>
+    </form>
+    <!-- Aquí irá nuestro JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="zexpenses/js/municipios.js"></script>
+    <script type="text/javascript" src="zexpenses/js/select_estados.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('select').material_select();
+        });
+    </script>
+</body>
+</html>
