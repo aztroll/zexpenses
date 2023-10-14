@@ -1,0 +1,3139 @@
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+/* 新闻页面小导航 */
+ 	
+.floating-iconic-menu {
+	background: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+	z-index: 9999;
+	border-bottom: 1px solid #e2e2e2;
+	position: fixed;
+	width: 100%;
+	top: -160px;
+	z-index: 999;
+	left: 0;
+	transition: ease 0.3s 0s;
+	-moz-transition: ease 0.3s 0s;
+	-webkit-transition: ease 0.3s 0s;
+	-ms-transition: ease 0.3s 0s;
+	-o-transition: ease 0.3s 0s;
+}
+.iconic-menu {
+	overflow: hidden;
+	width: 100%;
+	background: #f5f5f5;
+	transition: ease 0.7s;
+	-moz-transition: ease 0.7s;
+	-webkit-transition: ease 0.7s;
+	-ms-transition: ease 0.7s;
+	-o-transition: ease 0.7s;
+	border-bottom: 1px solid #e8e8e8;
+	z-index: 999;
+}
+.floating-iconic-menu .logo {
+	display: block;
+	float: none;
+	left: 0;
+	position: absolute;
+	top: 15px;
+}
+.floating-iconic-menu .zoho-logo {
+	width: 100%;
+}
+.floating-iconic-menu .signing {
+	display: block;
+	float: none;
+	position: absolute;
+	top: 17px;
+	right: 20px;
+}
+.iconic-menu-fix {
+	position: fixed;
+	TOP: 0;
+	background: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+	z-index: 9999;
+	border-bottom: 1px solid #e2e2e2;
+}
+.aboutus-menu {
+	margin: 0 auto;
+	max-width: 500px;
+	overflow: hidden;
+	padding: 0 0;
+	transition: ease 0.5s PADDING;
+	-moz-transition: ease 0.5s PADDING;
+	-webkit-transition: ease 0.5s PADDING;
+	-ms-transition: ease 0.5s PADDING;
+	-o-transition: ease 0.5s PADDING;
+}
+.floating-iconic-menu .aboutus-menu {
+	max-width: 365px;
+}
+.partners-menu {
+	max-width: 680px;
+}
+.aboutus-menu span {
+	height: 44px;
+	width: 44px;
+	text-indent: 999999px;
+	display: none;
+	margin: 0 auto 10px;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 45px 90px;
+}
+.floating-iconic-menu .aboutus-menu span {
+	height: 24px;
+	width: 24px;
+	margin: 0 auto 10px;
+	opacity: 1;
+	background-size: 24px 45px;
+}
+.floating-iconic-menu .aboutus-menu a {
+	font-size: 14px;
+	margin: 0 10px;
+}
+.icon-hover {
+	height: 24px;
+	width: 24px;
+	margin: 0 auto 10px;
+	opacity: 1;
+	background-size: 24px 45px;
+}
+.aboutus-menu a {
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 16px;
+	padding: 25px 5px;
+	margin: 0 32px;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.aboutus-menu span {
+	height: 44px;
+	width: 44px;
+	text-indent: 999999px;
+	display: none;
+	margin: 0 auto 10px;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 45px 90px;
+}
+/*.aboutus-menu .aboutus {
+	background-image: url(../images/z.png);
+}
+.aboutus-menu .mt {
+	background-image: url(../images/mt.png);
+}
+.aboutus-menu .press {
+	background-image: url(../images/press.png);
+}
+.aboutus-menu .interviews {
+	background-image: url(../images/interviews.png);
+}
+.aboutus-menu .news {
+	background-image: url(../images/news.png);
+}
+.aboutus-menu .awards {
+	background-image: url(../images/awards.png);
+}
+.aboutus-menu .contactus {
+	background-image: url(../images/at.png);
+}
+*/.aboutus-menu .selected span, .aboutus-menu a:hover span {
+	background-position: center 100%;
+}
+.aboutus-menu a:hover, .aboutus-menu .selected {
+	color: #1894ea;
+	box-shadow: 0 -3px 0 0 #1894ea inset;
+	-webkit-box-shadow: 0 -3px 0 0 #1894ea inset;
+	-moz-box-shadow: 0 -3px 0 0 #1894ea inset;
+}
+/* * * * * * * * * * * * *  inthenews.html 开始 * * * * * * * * * * * */
+ 	
+.news-section {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.news-section .page-heading {
+	padding: 70px 0 50px;
+}
+.recent-news {
+	border-top: 1px solid #e2e2e2;
+	margin: 0 auto;
+	max-width: 980px;
+	text-align: center;
+	position: relative;
+}
+.recent-news h3 {
+	background: none repeat scroll 0 0 #f9f9f9;
+	color: #999;
+	display: inline-block;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 0 25px;
+	position: relative;
+	text-align: center;
+	top: -22px;
+}
+.recent-news .left-line, .recent-news .right-line {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.051);
+	height: 1px;
+	left: 0;
+	position: absolute;
+	top: 20px;
+	width: 44%;
+}
+.recent-news .right-line {
+	left: auto;
+	right: 0;
+}
+.recent-news ul {
+	margin: 20px 0 40px;
+	overflow: hidden;
+}
+.recent-news li {
+	box-shadow: 1px 0 0 #e2e2e2;
+	float: left;
+	min-height: 140px;
+	overflow: hidden;
+	padding: 20px 4%;
+	text-align: center;
+	width: 25.333%;
+}
+.recent-news li:last-child {
+	box-shadow: none;
+}
+.recent-news li p {
+	color: #666;
+	font-size: 16px;
+	line-height: 24px;
+	min-height: 50px;
+	padding-bottom: 25px;
+}
+.recent-news li p a {
+	color: #666;
+}
+.recent-news li span {
+	display: block;
+	max-width: 120px;
+	margin: 0 auto;
+	height: 40px;
+	text-indent: -9999em;
+	background-image: url("https://www.zoho.com.cn/images/inthenews-sprite.png");
+	background-repeat: no-repeat;
+}
+/* 媒体报道列表 */
+ 	
+.news-lists-part {
+	border-top: 1px solid #E8E8E8;
+	margin: 80px auto;
+	max-width: 980px;
+	text-align: center;
+}
+.news-lists-part h3 {
+	background: none repeat scroll 0 0 #f9f9f9;
+	color: #999;
+	display: inline-block;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 0 25px;
+	position: relative;
+	text-align: center;
+	top: -22px;
+}
+.news-lists {
+	margin: 20px auto;
+	max-width: 900px;
+	overflow: hidden;
+}
+.news-lists li {
+	border-bottom: 1px solid #E8E8E8;
+	overflow: hidden;
+	padding: 25px 0 20px 4%;
+	text-align: left;
+	text-decoration: none;
+	position: relative;
+	width: 96%;
+	background: url("https://www.zoho.com.cn/images/article-icon.png") no-repeat scroll 0 30px rgba(0, 0, 0, 0);
+}
+.news-lists li span {
+	display: block;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	width: 20%;
+	max-width: 120px;
+	margin: 0 20px 0 0;
+	height: 40px;
+	text-indent: -9999em;
+	background-image: url(https://www.zoho.com.cn/images/inthenews-logo-sprites.png);
+	background-repeat: no-repeat;
+}
+.news-lists li .ifenxi {
+	background-position: 0 0;
+}
+.news-lists li .baidu {
+	background-position: -120px 0;
+}
+.news-lists li .cti {
+	background-position: -240px 0;
+}
+.news-lists li .fgnews {
+	background-position: -365px 0;
+}
+.news-lists li .hqtecn {
+	background-position: 0 -62px;
+}
+.news-lists li .it168 {
+	background-position: -122px -62px;
+}
+.news-lists li .txfiance {
+	background-position: -244px -62px;
+}
+.news-lists li .txzq {
+	background-position: -365px -62px;
+}
+.news-lists li .jrtt {
+	background-position: 0 -122px;
+}
+.news-lists li .sohu {
+	background-position: -122px -122px;
+}
+.news-lists li .wynews {
+	background-position: -244px -122px;
+}
+.news-lists li .techweb {
+	background-position: -365px -122px;
+}
+.news-lists li .yiou {
+	background-position: -365px -186px;
+}
+.news-lists li .kr {
+	background-position: 0 -182px;
+}
+.news-lists li .jzgn {
+	background-position: 0 -264px;
+}
+.news-lists li .www {
+	background-position: -357px -264px;
+}
+.news-lists li .aifenxi {
+	background-position: 0 0;
+}
+.news-lists li .ckds {
+	background-position: -116px -303px;
+}
+.news-lists li .nts {
+	background-position: -238px -264px;
+}
+.news-lists li .sjg {
+	background-position: -118px -264px;
+}
+.news-lists li .wysm {
+	background-position: -122px -182px;
+}
+.news-lists li .zdnews {
+	background-position: -244px -182px;
+}
+.news-lists li .idc {
+	background-position: -122px -226px;
+}
+.news-lists li .doit {
+	background-position: 0 -223px;
+}
+.news-lists li .tkh {
+	background-position: -365px -232px;
+}
+.news-lists li .tobshe {
+	background-position: -247px -228px;
+}
+.news-lists li .tmtpost {
+	background-position: -365px -232px;
+}
+.news-lists li .dongdian {
+	background-position: -238px -303px;
+}
+.news-lists li .hroot {
+	background-position: -357px -303px;
+}
+.news-lists li .gyrb {
+	background-position: 9px -343px;
+}
+.news-lists li .gywb {
+	background-position: -110px -343px;
+}
+.news-lists li .cio360 {
+	background-position: -221px -345px;
+}
+.news-lists li .pangtoutuo {
+	background-position: -335px -345px;
+}
+.news-lists li .kechuangren {
+	background-position: -92px -387px;
+}
+.news-lists li .ruanjianwang {
+	background-position: 22px -387px;
+}
+.news-lists li .more-news {
+	float: left;
+	width: 80%;
+	font-size: 16px;
+	line-height: 24px;
+}
+.more-news p {
+	width: 95%;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 5px 0 20px;
+}
+.news-lists p a {
+	color: #333;
+}
+.news-lists .plus {
+	margin-top: -13px;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	opacity: 1;
+	transition: 1s ease;
+	-moz-transition: 1s ease;
+	-ms-transition: 1s ease;
+	-o-transition: 1s ease;
+	-webkit-transition: 1s ease;
+	cursor: pointer;
+	padding: 10px;
+}
+.hidden-news {
+	display: none;
+}
+.plus em {
+	width: 12px;
+	height: 2px;
+	background: #888;
+	display: block;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+.plus .minus {
+	position: relative;
+	top: -2px;
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.plus .plus-to-minus {
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+/*底部小导航页面开始 */
+ 	
+.partnerMain {
+	margin: 51px 0 0;
+	max-width: 100%;
+}
+.partnerMain a {
+	color: #1894ea;
+}
+.bannerOuter {
+	background: url("https://www.zoho.com.cn/images/zapp-bg.jpg") no-repeat scroll center top / cover rgba(0, 0, 0, 0);
+	height: 500px;
+	margin-bottom: 140px;
+	max-width: 100%;
+}
+.bannerInner {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 120px 8% 0;
+	text-align: center;
+	overflow: hidden;
+	transition: 0.5s ease;
+}
+.bannerInner h1 {
+	color: #fff;
+	float: left;
+	font-size: 70px;
+	font-weight: 900;
+	letter-spacing: -3px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	padding: 100px 7% 60px 0;
+	text-align: right;
+	width: 43%;
+}
+.bannerInner h1 span {
+	display: none
+}
+.banner-content {
+	width: 40%;
+	padding: 40px 5% 25px;
+	float: left;
+	background: #fff;
+	border-bottom: 7px solid #3ca978;
+}
+.banner-content p {
+	color: #666666;
+	font-size: 16px;
+	line-height: 26px;
+	padding-bottom: 30px;
+	text-align: left;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+}
+.partner-content {
+	max-width: 980px;
+	margin: 0 auto 20px;
+	padding: 0 8%;
+}
+.partner-subpart {
+	overflow: hidden;
+	padding: 35px 0 0;
+}
+.partner-menu {
+	overflow: hidden;
+	padding: 0 0 30px;
+}
+.partner-menu ul {
+	margin: 0;
+	padding: 0;
+}
+.partner-menu li {
+	float: left;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 15px 5% 40px 0;
+	width: 45%;
+	min-height: 210PX;
+}
+.partner-menu li p {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 5px 0 20px;
+}
+.partnerMain .more-info {
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 7px 15px;
+	background: #5bb46c;
+}
+.parter-bullet-point {
+	overflow: hidden;
+	padding: 50px 0;
+	border-bottom: 1px solid #e5e5e5;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.parter-bullet-point.no-border {
+	border: none;
+}
+.parter-bullet-point h3 {
+	color: #333333;
+	font-size: 30px;
+	letter-spacing: -0.5px;
+	line-height: 38px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.parter-bullet-point h3 span {
+}
+.partner-menu h4, .partner-menu h4 a {
+	color: #333;
+	font-size: 22px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.parter-bullet-point p {
+	color: #111;
+	font-size: 14px;
+	line-height: 24px;
+}
+.partners-description {
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 10px;
+	padding-bottom: 50px;
+}
+.parter-bullet-point li {
+	color: #111;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 5px 20px;
+	position: relative;
+}
+.parter-bullet-point li:after {
+	content: '';
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	position: absolute;
+	background: #5bb46c;
+	left: 0;
+	top: 12px;
+}
+.parter-bullet-point h4 {
+	font-size: 22px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+.apply-now a {
+	background: none repeat scroll 0 0 #5bb46c;
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-size: 12px;
+	max-width: 120px;
+	padding: 7px 15px;
+	text-align: center;
+}
+.apply-now span a {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #666666;
+	display: block;
+	float: left;
+	font-size: 12px;
+	padding: 0;
+	margin: 7px 0px 0px 15px;
+	text-align: center;
+	text-decoration: underline;
+	max-width: 100%;
+}
+.parter-bullet-point h5 {
+	font-size: 20px;
+	line-height: 28px;
+	padding-bottom: 10px;
+}
+.all-partners {
+	border-top: 1px solid #e2e2e2;
+	margin: 0 auto;
+	max-width: 850px;
+	padding: 50px 0 35px;
+	text-align: center;
+}
+.all-partners h3 a {
+	color: #333;
+	font-size: 26px;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+.all-partners ul {
+	margin: 0 auto;
+	max-width: 850px;
+	overflow: hidden;
+	text-align: center;
+}
+.all-partners li a {
+	color: #666;
+	cursor: pointer;
+	display: inline;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 20px;
+}
+.all-partners li a:hover, .all-partners .selected {
+	color: #1894ea;
+}
+.apply-now {
+	margin: 20px 0 0;
+	overflow: hidden;
+}
+/* 底部小导航页面结束*/
+ 	/* WE BUILD APPS */
+ 	
+.we-build {
+	margin: 0 auto;
+	max-width: 980px;
+	overflow: hidden;
+	padding: 80px 5% 30px;
+	text-align: left;
+	width: 90%;
+}
+.we-build h1 {
+	color: #333;
+	font-size: 58px;
+	letter-spacing: -1px;
+	line-height: 90px;
+}
+.we-build h1 span {
+	display: block;
+}
+.we-build em {
+	border-bottom: 5px solid #333333;
+	display: block;
+	margin: 30px 0 0;
+	width: 80px;
+}
+.we-build p {
+	color: #666;
+	font-size: 22px;
+	letter-spacing: 0;
+	line-height: 32px;
+	margin: 0 auto;
+	max-width: 820px;
+	padding: 0 0 30px;
+	text-align: left;
+}
+.aboutus-description {
+	margin: 0 auto;
+	max-width: 980px;
+	overflow: hidden;
+	padding: 0 5% 50px;
+}
+.aboutus-description-left {
+	float: left;
+	width: 67%;
+}
+.page-heading p {
+	color: #333;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 28px;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 25px 10%;
+}
+.aboutus-description p {
+	color: #666;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin: 0 auto;
+	padding: 15px 5% 20px 0;
+}
+.twentyfour-plus {
+	border-left: 3px solid #FFCC00;
+	float: left;
+	margin: 120px 0 0 3%;
+	padding: 0 0 0 3%;
+	width: 26%;
+}
+.twentyfour-plus p {
+	color: #333;
+	font-size: 24px;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	letter-spacing: -0.5px;
+	line-height: 34px;
+	margin: 0 auto;
+	max-width: 360px;
+	padding: 0 0 5px;
+}
+.aboutus-additional {
+	clear: both;
+	margin: 0 auto 130px;
+	max-width: 1200px;
+	overflow: hidden;
+	padding: 0 4%;
+}
+.image-content-part, .content-twice-part {
+	padding: 70px 0%;
+	overflow: hidden;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.single-image-part {
+	max-width: 980px;
+	margin: -25px auto 0;
+}
+.image-twice-part {
+	padding: 40px 0%;
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.smallimage-twice-part {
+	margin: 0 auto -50px;
+	max-width: 1200px;
+	overflow: hidden;
+	padding: 50px 0 0;
+}
+.aboutus-additional .smallimage-twice-part li {
+	padding: 0;
+	line-height: 0;
+	width: 50%;
+	float: right;
+}
+.aboutus-additional .smallimage-twice-part li img {
+	width: 100%;
+}
+.aboutus-additional li, .image-content-part li, .content-twice-part li {
+	float: left;
+	padding: 0 4%;
+	width: 42%;
+	float: left;
+}
+.aboutus-additional li:first-child {
+	width: 46%;
+	padding: 0 4% 0 0;
+}
+.aboutus-additional li:last-child {
+	width: 46%;
+	padding: 0 0 0 4%;
+}
+.content-twice-part li:first-child {
+	width: 56%;
+	padding: 0 4% 0 0;
+}
+.content-twice-part li:last-child {
+	width: 36%;
+	padding: 0 0 0 4%;
+}
+.smallimage-twice-part li:first-child, .smallimage-twice-part li:last-child {
+	width: 50%;
+	padding: 0 0% 0 0;
+}
+.aboutus-additional .image-area {
+	padding: 0;
+	width: 100%;
+}
+.aboutus-additional .image-twice-part li {
+	float: left;
+	width: 50%;
+	padding: 0;
+}
+.aboutus-additional h3 {
+	color: #333;
+	font-size: 30px;
+	letter-spacing: -1px;
+	line-height: 36px;
+	padding-bottom: 15px;
+}
+.aboutus-additional h3 span {
+	display: block;
+}
+.aboutus-additional p {
+	color: #333;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+.aboutus-inner-bg {
+	background: #fbfbfb;
+}
+.aboutus-inner {
+	overflow: hidden;
+	transition: ease 0.5s opacity;
+	-moz-transition: ease 0.5s opacity;
+	-webkit-transition: ease 0.5s opacity;
+	-ms-transition: ease 0.5s opacity;
+	-o-transition: ease 0.5s opacity;
+}
+
+.aboutus-banner{
+    background: url(https://www.zoho.com.cn/images/aboutus-banner.png) no-repeat center top;
+    width: 100%;
+    height: 440px;
+    min-height: 440px;
+    padding-top:60px;
+}
+.aboutus-top-content p{
+    margin: 0 auto;
+    width: 860px;
+    padding-top: 40px;
+}
+.content-highlighted .we-focus {
+	margin: 20px 0 0;
+}
+.content-highlighted p {
+	border-left: 3px solid #FFCC00;
+	color: #333;
+	font-size: 24px;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	letter-spacing: -0.5px;
+	line-height: 34px;
+	margin: 30px 0;
+	max-width: 280px;
+	padding: 0 0 5px 30px;
+}
+/* OUR STORY PART */
+ 	
+.our-story-part {
+	margin: 0 auto;
+}
+.our-story {
+	background: url("https://www.zoho.com.cn/images/ourstory-bg.jpg") no-repeat fixed center center rgba(0, 0, 0, 0);
+	background-size: cover;
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	padding: 200px 0 250px;
+	position: relative;
+}
+.our-story h2 {
+	color: #FFFFFF;
+	display: block;
+	font-size: 60px;
+	letter-spacing: -2px;
+	line-height: 74px;
+	margin-top: 0;
+	padding-bottom: 0;
+	text-transform: none;
+}
+.our-story h2 span {
+	color: #FFFFFF;
+	display: block;
+	font-size: 24px;
+	letter-spacing: -0.5px;
+	line-height: 40px;
+	margin-bottom: 0;
+	opacity: 0.85;
+	padding-bottom: 0;
+}
+.our-story p {
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 0 auto 70px;
+	max-width: 540px;
+	padding: 0;
+}
+.our-story em {
+	display: block;
+	width: 50px;
+	border-bottom: 1px solid #fff;
+	margin: 25px auto 0;
+}
+.explore {
+	bottom: 100px;
+	cursor: pointer;
+	height: 45px;
+	left: 50%;
+	margin: 0 auto 0 -35px;
+	padding-top: 27px;
+	position: absolute;
+	width: 70px;
+}
+.explore span {
+	display: block;
+	height: 25px;
+	width: 1px;
+	position: absolute;
+	background: #fff;
+	transform: rotate(45deg);
+	right: 26px;
+	text-indent: -99999em;
+}
+.explore span:first-child {
+	transform: rotate(-45deg);
+	left: 26px;
+}
+.connecting-line {
+	background: none repeat scroll 0 0 #898989;
+	height: 150px;
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	width: 1px;
+	display: none;
+}
+/* OTHERS PART */
+ 	
+.extra-aboutus {
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto 60px;
+}
+.extra-aboutus li {
+	width: 23.333%;
+	float: left;
+	padding: 20px 5%;
+	text-align: left;
+}
+.extra-aboutus li img {
+	margin-bottom: 30px;
+	width: 48px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+.extra-aboutus h2 {
+	color: #333;
+	font-size: 34px;
+	letter-spacing: -1px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	min-height: 75px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+.extra-aboutus h2 span {
+	display: block;
+}
+.extra-aboutus h2 a {
+	color: #333;
+}
+.extra-aboutus li p {
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0 auto 50px;
+	padding: 0;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+.viewall a {
+	border: 2px solid #666;
+	color: #333;
+	display: block;
+	float: left;
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 auto;
+	opacity: 0.75;
+	padding: 8px 20px;
+	transition: 0.25s ease 0s;
+	-moz-transition: 0.25s ease 0s;
+	-ms-transition: 0.25s ease 0s;
+	-o-transition: 0.25s ease 0s;
+	-webkit-transition: 0.25s ease 0s;
+}
+.newsletter .get-email {
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	width: 100%;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.get-email:focus {
+	border: 1px solid #b1dce5;
+	color: #666;
+}
+.newsletter .subscribe {
+	border: 1px dashed #1894ea;
+	background: #1894ea;
+	padding: 0 20px;
+	width: 100%;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.download-part {
+	margin: 30px 5% 70px;
+}
+.download-part h2 {
+	color: #333;
+	float: left;
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 30px;
+	max-width: 250px;
+	padding-top: 15px;
+	width: 32%;
+}
+.download-part h2 span {
+	color: #999999;
+	display: block;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 12px;
+	margin-top: 15px;
+	text-transform: none;
+}
+.download-part .download-zoho-logo {
+	background-position: -74px -205px;
+	border-left: 1px solid #e2e2e2;
+	display: block;
+	float: left;
+	height: 55px;
+	margin: 15px 20px 15px 0;
+	max-width: 100%;
+	text-indent: -9999em;
+	width: 150px;
+}
+.logo-download {
+	margin: 0 auto;
+	max-width: 600px;
+	overflow: hidden;
+}
+.download-zoho-logo {
+}
+.formats {
+	float: left;
+	margin-top: 35px;
+}
+.formats a {
+	border-left: 1px solid #E5E5E5;
+	color: #666;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 12px;
+}
+.formats a:first-child {
+	border-left: none;
+}
+/* * * * * * * * * * * * * * * * * 合作伙伴感谢页面开始 * * * * * * * * * * * * * * * * */
+.partner-thanks {
+	background: #f4f9fd;
+	margin: 8% 0;
+	width: 80%;
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10%;
+}
+.partner-thanks h2 {
+	padding: 10% 4%;
+	font-size: 24px;
+	color: #333;
+	padding-bottom: 15px;
+}
+.partner-thanks p, .partner-thanks span {
+	padding: 0 4%;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.partner-thanks span {
+	display: block;
+	padding-top: 5%;
+}
+.partner-thanks img {
+	width: 50%;
+	float: right;
+}
+/* * * * * * * * * * * * * * * * * AWARDS PAGE STARTS * * * * * * * * * * * * * * * * */
+ 	
+.page-heading {
+	margin: 0 auto;
+	padding: 70px 0 80px;
+	text-align: center;
+	max-width: 1200px;
+}
+.page-heading h1 {
+	color: #333;
+	font-size: 80px;
+	letter-spacing: -3px;
+	line-height: 76px;
+}
+.awards-lists {
+	margin: 0 auto;
+	max-width: 1200px;
+	overflow: hidden;
+	padding: 0 0 60px;
+	text-align: center;
+}
+.awards-lists li {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+	float: left;
+	margin: 5px 0.5%;
+	min-height: 200px;
+	padding: 50px 2% 20px;
+	text-align: center;
+	width: 20%;
+}
+.awards-lists p {
+	color: #666;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 10px 10px 0;
+}
+.awards-lists p a {
+	color: #666;
+}
+/* ---------------------------- PRESS RELEASE INNER PAGE STYLE ---------------------------- */
+ 	
+.underline-text {
+	text-decoration: underline;
+}
+.press-page-container {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 0 5%;
+}
+.press-content-container {
+	background: #ffffff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.075);
+	padding: 50px 8%;
+	margin-bottom: 50px;
+	color: #666;
+}
+.press-content-container p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.press-content-container p a {
+	text-decoration: none;
+}
+.press-content-container h4 a, .press-content-container h4 {
+	text-decoration: none;
+	font-weight: 600
+}
+.press-content-container h6 {
+	font-weight: 600;
+	padding-top: 20px;
+}
+.press-content2 {
+	margin-bottom: 40px;
+}
+.press-content2 span {
+	margin-bottom: 13px;
+	display: block;
+}
+.press-content-container p, .press-content-container ul {
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+}
+.press-content-container a {
+	color: #1894ea;
+	text-decoration: underline;
+}
+.breadcrumb-container {
+	padding: 50px 10px;
+}
+.breadcrumb-container .act {
+	color: #999;
+}
+.breadcrumb-container .arrow {
+	background: url(https://www.zoho.com.cn/images/bca.png) center center no-repeat;
+	padding: 10px;
+}
+.breadcrumb-container span, .breadcrumb-container a {
+	padding: 0 5px;
+	color: #333;
+}
+.press-heading {
+	margin-bottom: 70px;
+}
+.press-content-container h1 {
+	color: #333333;
+	font-size: 38px;
+	letter-spacing: -1px;
+	line-height: 46px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.press-content-container h2 {
+	font-size: 28px;
+	color: #333;
+	line-height: 28px;
+	padding: 20px 0;
+	letter-spacing: -0.5px;
+}
+.press-content-container h5 {
+	padding: 20px 0;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+.press-content-container li {
+	float: left;
+	width: 33.3%;
+	min-height: 50px;
+}
+.press-content-container li a {
+	text-decoration: none;
+	color: rgb(0, 174, 239);
+}
+.press-release-subhead {
+	margin-bottom: 60px;
+}
+.press-release-subhead ul {
+	list-style: square outside;
+	color: #333;
+	margin-left: 15px;
+}
+.press-release-subhead ul li {
+	padding: 7px 0;
+}
+.press-release-insidelist ul {
+	list-style: disc outside;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+.press-release-insidelist ul li {
+	padding: 7px 0;
+}
+/*  TIMELINE STARTS */
+ /* good-point 开始 */
+.press-content-container .good-point p {
+	font-size: 16px;
+}
+.press-content-container .good-point li, .press-content-container .article li {
+	float: none;
+	background: url(https://www.zoho.com.cn/images/tick.png) no-repeat left;
+	line-height: 50px;
+	padding-left: 22px;
+}
+.press-content-container .article {
+	font-size: 13px;
+}
+.press-content-container .article {
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+.press-content-container .no-style li {
+	width: 100%;
+	display: block;
+	float: left;
+}
+.press-content-container label {
+	color: #E1272A;
+}
+/*网站地图开始*/
+.sitemap h2 {
+	color: #444 !important;
+	font-size: 40px !important;
+}
+.sitemap ul li h5 {
+	color: #444;
+	font-size: 16px;
+}
+.sitemap ul li p a {
+	color: #1894ea;
+	font-size: 14px;
+	margin-right: 15px;
+}
+/*网站地图结束*/
+.content-1996 .adventnet, .year-pointer, .download-part .download-zoho-logo, .zoholics .zoholics-logo {
+	background-image: url("https://www.zoho.com.cn/images/timeline-sprite@2x.png");
+	background-size: 300px 725px;
+	background-repeat: no-repeat;
+}
+.zoho-timeline {
+	background: url("https://www.zoho.com.cn/images/timeline-line.jpg") repeat-y scroll center top #F7F7F7;
+	position: relative;
+	padding: 120px 0 0;
+}
+.zoho-timeline p {
+	color: #666;
+	font-size: 16px;
+	line-height: 26px;
+}
+.zoho-timeline p span {
+}
+.zoho-timeline h2, .zoho-timeline h2 a {
+	color: #333333;
+	font-size: 24px;
+	letter-spacing: -0.5px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.left-section, .right-section {
+	overflow: hidden;
+	position: relative;
+	padding: 0 0 40px;
+}
+.left-part, .right-part {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.left-section .left-part, .left-section .right-part {
+	float: left;
+}
+.zoho-timeline .yearof {
+	color: #333;
+	float: right;
+	font-size: 32px;
+	letter-spacing: -1px;
+	line-height: 45px;
+	margin: 0 40px;
+	max-width: 100px;
+	text-align: right;
+	transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.yearof span {
+	color: #999;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1.2px;
+	line-height: 22px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.year-pointer {
+	width: 32px;
+	height: 30px;
+	background-position: -200px 0;
+	position: absolute;
+	left: 50%;
+	margin-left: -17px;
+	top: 30px;
+	display: block;
+	z-index: 99;
+	transition: 0.7s ease;
+	-webkit-transition: 0.7s ease;
+}
+.right-box, .left-box {
+	position: relative;
+	margin: 30px 50px 0;
+}
+.about-product {
+	overflow: hidden;
+	padding: 0 0 50px 90px;
+}
+.about-product.nonicon-product {
+	padding: 0 0 50px 0;
+}
+.about-product span a {
+	display: block;
+	height: 64px;
+}
+.about-product>span {
+	height: 64px;
+	width: 64px;
+	display: block;
+	text-indent: -9999px;
+	background-position: 0 0;
+	margin: 0 0 10px;
+	position: absolute;
+	left: 0;
+	background-image: url('https://www.zoho.com.cn/images/product-icons-sprite-new.png');
+}
+.about-product .assist-icon {
+	background-position: 0 0;
+}
+.about-product .appcreator-icon {
+	background-position: -65px -260px;
+}
+.about-product .books-icon {
+	background-position: -65px 0;
+}
+.about-product .bugtracker-icon {
+	background-position: -130px -130px
+}
+.about-product .campaigns-icon {
+	background-position: -130px 0;
+}
+.about-product .chat-icon {
+	background-position: -195px 0;
+}
+.about-product .commentbox-icon {
+	background-position: 0 -260px;
+}
+.about-product .connect-icon {
+	background-position: -455px 0;
+}
+.about-product .contactmanager-icon {
+	background-position: -390px 0;
+}
+.about-product .creator-icon {
+	background-position: -260px 0;
+}
+.about-product .crm-icon {
+	background-position: -332px 0;
+	width: 60px;
+}
+.about-product .developer-icon {
+	background-position: -325px -195px;
+}
+.about-product .discussions-icon {
+	background-position: -195px -195px;
+}
+.about-product .docs-icon {
+	background-position: -520px 0;
+}
+.about-product .expense-icon {
+	background-position: -260px -195px;
+}
+.about-product .forms-icon {
+	background-position: -260px -130px;
+}
+.about-product .invoice-icon {
+	background-position: -585px 0;
+}
+.about-product .inventory-icon {
+	background-position: -65px -195px;
+}
+.about-product .mail-icon {
+	background-position: -65px -130px;
+}
+.about-product .marketplace-icon {
+	background-position: -585px -130px;
+}
+.about-product .mdm-icon {
+	background-position: -455px -195px;
+}
+.about-product .meeting-icon {
+	background-position: 0 -65px;
+}
+.about-product .motivator-icon {
+	background-position: -130px -195px;
+}
+.about-product .notebook-icon {
+	background-position: -130px -65px;
+}
+.about-product .people-icon {
+	background-position: -65px -65px;
+}
+.about-product .projects-icon {
+	background-position: -195px -65px;
+}
+.about-product .recruit-icon {
+	background-position: -260px -65px;
+}
+.about-product .reports-icon {
+	background-position: -325px -65px;
+}
+.about-product .salesinbox-icon {
+	background-position: -585px -195px;
+}
+.about-product .site24x7-icon {
+	background-position: -455px -130px;
+}
+.about-product .salesiq-icon {
+	background-position: -520px -130px;
+}
+.about-product .sdp-icon {
+	background-position: -520px -195px;
+}
+.about-product .showtime-icon {
+	background-position: -195px -195px;
+}
+.about-product .sheet-icon {
+	background-position: -390px -65px;
+}
+.about-product .show-icon {
+	background-position: 0 -130px;
+}
+.about-product .sites-icon {
+	background-position: -455px -65px;
+}
+.about-product .social-icon {
+	background-position: -390px -195px;
+}
+.about-product .subscriptions-icon {
+	background-position: -390px -130px;
+}
+.about-product .support-icon {
+	background-position: -520px -65px;
+}
+.about-product .survey-icon {
+	background-position: -325px -130px;
+}
+.about-product .vault-icon {
+	background-position: -195px -130px;
+}
+.about-product .wiki-icon {
+	background-position: -130px -260px;
+}
+.about-product .writer-icon {
+	background-position: -585px -65px;
+}
+.about-product .checkout-icon {
+	background-position: -260px -260px;
+}
+.developer-logo {
+	background-image: url("https://www.zoho.com/developer/images/zoho-developer-logo.png");
+	background-position: left 0;
+	padding: 0 0 0 85px;
+	background-repeat: no-repeat;
+	color: #333;
+	display: block;
+	font-size: 22px;
+	height: 30px;
+	line-height: 32px;
+	margin: 0 0 5px;
+	max-width: 100px;
+	font-weight: inherit;
+}
+.developer-logo {
+}
+/*2013*/
+ 	/* 1996 */
+ 	
+.content-1996 {
+	max-width: 350px;
+}
+.content-1996 .adventnet {
+	height: 39px;
+	width: 122px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 0 20px;
+	background-position: -64px -268px
+}
+/* 2001 */
+ 	
+.content-2001 {
+	border-left: 5px solid #FFCC00;
+	margin: 20px 50px;
+	max-width: 400px;
+	padding: 0 0 0 35px;
+}
+/* 2005 */
+ 	
+.content-2005 {
+	max-width: 380px;
+}
+.zoho-domain {
+	padding: 40px 0;
+	overflow: hidden;
+}
+.zoho-domain img {
+	margin-bottom: 15px;
+}
+.zoho-writer {
+	overflow: hidden;
+}
+/* 2006 */
+ 	
+.content-2006 {
+	max-width: 400px;
+}
+.zoho-crm {
+	border-bottom: none;
+}
+.joining-hands {
+	margin: 0 0 0 40px;
+	box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+/* 2007 */
+ 	
+.content-2007 {
+	max-width: 400px;
+}
+.pc-world {
+	clear: both;
+	float: right;
+	margin-right: 40px;
+	margin-top: 0;
+	max-width: 350px;
+	display: none;
+}
+.pc-world .quotes {
+	background-position: -64px -106px;
+	display: block;
+	float: left;
+	height: 56px;
+	margin: -25px 0 0 10px;
+	position: relative;
+	text-indent: -9999px;
+	width: 70px;
+}
+.pc-world .pcworld-logo {
+	background-position: -64px -318px;
+	height: 50px;
+	position: relative;
+	text-indent: -9999px;
+	width: 110px;
+	display: block;
+	float: right;
+}
+.pc-world p {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 20px;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.pc-world p span {
+}
+.content-2007 .decorative-line {
+	margin: 30px 0 0 130px;
+}
+/* 2008 */
+ 	
+.section-2008 {
+	overflow: hidden;
+}
+.content-2008, .content-2012 {
+	max-width: 450px;
+}
+.one-million, .zoholics, .ten-million, .fifteen-million, .twenty-million, .million-counts {
+	border-left: 5px solid #FFCC00;
+	margin: 20px 0 60px;
+	max-width: 400px;
+	padding: 0 0 0 35px;
+}
+.section-2008 .one-million h2, .section-2014 .ten-million h2, .section-2015 .fifteen-million h2, .section-2016 .twenty-million h2 {
+	color: #333;
+	font-size: 46px;
+	font-weight: 400;
+	letter-spacing: -2px;
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+/*  2009 */
+ 	
+.content-2009 {
+	max-width: 400px;
+}
+.adventnet-zoho {
+	margin-bottom: 40px;
+}
+/* 2012 */
+ 	
+.zoholics .zoholics-logo {
+	background-position: -75px -70px;
+	display: block;
+	height: 30px;
+	text-indent: -9999px;
+	width: 155px;
+	margin: -12px 0 20px;
+}
+.zoholics a {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333;
+	padding-top: 10px;
+	display: block;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+}
+/* 2013 */
+ 	/* 2014 */
+ 	
+.content-2013, .content-2014, .content-2015, .content-2016, .content-2017, .content-2018 {
+	max-width: 480px;
+}
+/* TIMELINE TO BE CONTINUE STARTS */
+ 	
+.timeline-continues.left-section {
+	padding: 120px 0 0;
+}
+.timeline-continues .year-pointer {
+	top: 100px;
+}
+.timeline-continues h3 {
+	background: none repeat scroll 0 0 #F7F7F7;
+	color: #333333;
+	font-size: 26px;
+	letter-spacing: -1px;
+	line-height: 32px;
+	padding: 50px 0 30px;
+	text-align: center;
+}
+.timeline-continues .getstarted-box {
+	padding: 0 0 150px 0;
+	background: #F7F7F7;
+	text-align: center;
+}
+/* TIMELINE TO BE CONTINUE ENDS*/
+ 	/* YEAR COLOR CODE */
+ 	
+.section-1996:hover .yearof {
+	color: #00add5;
+}
+.section-1996:hover .year-pointer:after {
+	background: #00add5;
+}
+.section-2001:hover .yearof {
+	color: #5bb46c;
+}
+.section-2001:hover .year-pointer:after {
+	background: #5bb46c;
+}
+.section-2005:hover .yearof {
+	color: #ea785d;
+}
+.section-2005:hover .year-pointer:after {
+	background: #ea785d;
+}
+.section-2006:hover .yearof {
+	color: #d6b000;
+}
+.section-2006:hover .year-pointer:after {
+	background: #d6b000;
+}
+.section-2007:hover .yearof {
+	color: #4661b9;
+}
+.section-2007:hover .year-pointer:after {
+	background: #4661b9;
+}
+.section-2008:hover .yearof {
+	color: #48bbb4;
+}
+.section-2008:hover .year-pointer:after {
+	background: #48bbb4;
+}
+.section-2009:hover .yearof {
+	color: #9b59b6;
+}
+.section-2009:hover .year-pointer:after {
+	background: #9b59b6;
+}
+.section-2010:hover .yearof {
+	color: #ff6633;
+}
+.section-2010:hover .year-pointer:after {
+	background: #ff6633;
+}
+.section-2011:hover .yearof {
+	color: #096;
+}
+.section-2011:hover .year-pointer:after {
+	background: #096;
+}
+.section-2012:hover .yearof {
+	color: #c0392b;
+}
+.section-2012:hover .year-pointer:after {
+	background: #c0392b;
+}
+.section-2013:hover .yearof {
+	color: #e67e22;
+}
+.section-2013:hover .year-pointer:after {
+	background: #e67e22;
+}
+.section-2014:hover .yearof {
+	color: #9e2955;
+}
+.section-2014:hover .year-pointer:after {
+	background: #9e2955;
+}
+.section-2015:hover .yearof {
+	color: #200CCB;
+}
+.section-2015:hover .year-pointer:after {
+	background: #200CCB;
+}
+.section-2016:hover .yearof {
+	color: #00AE78;
+}
+.section-2016:hover .year-pointer:after {
+	background: #00AE78;
+}
+.section-2017:hover .yearof {
+	color: #B99F05;
+}
+.section-2017:hover .year-pointer:after {
+	background: #B99F05;
+}
+/*  TIMELINE ENDS */
+ 	/*新闻页面开始*/
+ 	
+.news-box {
+	background: #f9f9f9;
+	width: 100%;
+	height: auto;
+	padding-bottom: 5%;
+}
+.news-box h1, .news-box h3 {
+	padding-top: 5%;
+	padding-bottom: 4%;
+	text-align: center;
+	color: #333;
+	font-size: 36px;
+}
+/* * * * * * * * * * * * * * * * * Zoho动态开始 * * * * * * * * * * * * * * * * */
+ 	
+.press-release {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+	padding: 70px 0;
+	overflow: hidden;
+	max-width: 1600px;
+	margin: 0 auto 50px;
+}
+.press-release h2 {
+	color: #ccc;
+	float: left;
+	font-size: 46px;
+	padding: 30px 0 0 4%;
+	text-align: left;
+	width: 8%;
+	letter-spacing:2px;
+}
+.press-release .pro-classic {
+	display: block;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	color: #1894ea;
+}
+.press-release ul {
+	width: 86.89%;
+	float: left;
+	text-align: left;
+	border-left: 1px solid #F2f2f2;
+}
+.press-release li {
+	float: left;
+	min-height: 116px;
+	padding: 26px 1% 10px 2%;
+	width: 19.333%;
+	border-top:#ebebeb 1px solid;
+	border-right:#ebebeb 1px solid;
+	margin:6px 6px;
+}
+.press-release h5 {
+	color: #1894ea;
+	font-size: 14px;
+	line-height: 21px;
+	padding: 0 0 10px;
+}
+.press-release h5 a {
+	color: #1894ea;
+}
+.press-release .years{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.press-release .years ul{
+	width: 100%;
+	margin-left: 9%;
+	margin-bottom: 4%;
+}
+.press-release .years ul li{
+	width: 104px!important;
+	height: 30px;
+	text-align: center;
+	margin-right: 4px;
+	line-height: 30px;
+	border:1px solid #909090;
+	min-height: 0!important;
+	padding: 4px 10px!important;
+
+}
+.press-release .years ul li a{
+	display: inline-block;
+	width: 100%;
+	color: #909090;
+}
+.press-release .years ul .active{
+	background-color: #1894ea;
+	border-color: #1894ea;
+}
+.press-release .years ul .active a{
+	color: #fff;
+}
+
+
+.press-release .pageNumber{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+.press-release .pageNumber ul{
+	width: 80%;
+	margin-left: 20%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.press-release .pageNumber ul li{
+	width: 40px!important;
+	height: 30px;
+	text-align: center;
+	margin: 4px;
+	line-height: 30px;
+	border:1px solid #909090;
+	min-height: 0!important;
+	padding: 4px 10px!important;
+
+}
+.press-release .pageNumber ul li a{
+	display: inline-block;
+	width: 100%;
+	color: #909090;
+}
+.press-release .pageNumber ul .active{
+	background-color: #1894ea;
+	border-color: #1894ea;
+}
+.press-release .pageNumber ul .active a{
+	color: #fff;
+}
+
+
+
+.press-release p {
+	color: #666;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 0 0 3px 0;
+	margin-top:2%;
+}
+.press-release p a {
+	color: #333;
+}
+
+.press-product-list{
+	text-align:right;
+	font-size:13px;
+	cursor:pointer;
+}
+.press-product-list a:hover{
+	color:#0074c4;
+}
+/* ----------------------------Zoho动态结束 ---------------------------- */
+ 	
+.underline-text {
+	text-decoration: underline;
+}
+.press-page-container {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 0 5%;
+}
+.press-content-container {
+	background: #ffffff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.075);
+	padding: 50px 8%;
+	margin-bottom: 50px;
+	color: #666;
+}
+/*.press-content-container p {
+	margin-bottom: 30px;
+}*/
+.press-content2 {
+	margin-bottom: 40px;
+}
+.press-content2 span {
+	margin-bottom: 13px;
+	display: block;
+}
+.press-content-container p, .press-content-container ul {
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+}
+.press-content-container a {
+	color: #1894ea;
+	text-decoration: underline;
+}
+.breadcrumb-container {
+	padding: 50px 10px;
+}
+.breadcrumb-container .act {
+	color: #999;
+}
+.breadcrumb-container .arrow {
+	background: url(https://www.zoho.com.cn/images/bca.png) center center no-repeat;
+	padding: 10px;
+}
+.breadcrumb-container span, .breadcrumb-container a {
+	padding: 0 5px;
+	color: #333;
+}
+.press-heading {
+	margin-bottom: 70px;
+}
+.press-content-container h1 {
+	color: #333333;
+	font-size: 32px;
+	letter-spacing: 1px;
+	line-height: 46px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.press-content-container h2 {
+	font-size: 28px;
+	color: #333;
+	line-height: 28px;
+	padding: 20px 0;
+	letter-spacing: -0.5px;
+}
+.press-content-container p img {
+	width: 80%;
+ *margin-top: expression((400 - this.height)/2);
+	/* CSS表达式用来兼容IE6/IE7 */
+	vertical-align: middle;
+}
+.press-release-subhead {
+	margin-bottom: 60px;
+}
+.press-release-subhead ul {
+	list-style: square outside;
+	color: #333;
+	margin-left: 15px;
+}
+.press-release-subhead ul li {
+	padding: 7px 0;
+}
+.press-release-insidelist ul {
+	list-style: disc outside;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+.press-release-insidelist ul li {
+	padding: 7px 0;
+}
+.content-action {
+	max-width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-action a {
+	color: #fff;
+	background: #03a9f5;
+	padding: 10px 20px 10px 20px;
+}
+/* * * * * * * * * * * * * * * *  CONTACT US * * * * * * * * * * * */
+
+.enquiries {
+	max-width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 80px;
+}
+.enquiries li {
+	width: 23.333%;
+	float: left;
+	padding: 0 5%
+}
+.enquiries .contact-persons {
+	overflow: hidden;
+}
+.enquiries h5 {
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26px;
+	margin-bottom: 5px;
+	text-transform: none;
+}
+.enquiries p, .address p {
+	color: #666;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 35px;
+}
+.enquiries a {
+	color: #2fa763;
+}
+.address {
+	border-top: 1px solid #d7d7d7;
+	max-width: 1200px;
+	margin: 0 auto 60px;
+	padding: 60px 0 70px;
+	text-align: center;
+}
+.address h4 {
+	background: none repeat scroll 0 0 #F7F7F7;
+	color: #333;
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 30px;
+	padding: 0 30px;
+	position: relative;
+	text-transform: none;
+	top: -76px;
+	z-index: 9;
+}
+.address ul {
+	overflow: hidden;
+}
+.address li {
+	float: left;
+	width: 27%;
+	text-align: left;
+}
+.address li:last-child {
+	width: 18%;
+}
+.address h2 {
+	color: #2FA763;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	line-height: 45px;
+	margin-bottom: 5px;
+	text-transform: none;
+}
+.address h3 {
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.contact-form {
+	overflow: hidden;
+	padding: 60px 6%;
+	max-width: 650px;
+	/*max-height: 300px;*/
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 1px 40px rgba(0, 0, 0, 0.07);
+	text-align: center;
+}
+.contact-form h3 {
+	color: #2fa763;
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 20px;
+	text-transform: none;
+}
+.contact-form h3 em {
+	display: block;
+	width: 40px;
+	border-bottom: 1px solid #d5d5d5;
+	margin: 20px auto 0;
+}
+.form-area {
+	overflow: hidden;
+	margin-top: 80px;
+}
+.form-inputs {
+	overflow: hidden;
+	width: 70%;
+	float: left;
+}
+.form-inputs input, .comments-area textarea {
+	border: 1px solid #fff;
+	border-bottom: 1px solid #e2e2e2;
+	font-size: 16px;
+	line-height: 12px;
+	padding: 15px 2% 15px 0;
+	width: 40%;
+	margin: 0 10% 40px 0;
+	float: left;
+	transition: all ease 0.4s;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+.form-inputs input:focus {
+	border: 1px solid #e2e2e2;
+	padding: 15px 2% 15px 2%;
+	width: 40%;
+	background: #FAFAFA;
+}
+.form-area .comments-area {
+	width: 30%;
+	float: left;
+}
+.comments-area textarea {
+	padding: 10px 0;
+	border: 1px solid #fff;
+	width: 95%;
+	border-bottom: 1px solid #e2e2e2;
+	min-height: 144px;
+	transition: all ease 0.4s;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+.comments-area textarea:focus {
+	border: 1px solid #e2e2e2;
+	padding: 10px 5%;
+	width: 95%;
+	background: #FAFAFA;
+}
+.contact-form .submit input {
+	background: none repeat scroll 0 0 #FF7A6B;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 15px 0;
+	text-transform: none;
+	width: 160px;
+	clear: both;
+	margin-top: 20px;
+	font-weight: 700;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+/*客户案例页面开始*/
+.select-wrap {
+	padding: 0;
+	margin: 4%;
+	border: 1px solid #9c9c9c;
+	width: 220px;
+	border-radius: 3px;
+	overflow: hidden;
+	background-color: #fff;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.select-wrap:after {
+	background: #9c9c9c none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 1px;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	transform: rotate(45deg);
+	width: 10px;
+}
+.select-wrap:before {
+	background: #9c9c9c none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 1px;
+	position: absolute;
+	right: 8px;
+	top: 20px;
+	transform: rotate(-45deg);
+	width: 10px;
+}
+select {
+	color: #4e4e4e;
+	padding: 0px 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-size: 13px;
+	cursor: pointer;
+}
+select:focus {
+	outline: none;
+}
+.cus-bg {
+	background-image: url(https://www.zoho.com.cn/images/success-stories-banner-bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.cus-bg h1 {
+	font-size: 30px;
+	color: #fff;
+	padding: 5% 0;
+}
+
+@media screen and (max-width: 1150px) {
+.press-release {
+	margin: 0 8% 40px;
+	padding: 40px 0;
+}
+.press-release h2 {
+	float: none;
+	font-size: 54px;
+	padding: 0 0 40px;
+	text-align: center;
+	width: 100%;
+}
+.press-release ul {
+	border-left: none;
+	float: none;
+	text-align: left;
+	width: 92%;
+	margin: 0 4%;
+}
+}
+
+@media screen and (max-width: 980px) {
+body {
+	min-width: 300px;
+}
+.bannerOuter {
+	margin-bottom: 150px;
+}
+.star, .feedback-holder {
+	display: none;
+}
+.catagory-mobapps.first-child {
+	border-top: medium none;
+	padding: 80px 0 40px;
+}
+.catagory-mobapps p {
+	font-size: 14px;
+	line-height: 23px;
+	max-width: 700px;
+}
+.aboutus-additional h3 span {
+	display: inline;
+}
+.page-heading, .news-section .page-heading {
+	padding: 40px 0 30px;
+}
+.timeline-holder {
+	min-height: 160px
+}
+.case-studies li p {
+	margin-bottom: 10px;
+}
+.largest-vendor, .case-studies {
+	float: none;
+	width: 80%;
+	padding: 0 10%;
+	text-align: center;
+}
+.largest-vendor {
+	border-bottom: 1px dashed #e5e5e5;
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+}
+.case-studies li:nth-child(2), .case-studies li:nth-child(3) {
+	padding-top: 0;
+}
+.press-release ul {
+	margin: 0 5%;
+	width: 90%;
+}
+.press-release li {
+	float: left;
+	min-height: 100px;
+	padding: 26px 1% 10px 4%;
+	width: 19.333%;
+}
+.recent-news, .news-lists-part, .news-lists {
+	max-width: 800px;
+	padding: 0 5%;
+}
+.news-lists li {
+	padding: 30px 0 20px 5%;
+	width: 95%;
+}
+.news-lists li span {
+	width: 28%;
+}
+.news-lists li .more-news {
+	width: 62%;
+}
+.press-release h2 {
+	float: none;
+	font-size: 54px;
+	padding: 0 0 40px;
+	text-align: center;
+	width: 100%;
+}
+.our-story {
+	padding: 100px 0;
+}
+.our-story h2 {
+	font-size: 54px;
+	letter-spacing: -1px;
+	line-height: 52px;
+}
+.extra-aboutus {
+	margin: 0 auto 40px;
+	max-width: 100%;
+}
+.extra-aboutus li {
+	border-top: 1px solid #e8e8e8;
+	float: none;
+	overflow: hidden;
+	padding: 60px 10%;
+	text-align: center;
+	width: 80%;
+}
+.extra-aboutus li:first-child {
+	border-top: none;
+	padding: 10px 10% 60px;
+}
+.extra-aboutus li:last-child {
+	padding: 60px 10% 20px;
+}
+.extra-aboutus h2 {
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 28px;
+	margin-bottom: 10px;
+	min-height: 10px;
+}
+.extra-aboutus h2 span {
+	display: inline;
+}
+.viewall {
+	max-width: 120px;
+	margin: 0 auto;
+}
+.newsletter {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.viewall a {
+	float: none;
+}
+.download-part {
+	max-width: 100%;
+	border-top: 1px solid #e8e8e8;
+}
+.contact-form {
+	max-width: 560px;
+	padding: 60px 5%;
+}
+.form-area {
+	margin-top: 50px;
+}
+.form-inputs, .form-area .comments-area {
+	width: 100%;
+}
+.form-inputs input, .comments-area textarea {
+	margin: 0 3% 40px;
+	padding: 15px 2% 15px 0;
+	width: 44%;
+}
+.form-inputs input:focus {
+	padding: 15px 2% 15px 2%;
+	width: 44%;
+}
+.comments-area textarea {
+	width: 94%;
+}
+.comments-area textarea:focus {
+	background: none repeat scroll 0 0 #FAFAFA;
+	border: 1px solid #E2E2E2;
+	padding: 10px 5% 0 5%;
+	width: 94%;
+}
+.videos-section p {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 10px 0 0;
+	min-height: 45px;
+	padding: 0;
+}
+.more-news p {
+	font-size: 14px;
+}
+.catagory-mobapps p {
+	max-width: 600px;
+}
+.look-down {
+	display: none;
+}
+.page-heading .we-build h1 {
+	font-size: 52px;
+	line-height: 68px;
+	padding-bottom: 35px;
+}
+.we-build h1 span {
+}
+.page-heading h1, .news-section h1 {
+	font-size: 62px;
+}
+.googleapps-part {
+	padding: 100px 10%;
+}
+.googleapps-part li {
+	float: none;
+	font-size: 15px;
+	margin: 10px auto;
+	max-width: 250px;
+	text-align: left;
+	width: 100%;
+}
+.extra-aboutus li p {
+	font-size: 15px;
+	line-height: 22px;
+	margin: 0 auto 40px;
+	max-width: 400px;
+}
+.signing .signup {
+	overflow: hidden;
+	width: 50px;
+}
+.aboutus-menu {
+	max-width: 455px;
+}
+.aboutus-menu a {
+	font-size: 14px;
+}
+.aboutus-menu-resize {
+	max-width: 550px;
+	padding: 25px 0;
+}
+.twentyfour-plus, .content-highlighted, .image-area {
+	display: none;
+}
+.we-build h1 {
+	font-size: 58px;
+	letter-spacing: -4px;
+	line-height: 72px;
+	text-align: center;
+}
+.we-build em {
+	border-bottom: 1px solid #666666;
+	margin: 30px auto 0;
+	width: 50px;
+}
+.aboutus-description-left {
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0 0;
+}
+.aboutus-description p {
+	float: left;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 3%;
+	text-align: left;
+	width: 44%;
+}
+.image-content-part, .content-twice-part {
+	padding: 40px 0;
+}
+.aboutus-additional {
+	margin: 30px 0 70px;
+	padding: 0 6%;
+	width: 88%;
+}
+.aboutus-additional li:first-child, .aboutus-additional li:last-child {
+	float: none;
+	padding: 0 5%;
+	text-align: center;
+	width: 90%;
+}
+.image-twice-part {
+	padding: 0;
+}
+.our-story {
+	padding: 150px 0 200px;
+}
+.our-story h2 {
+	font-size: 48px;
+	letter-spacing: -1px;
+	line-height: 52px;
+}
+.our-story h2 span {
+	font-size: 24px;
+	letter-spacing: 0;
+	line-height: 32px;
+	margin-bottom: 5px;
+}
+body .footer-links {
+	margin: 0 6%;
+}
+}
+ @media screen and (max-width: 900px) {
+body {
+	min-width: 300px;
+}
+.bannerInner h1 span {
+	display: block
+}
+.bannerInner h1 img {
+	display: none
+}
+.bannerOuter {
+	margin-bottom: 150px;
+}
+.catagory-mobapps h2 {
+	font-size: 30px;
+	letter-spacing: -1px;
+	line-height: 36px;
+}
+.mob-apps-section {
+	background-attachment: scroll;
+	background-image: url("https://www.zoho.com.cn/images/mobile-part-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+ //margin-top: 50px;
+	overflow: hidden;
+	width: 100%;
+}
+.mob-apps-cont {
+	float: none;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 100px 10%;
+	text-align: center;
+	width: 80%;
+}
+.mob-apps-cont p em {
+	margin: 20px auto 35px;
+	width: 40px;
+}
+#ifrm {
+	width: 620px;
+	height: 340px;
+}
+.store-icon {
+	margin: 0 auto;
+}
+.cm-videos {
+	max-width: 700px;
+}
+.aboutus-menu span.reduce-icon {
+	margin: 0 auto 10px;
+}
+.aboutus-menu a.reduce-fontsize {
+	font-size: 12px;
+	padding: 0 12px;
+}
+.aboutus-menu-resize {
+	max-width: 500px;
+	padding: 25px 0;
+}
+/*TIMELINE IPAD 768 SIZE CHANGES STARTS*/
+.zoho-timeline p {
+	font-size: 14px;
+	line-height: 23px;
+}
+.content-2008, .content-2012 {
+	max-width: 100%;
+}
+.section-2006 .content-2006, .section-2013 .content-2013 {
+	padding: 40px 40px;
+}
+.left-section, .right-section {
+	margin: 0 auto;
+	max-width: 650px;
+	padding: 50px 10%;
+}
+.right-box:before {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.075);
+	content: "";
+	height: 30px;
+	margin: -15px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 30px;
+	z-index: 99;
+	transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.left-box:before {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 1px -1px 2px rgba(0, 0, 0, 0.075);
+	content: "";
+	height: 30px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+	width: 30px;
+	z-index: 99;
+	margin: -15px;
+	transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.year-pointer {
+	top: 10px;
+}
+.left-part, .right-part {
+	float: none;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.content-1996, .content-2001, .content-2005, .content-2006, .content-2007, .content-2009 {
+	text-align: center;
+	max-width: 100%;
+}
+.content-1996 {
+	max-width: 100%;
+}
+.right-box, .left-box {
+	padding: 40px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	background: #fff;
+}
+.zoho-timeline .yearof {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	background: #f7f7f7;
+}
+.content-1996 .adventnet {
+	margin: 0 auto 20px;
+}
+.about-product {
+	border-bottom: 1px dashed #abcdef;
+	margin-bottom: 40px;
+	overflow: hidden;
+	padding: 0 0 40px;
+}
+.about-product:last-child {
+	padding: 0 0 20px;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.content-2012 .about-product:nth-child(2), .content-2008 .about-product:nth-child(3) {
+	padding: 0 0 50px;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.zoho-timeline h2, .zoho-timeline h2 a {
+	font-size: 21px;
+	line-height: 28px;
+}
+.about-product span {
+	left: 0;
+	margin: 0 auto 15px;
+	position: relative;
+}
+.one-million, .zoholics, .million-counts, .fifteen-million, .twenty-million {
+	border-top: 5px solid #FFCC00;
+	border-left: none;
+	margin: 0 auto 10px;
+	max-width: 400px;
+	padding: 40px 20px 0;
+}
+.twenty-million.million-counts {
+	margin-bottom: 50px;
+}
+.ten-million {
+	border-left: none;
+	margin: 0 auto;
+	max-width: 400px;
+	padding: 0;
+}
+.content-2001 {
+	border-bottom: 5px solid #FFCC00;
+	border-left: none;
+}
+.zoholics .zoholics-logo {
+	margin: -10px auto 20px;
+}
+/*TIMELINE IPAD 768 SIZE CHANGES ENDS*/
+.we-build h1 {
+	font-size: 42px;
+	letter-spacing: -3px;
+	line-height: 66px;
+}
+.webapps li {
+	margin: 1%;
+	width: 48%;
+}
+.webapps .product-details {
+	margin: -82px 0 0 -120px;
+}
+.filter-list {
+	max-width: 680px;
+}
+.filter-list li {
+	margin: 0 8px;
+}
+.filter-list li:first-child {
+	margin: 0 8px 0 0;
+}
+.filter-list li:last-child {
+	margin: 0 0 0 8px;
+}
+.bannerInner h1 {
+	float: none;
+	font-size: 62px;
+	letter-spacing: -3px;
+	line-height: 60px;
+	padding: 0 7% 60px 0;
+	text-align: center;
+	width: 100%;
+}
+.banner-content {
+	width: 90%;
+}
+.all-partners {
+	padding: 30px 0 15px;
+}
+.all-partners li a {
+	padding: 10px 0;
+	width: 33.333%;
+}
+.press-content-container h1 {
+	font-size: 28px;
+	letter-spacing: -0.5px;
+	line-height: 36px;
+	padding-bottom: 30px;
+}
+ @media screen and (max-width: 800px) {
+ body {
+ min-width: 300px;
+}
+
+.aboutus-banner{
+    background: url(https://www.zoho.com.cn/images/aboutus-banner-mob.png) no-repeat center top;
+    width: 100%;
+    height: 460px;
+    min-height: 460px;
+    padding-top:60px;
+    background-size:100%;
+}
+.aboutus-top-content p{
+    margin: 0 auto;
+    width: 340px;
+    padding-top: 24px;
+    line-height: 44px;
+}
+
+ .we-build h1 {
+ font-size: 42px;
+ letter-spacing: -1.5px;
+ line-height: 56px;
+}
+ .we-build em {
+ margin: 25px auto 0;
+}
+ .store-icon li img {
+ width: 26px;
+}
+ .mob-apps-cont h2 {
+ font-size: 80px;
+ line-height: 60px;
+}
+ .store-icon li {
+ height: 25px;
+ padding: 5px 15px;
+}
+ .case-studies li {
+ padding: 0;
+ width: 100%;
+}
+ .awards-lists {
+ margin: 0 auto;
+ max-width: 600px;
+ padding: 0 7% 60px;
+}
+ .awards-lists li {
+ width: 45%;
+}
+ .catagory-mobapps .mobapps-icon {
+ width: 48px;
+ margin-bottom: 15px;
+}
+ .catagory-mobapps li {
+ padding: 0 15px;
+}
+ .mob-ec li {
+ width: 20%;
+ padding: 0;
+}
+ .integration-products h5 {
+ font-size: 12px;
+}
+ .catagory-mobapps li h4 {
+ font-size: 12px;
+}
+ .catagory-mobapps p {
+ margin-bottom: 40px;
+}
+ .merged-mobile-catagory .catagory-mobapps {
+ float: none;
+ padding: 80px 10% 40px;
+ width: 80%;
+}
+ .merged-mobile-catagory {
+ padding: 0;
+ background: none;
+}
+ .page-heading h1, .news-section h1 {
+ font-size: 58px;
+}
+ .gapps-testimonial {
+ padding: 60px 0;
+}
+ .gapps-testimonial ul {
+ padding: 50PX 0 0;
+}
+ .gapps-testimonial h2 {
+ font-size: 48px;
+ letter-spacing: -1px;
+ line-height: 46px;
+ padding: 0 0 10px;
+}
+ .gapps-testimonial p {
+ font-size: 24px;
+ letter-spacing: 0;
+ line-height: 20px;
+ margin: 0 auto;
+}
+ .gapps-testimonial li p {
+ font-size: 18px;
+ line-height: 28px;
+ padding-top: 20px;
+}
+ .gapps-testimonial h5 {
+ font-size: 14px;
+ line-height: 24px;
+ padding: 10px 0 5px;
+}
+ .awards-lists p {
+ font-size: 14px;
+ padding: 10px 10px 0;
+}
+ .our-story h2 {
+ font-size: 40px;
+ letter-spacing: -1px;
+ line-height: 50px;
+}
+ .our-story h2 span {
+ font-size: 21px;
+ line-height: 30px;
+}
+ .our-story em {
+ margin: 30px auto 0;
+}
+ .our-story {
+ padding: 120px 0;
+}
+ .explore {
+ display: none;
+}
+ .recent-news, .news-lists-part, .news-lists {
+ max-width: 700px;
+ padding: 0%;
+}
+ .bannerOuter {
+ margin-bottom: 180px;
+}
+.press-content-container li {
+ width:50%;
+}
+.years-list {
+        width: 76%;
+        margin:0 auto;
+        padding: 70px 0 0 0;
+
+      }
+.press_banner{
+        background-image: linear-gradient(to bottom, #acd1ff ,#fff 50%);
+        overflow:hidden;
+        margin:0 auto;
+       }
+.press_banner_img{
+        width:100%;
+       }
+.press_banner_img img{
+        width:80%;
+       }
+.years-list-bg{
+        box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 2px;
+        max-width: 1600px;
+        background: none 0px 0px repeat scroll rgb(255, 255, 255);
+        padding-bottom: 70px;
+        overflow: hidden;
+        margin: -60px auto -50px;
+      }
+.press_banner_img{
+        text-align:center;
+        width:100%;
+       }
+.press_banner_content{
+        text-align:center;
+        width:80%;
+        margin-bottom:3%;
+       }
+.press-release li {
+	padding: 26px 3% 10px 2%;
+}
+}
+ @media screen and (max-width: 750px) {
+ 			/*新闻列表开始*/
+ 			.news-lists li {
+ background-image: none;
+ padding: 30px 10% 25px;
+ width: 80%;
+}
+ .news-lists-part {
+ margin: 50px auto;
+}
+ .more-news p {
+ font-size: 12px;
+ margin: 0;
+ width: 90%;
+ padding: 10px 10% 10px 0;
+}
+ .news-lists li span {
+ float: none;
+ margin-bottom: 12px;
+ text-align: left;
+ width: 100%;
+ margin: 0 0 12px -10px;
+}
+ .news-lists li .more-news {
+ width: 100%;
+}
+.years-list {
+        width: 68%;
+        margin:0 auto;
+        padding: 20px 0 80px 0;
+
+      }
+ 			/*新闻列表结束*/
+ 			/*新闻列表详情页面开始*/
+ .news-box h1, .news-box h3 {
+ 	font-size: 18px;
+}
+.enquiries {
+ margin: 10px auto 0;
+ max-width: 250px;
+ overflow: hidden;
+ padding: 0 0 40px;
+ text-align: center;
+}
+.enquiries li {
+ float: none;
+ padding: 0;
+ width: 100%;
+}
+/*新闻详情页面结束*/
+}
+ @media (max-width:650px) {
+ .aboutus-menu {
+ max-width: 100%;
+}
+ .aboutus-menu a {
+ font-size: 14px;
+ margin: 0;
+ padding: 25px 0;
+ width: 25%;
+}
+ .aboutus-menu .selected span {
+ background-position: center 100%;
+}
+ .press-release {
+ padding: 30px 0;
+}
+ .press-release h2 {
+ font-size: 40px;
+ letter-spacing: 0;
+ padding: 0 0 20px;
+}
+ .press-release H5, .press-release p {
+ padding: 0 0 5px;
+}
+ .press-release li {
+ background:#f5f9fb;
+ float: none;
+ margin: 2% 0;
+ min-height: 20px;
+ padding: 26px 5% 10px 5%;
+ width: 90%;
+ border-right:none;
+ border-top:none;
+}
+
+.press-content-container li {
+ float:none;
+ width:100%;
+}
+.years-list {
+        width: 78%;
+        margin:0 auto;
+        padding: 72px 0 80px 0;
+
+      }
+
+}

@@ -1,0 +1,490 @@
+@font-face {
+	font-family:'Zoho_Puvi_Thin';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_ThinItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_thin.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_Light';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_LightItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_light.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_ExtraLight';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extralight.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extralight.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extralight.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extralight.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_Regular';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_RegularItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_regular.otf') format('opentype');
+	font-weight:normal;
+	font-style:oblique;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_Medium';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_medium.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_medium.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_medium.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_medium.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_SemiBold';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_SemiBoldItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_semibold.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_Bold';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_BoldItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_bold.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_ExtraBold';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrabold.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrabold.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrabold.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrabold.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_ExtraBoldItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_Black';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_BlackItalic';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_black.otf') format('opentype');
+	font-weight:normal;
+	font-style:italic;
+	font-display:swap;
+}
+@font-face {
+	font-family:'Zoho_Puvi_ExtraBlack';
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.eot');
+	src:url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.eot') format('embedded-opentype'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.woff2') format('woff2'),url('https://fonts.zohostatic.com.cn/zohopuvi/3.5/zoho_puvi_extrablack.otf') format('opentype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif'), local('DroidSerif'), url(https://stratus.zohostatic.com.cn/webfonts/droidserif/font.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(https://stratus.zohostatic.com.cn/webfonts/droidserifbold/font.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotothin/font.svg#Roboto-Thin) format("svg");
+    font-weight: 100;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotothinitalic/font.svg#Roboto-ThinItalic) format("svg");
+    font-weight: 100;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotolight/font.svg#Roboto-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotolightitalic/font.svg#Roboto-LightItalic) format("svg");
+    font-weight: 300;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoregular/font.svg#Roboto-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoitalic/font.svg#Roboto-Italic) format("svg");
+    font-weight: 400;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotomedium/font.svg#Roboto-Medium) format("svg");
+    font-weight: 500;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotomediumitalic/font.svg#Roboto-MediumItalic) format("svg");
+    font-weight: 500;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotobold/font.svg#Roboto-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotobolditalic/font.svg#Roboto-BoldItalic) format("svg");
+    font-weight: 700;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblack/font.svg#Roboto-Black) format("svg");
+    font-weight: 900;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoblackitalic/font.svg#Roboto-BlackItalic) format("svg");
+    font-weight: 900;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabthin/font.svg#RobotoSlab-Thin) format("svg");
+    font-weight: 100;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslablight/font.svg#RobotoSlab-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabregular/font.svg#RobotoSlab-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/robotoslabbold/font.svg#RobotoSlab-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/notoserif/font.svg#NotoSerif) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/notoserifbold/font.svg#NotoSerif-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscript/font.svg#DancingScript) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/dancingscriptbold/font.svg#DancingScript-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserif/font.svg#LiberationSerif) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/liberationserifbold/font.svg#LiberationSerif-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Sacramento';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/sacramentoregular/font.svg#Sacramento-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/latolight/font.svg#Lato-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/latoregular/font.svg#Lato-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/latoitalic/font.svg#Lato-Italic) format("svg");
+    font-weight: 400;
+    font-style: italic;
+font-display:swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/latobold/font.svg#Lato-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprolight/font.svg#SourceSansPro-Light) format("svg");
+    font-weight: 300;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansproregular/font.svg#SourceSansPro-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprosemibold/font.svg#SourceSansPro-Semibold) format("svg");
+    font-weight: 600;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/sourcesansprobold/font.svg#SourceSansPro-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/caveatregular/font.svg#Caveat-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+font-display:swap;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.eot);
+    src: url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.eot?#iefix) format("eot"), url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.woff2) format("woff2"), url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.woff) format("woff"), url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.ttf) format("truetype"), url(https://stratus.zohostatic.com.cn/webfonts/caveatbold/font.svg#Caveat-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal;
+font-display:swap;
+}
+:root {
+	--primaryfont-bold:'Zoho_Puvi_Bold';
+	--primaryfont-semibold:'Zoho_Puvi_SemiBold';
+	--primaryfont-regular:'Zoho_Puvi_Regular';
+	--secondaryfont-bold:'Zoho_Puvi_Bold';
+	--secondaryfont-semibold:'Zoho_Puvi_SemiBold';
+	--secondaryfont-regular:'Zoho_Puvi_Regular';
+	--zf-secondary-thin:'Zoho_Puvi_Thin';
+	--zf-secondary-thinitalic:'Zoho_Puvi_ThinItalic';
+	--zf-secondary-extralight:'Zoho_Puvi_ExtraLight';
+	--zf-secondary-light:'Zoho_Puvi_Light';
+	--zf-secondary-lightitalic:'Zoho_Puvi_LightItalic';
+	--zf-secondary-regular:'Zoho_Puvi_Regular';
+	--zf-secondary-regularitalic:'Zoho_Puvi_RegularItalic';
+	--zf-secondary-medium:'Zoho_Puvi_Medium';
+	--zf-secondary-semibold:'Zoho_Puvi_SemiBold';
+	--zf-secondary-semibolditalic:'Zoho_Puvi_SemiBoldItalic';
+	--zf-secondary-bold:'Zoho_Puvi_Bold';
+	--zf-secondary-bolditalic:'Zoho_Puvi_BoldItalic';
+	--zf-secondary-extrabold:'Zoho_Puvi_ExtraBold';
+	--zf-secondary-extrabolditalic:'Zoho_Puvi_ExtraBoldItalic';
+	--zf-secondary-black:'Zoho_Puvi_Black';
+	--zf-secondary-blackitalic:'Zoho_Puvi_BlackItalic';
+	--zf-secondary-extrablack:'Zoho_Puvi_ExtraBlack';
+	--zf-primary-thin:'Zoho_Puvi_Thin';
+	--zf-primary-thinitalic:'Zoho_Puvi_ThinItalic';
+	--zf-primary-light:'Zoho_Puvi_Light';
+	--zf-primary-lightitalic:'Zoho_Puvi_LightItalic';
+	--zf-primary-regular:'Zoho_Puvi_Regular';
+	--zf-primary-regularitalic:'Zoho_Puvi_RegularItalic';
+	--zf-primary-semibold:'Zoho_Puvi_SemiBold';
+	--zf-primary-semibolditalic:'Zoho_Puvi_SemiBoldItalic';
+	--zf-primary-bold:'Zoho_Puvi_Bold';
+	--zf-primary-bolditalic:'Zoho_Puvi_BoldItalic';
+	--zf-primary-extrabold:'Zoho_Puvi_ExtraBold';
+	--zf-primary-extrabolditalic:'Zoho_Puvi_ExtraBoldItalic';
+	--zf-primary-black:'Zoho_Puvi_Black';
+	--zf-primary-blackitalic:'Zoho_Puvi_BlackItalic';
+	--zf-primary-extrablack:'Zoho_Puvi_ExtraBlack'
+}
