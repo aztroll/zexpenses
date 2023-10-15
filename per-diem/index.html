@@ -1,0 +1,740 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/expense-common-header-footer.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<!-- Mirrored from www.zoho.com.cn/expense/per-diem/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 23:18:42 GMT -->
+<head>
+<!-- InstanceBeginEditable name="TDK-Canonical" -->
+<title>每日津贴 - 差旅费用管理 - Zoho Expense</title>
+<meta name="description" content="Zoho Expense可让您掌握费用并执行支出限制。为外出员工分配每日津贴。" />
+<meta name="keywords" content="差旅补助,津贴,每日津贴" />
+<link rel="canonical" href="index.html">
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="target-densitydpi=device-dpi" name="viewport">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title">
+<link rel="SHORTCUT ICON" href="../favicon3860.ico?v=1" type="image/x-icon">
+<link href="../../css/common-header-footer.css" rel="stylesheet" type="text/css">
+<link href="../../css/prd-common-inner.css" rel="stylesheet" type="text/css">
+<link href="../css/expense-footer.css" rel="stylesheet" type="text/css">
+<link href="../css/expense.css" rel="stylesheet" type="text/css">
+<link href="../../css/prd-home.css" rel="stylesheet" type="text/css">
+
+<script src="../../js/getMarkVal.js"></script>
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="../../../cdn.pagesense.cn/ztmjs/7fe34041c5e3453fb29411d97b45d939.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+
+<!-- InstanceBeginEditable name="head" -->
+  
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!-- InstanceBeginEditable name="EditRegion3" -->
+   <style>
+    body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.ze-dropdown-menu {
+  position: relative;
+}
+
+.sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+  display: none !important;
+}
+
+.ze-dropdown-cover {
+  visibility: hidden;
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+
+.ze-dropdown-list {
+  visibility: hidden;
+  position: absolute;
+  width: 508px;
+  left: -292px;
+  top: 60px;
+  padding: 25px 40px;
+  background: #fff;
+  text-align: left;
+  font-size: 14px;
+  z-index: 10000;
+  box-shadow: 0 20px 50px rgba(28, 67, 140, 0.15);
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+  border-top: 2px solid #f55d49;
+}
+
+.ze-solutions .ze-dropdown-list {
+  width: 220px;
+  left: -40px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-more .ze-dropdown-list {
+  width: 85px;
+  left: -100px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-dropdown-menu:hover .ze-dropdown-list,
+.ze-dropdown-menu:hover .ze-dropdown-cover {
+  visibility: visible !important;
+  opacity: 1;
+}
+
+.product-header, .product-header-inner {
+  overflow: visible !important;
+}
+
+.ze-dropdown-list > ul > li {
+  margin-left: 67px;
+  cursor: pointer;
+  line-height: 25.2px;
+}
+
+.ze-dropdown-list > ul a {
+  color: #000 !important;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+}
+
+.ze-solutions .ze-dropdown-list > ul a, .ze-more .ze-dropdown-list > ul a {
+  padding: 5px 0 !important;
+}
+
+.ze-dropdown-list > ul a:hover {
+  color: #009DF7 !important;
+}
+
+.integrations-header {
+  color: #000 !important;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+a + .integrations-header {
+  margin-top: 20px;
+}
+
+.ze-dropdown-list > ul a.more-integrations {
+  color: #009DF7 !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+
+.ze-dropdown-menu .ze-arrow-down {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #444;
+}
+
+.more-integrations .ze-caret-arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #009DF7;
+  border-top: 4px solid transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .ze-dropdown-menu:hover .ze-dropdown-list, .ze-dropdown-cover {
+    visibility: hidden !important;
+  }
+
+  .ze-dropdown-menu .ze-arrow-down, .ze-solutions.ze-dropdown-menu, .ze-more.ze-dropdown-menu {
+    display: none;
+  }
+
+  .sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+    display: block !important;
+  }
+}
+
+    body {
+      font-family: 'proxima_nova_rgregular', helvetica, Arial, sans-serif;
+    }
+    .per-diem-container {
+      background: #295ca0;
+      background: -webkit-linear-gradient(20deg, #295ca0, #58c4ff);
+      background: -o-linear-gradient(20deg, #295ca0, #58c4ff);
+      background: -moz-linear-gradient(20deg, #295ca0, #58c4ff);
+      background: linear-gradient(20deg, #295ca0, #58c4ff);
+      width: 100%;
+      min-height: 335px;
+      display: table;
+    }
+
+    .per-diem-icon {
+      display: table-cell;
+      vertical-align: middle;
+      width: 15%;
+    }
+
+    .per-diem-icon img {
+      width: 40%;
+    }
+
+    .per-diem-container span {
+      display: table-cell;
+      vertical-align: middle;
+      width: 25%;
+      padding: 8% 5% 8% 15%;
+    }
+
+    .per-diem-container span p {
+      font-size: 18px;
+      line-height: 1.8;
+      font-family: 'proxima_novalight', 'Open Sans', helvetica, Arial, sans-serif;
+    }
+
+    .section-content h2 {
+      color: #fff;
+      font-size: 31px;
+      line-height: 2.5;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .section-content p {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .module-item {
+      background-color: #f9f9f9;
+    }
+
+    .module-item:nth-child(odd) div {
+      float: left;
+    }
+
+    .module-item:nth-child(even) div {
+      float: right;
+    }
+
+    .desc-section {
+      width: 40%;
+      padding: 8% 5%;
+    }
+
+    .desc-section h3 {
+      color: #428bca;
+      font-size: 25px;
+    }
+
+    .desc-section p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .module-flow {
+      width: 50%;
+      height: 320px;
+      padding-top: 80px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .flow {
+      max-height: 80%;
+    }
+
+    .img-zoom-out {
+      width: 65%;
+      margin-top: 4%;
+    }
+
+    .bot-banner p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .bot-banner h2 {
+      margin-bottom: 35px;
+      font-size: 38px;
+    }
+    .bot-banner h2, .bot-banner p {
+      color: #fff;
+    }
+    .bot-banner .btn-prim {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 14px 50px;
+    }
+    .bot-banner {
+      color: #fff;
+      position: relative;
+      z-index: 70;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 60px;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 960px;
+    }
+    .bot-banner-wrap {
+      background-image: url("../tour/images/bottom-1x.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: scroll;
+      background-position: center center;
+      position: relative;
+      padding: 115px 0;
+    }
+
+    .signup-btn {
+      color: #fff;
+      border: 2px solid #fff;
+      margin-top: 30px;
+      border-radius: 3px;
+      font-weight: 600;
+      transition:          background 200ms ease-out;
+      -webkit-transition:  background 200ms ease-out;
+      -moz-transition:     background 200ms ease-out;
+      -o-transition:       background 200ms ease-out;
+    }
+
+    .signup-btn:hover {
+      background-color: #fff;
+      color: #58c4ff;
+    }
+
+    @media screen and (max-width: 768px) {
+      .per-diem-container {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .section-content {
+        margin: 0 auto;
+      }
+
+      .per-diem-container span {
+        width: 80%;
+        display: block;
+        padding: 6% 0%;
+      }
+
+      .per-diem-container span p {
+        font-size: 17px;
+        line-height: 1.6;
+      }
+
+      .per-diem-icon img {
+        width: 25%;
+        padding: 6% 0;
+      }
+
+      .module-item div {
+        float: none;
+      }
+
+      .module-flow {
+        width: 100%;
+        height: auto;
+        padding: 0;
+      }
+      .flow {
+        width: 90%;
+        margin: 4%;
+      }
+
+      .desc-section {
+        width: 90%;
+        padding: 10% 5%;
+        text-align: center;
+      }
+
+      .bot-banner-wrap {
+        margin-top: 20px;
+      }
+    }
+
+    </style>
+<!-- InstanceEndEditable -->
+<!-- header start -->
+<div class="header">
+  <a class="logo" href="https://www.zoho.com.cn/"> ZOHO  </a>
+  <div class="signing">
+    <span class="user-det">"Welcome "+username+</span>
+    <a class="signup" href="../signup/index.html">Registro</a>
+    <a class="signin" href="https://accounts.zoho.com.cn/signin?servicename=ZohoExpense&amp;service_language=zh&amp;signupurl=https://www.zoho.com.cn/expense/signup">登录</a>
+  </div>
+</div>
+<div class="product-header">
+  <div class="product-header-inner clearfix">
+    <a class="product-logo" href="../index.html">Expense</a>
+    <span class="sub-menu-icon">Menu</span>
+    <ul class="product-menu scale">
+      
+      <li class="tour"><a href="../receipt-tracking/index.html">Funciones</a></li>
+      <li class="pricing"><a href="../pricing/index.html">Precios</a></li>
+      <li class="tour"><a href="../mobile-apps/index.html">Apps</a></li>
+      <li class="tour"><a href="../contact-us.html">Contacto</a></li>
+    </ul>
+  </div>
+</li>
+    </ul>
+  </div>
+</div>
+<!-- header end -->
+
+<!-- InstanceBeginEditable name="EditRegion4" -->
+  <div class="main">
+    <div class="per-diem-container">
+      <span class="section-content">
+        <h2>每日津贴</h2>
+        <p>再也不会让您的预算超支。通过Zoho Expense为差旅员工分配每日津贴，并管理所有类别的费用。</p>
+        <a class="btn btn-outline signup-btn ze-access" href="../signup/index.html">立即免费试用</a>
+      </span>
+      <div class="per-diem-icon">
+        <img alt="Per diem Expenses" src="header-icon-1x.png" srcset="/expense/per-diem/header-icon-2x.png 2x"/>
+      </div>
+    </div>
+    <ul class="per-diem-desc">
+      <li class="module-item">
+        <div class="desc-section">
+          <h3>简单高效管理每日费用</h3>
+          <p>当不同部门的津贴率不同时，跟踪每日津贴就会繁琐困难。通过为每个部门选择固定费率来简化您的每日津贴流程。他们的每日津贴将自动以Zoho Expense计算。</p>
+        </div>
+        <div class="module-flow">
+          <img class="flow" alt="Expenses per day" src="flow1-1x.png" srcset="/expense/per-diem/flow1-2x.png 2x"/>
+        </div>
+      </li>
+      <li class="module-item">
+        <div class="desc-section">
+          <h3>为各类费用选择独立的费率</h3>
+          <p>对于不同类型的费用，例如食物、住宿费用等，您可能需要不同的费率。为每个费用类别创建并分配不同的每日津贴率。</p>
+        </div>
+        <div class="module-flow">
+          <img class="flow img-zoom-out" alt="Unique rates for category" src="flow2-1x.png" srcset="/expense/per-diem/flow2-2x.png 2x"/>
+        </div>
+      </li>
+      <li class="module-item">
+        <div class="desc-section">
+          <h3>为不同的国家/地区设置不同的费率</h3>
+          <p>为您最常访问的国家/地区定义一组每日津贴率，并分别跟踪每个国家/地区的每日津贴费用。</p>
+        </div>
+        <div class="module-flow">
+          <img class="flow" alt="Different rates for different countries" src="flow3-1x.png" srcset="/expense/per-diem/flow3-2x.png 2x"/>
+        </div>
+      </li>
+      <li class="module-item">
+        <div class="desc-section">
+          <h3>定义项目的每日津贴率</h3>
+          <p>为不同的客户同时从事多个项目？ 试用Zoho Expense为每个项目创建每日津贴率。</p>
+        </div>
+        <div class="module-flow">
+          <img class="flow" alt="Per diem rates for projects" src="flow4-1x.png" srcset="/expense/per-diem/flow4-2x.png 2x"/>
+        </div>
+      </li>
+      <li class="module-item">
+        <div class="desc-section">
+          <h3>Asignacion de presupuesto</h3>
+          <p>Asigne presupuestos diarios a los colaboradores que viatican o realizan gastos para la empresa. Administre todas las categorías de gastos y establezca limites con Expense.</p>
+        </div>
+        <div class="module-flow">
+          <img class="flow img-zoom-out" alt="Custom Per diem rates" src="flow5-1x.png" srcset="/expense/per-diem/flow5-2x.png 2x"/>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="bot-banner-wrap"><span></span>
+    <div class="bot-banner">
+      <h2>体验无纸化费用报表</h2>
+      <p>没有信用卡！没有纸质报表！没有繁琐的提交！</p>
+      <div class="get-started" style="margin-top: 30px;">
+        <a class=" btn btn-prim ze-access" href="../signup/index.html">立即免费试用</a>
+      </div>
+    </div>
+  </div>
+<!-- InstanceEndEditable -->
+
+<!-- footer start -->
+
+ <div class="region region-footer">
+   <section id="block-zoho-navigation-links-product-pages-footer-links">
+    <div class="footer-sec-wrap two-column">
+     <div class="content-wrap">
+      <div class="promo-section-wrap">
+       <span class="article-list">
+		   <h3>文章列表</h3>
+		   <a href="https://www.zoho.com.cn/content/expense-automatic.html">让费用报销流程自动化的5个理由</a>
+		   <a href="https://www.zoho.com.cn/content/expense-management.html">“当我为发票报销抓狂的时候，Zoho Expense出现了”</a>
+		  </span>
+      </div>
+      <div class="footer-links-wrap">
+       <div class="product-links four-column">
+        <div class="footer-features">
+           <h4>产品Funciones</h4>
+         <ul>
+          <li><a href="../receipt-tracking/index.html">收据跟踪</a></li>
+          <li><a href="../connect-debit-credit-card/index.html">银行卡</a></li>
+          <li><a href="../expense-reports/index.html">报表</a></li>
+          <li><a href="../expense-report-approval/index.html">审批</a></li>
+		  <li><a href="../expense-report-analytics/index.html">分析</a></li>
+         </ul>
+        </div>
+        <div class="footer-explore">
+         <h4>产品Precios</h4>
+         <ul>
+          <li><a href="../pricing/index.html">Precios</a></li>
+          <li><a href="../pricing-comparison/index.html">版本Funciones对比</a></li>
+         </ul>
+        </div>
+        <div class="footer-solutions">
+         <h4>Apps</h4>
+         <ul>
+          <li><a href="../mobile-apps/index.html">APP</a></li>
+          <li><a href="../receipt-scanner-app/index.html">收据扫描</a></li>
+         </ul>
+        </div>
+		<div class="footer-solutions">
+         <h4>快速链接</h4>
+         <ul>
+          <li><a href="../expense-management-software/index.html">费用管理软件</a></li>
+          <li><a href="../expense-reimbursement-software/index.html">费用报销软件</a></li>
+		  <li><a href="index.html">津贴管理应用</a></li>
+          <li><a href="../expense-report-automation/index.html">自动化费用报表</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="common-links common-links-js"></div>
+    </div>
+   </section>
+  </div>
+
+
+<div class="footer">
+  <div class="common-footer">
+    <div class="zoho-links">
+      <a href="https://www.zoho.com.cn/">Zoho首页</a>
+      <a href="https://www.zoho.com.cn/aboutus.html">关于我们</a>
+      <a href="https://www.zoho.com.cn/contactus.html">Contacto</a>
+      <a href="https://www.zoho.com.cn/security.html">安全保障</a>
+      <a href="https://www.zoho.com.cn/ipr-complaints.html">知识产权申诉</a>
+      <a href="https://www.zoho.com.cn/policy.html">反垃圾邮件政策</a>
+      <a href="https://www.zoho.com.cn/terms.html">服务条款</a>
+      <a href="https://www.zoho.com.cn/privacy.html">隐私政策</a>
+    </div>
+	  <div class="zoho-links"><p>© <span id="fyear">2023</span>, Proteus Digital Media SAS de CV. Todos los derechos reservados.</p></div>
+    <div class="zoho-links"><p>Av 1ro de mayo # 100, Acambaro, Gto. Col. Centro 400-660-8680 京ICP备15015257号 京ICP证150718号</p></div>
+  </div>
+</div>
+<!-- footer end -->
+
+<!-- InstanceBeginEditable name="EditRegion5" -->
+<script type="text/javascript">
+  function convertToTitleCase(text = '') {
+    var textSplit = text.toLowerCase().split(' ');
+    var titleCaseWords = [];
+
+    for(var i = 0; i < textSplit.length; i++) {
+      titleCaseWords.push(textSplit[i].charAt(0).toUpperCase() + textSplit[i].slice(1));
+    }
+
+    return titleCaseWords.join(' ');
+  }
+
+  function onLoad() {
+    if (window.CountryName) {
+      var demoLocation = $('#demo_location');
+      demoLocation.val(convertToTitleCase(window.CountryName));
+      demoLocation.addClass('text-black');
+
+      
+      if (window.CountryName === 'United States') {
+        $('#demo_state_wrapper').removeClass('hide');
+      }
+    }
+  }
+
+  
+  function reloadImg() {
+    if(document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
+      document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
+    }  else {
+      document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
+    }
+  }
+</script>
+
+<script type="text/javascript">"use strict";function validateForm(e){e&&($("#contact-name")[0].value=$("#email")[0].value);for(var o,t=["contact-name","email","message"],a=[],n=0;n<t.length;n++)!1===(o=validateField(t[n]))&&a.push(o);return $("#source-url").val(window.location.href),!(a.length>0)}function noOfUsersChanged(){var e=$("#demo_no_of_users");"No. of Users"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black")}function countryChanged(){var e=$("#demo_location");"Country"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black");var o=$("#demo_state_wrapper");"United States"===e.find(":selected").text()?o.removeClass("hide"):o.addClass("hide")}function validateDemoForm(){var e=decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent("ZohoExpenseRef").replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||"",o=document.querySelector('input[name="CASECF13"]');o&&(o.value=window.location.href);var t=document.querySelector('input[name="CASECF30"]');t&&(t.value=e);for(var a,n=["demo_name","demo_company_name","demo_job_title","demo_email","demo_message","demo_phone","demo_no_of_users","demo_location","enterdigest"],l=[],r=0;r<n.length;r++)!1===(a=validateField(n[r]))&&l.push(a);var d=l.length>0;d||(document.getElementById("spin").style.display="inline-block","United States"!==$("#demo_location").val()&&document.getElementById("demo_state").removeAttribute("name"));return!d}function validateField(e){var o=$("#"+e).val(),t=""!==(o=void 0!==o&&null!==o?o.trim():"");return toggleError(e,t),t}function toggleError(e,o){var t=$("#"+e).parents(".form-group"),a=$("#"+e+"_error");!o?(t.addClass("has-error"),a.css("display","block")):(t.removeClass("has-error"),a.css("display","none"))}</script>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  if (document.documentElement.clientWidth > 960) {
+    
+    var carouselScript = document.createElement('script');
+    carouselScript.src = '../js/carousel.js';
+    carouselScript.async = true;
+
+    document.getElementsByTagName('body')[0].append(carouselScript);
+  }
+</script>
+
+<script type="text/javascript">
+  function showDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('hide');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('open');
+    });
+
+    
+    var body = document.body;
+    body.style.height = '100vh';
+    body.style.overflowY = 'hidden';
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.add('hide');
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      $zoho.salesiq.floatbutton.visible('hide');
+      if ($zoho.salesiq.floatwindow) {
+        $zoho.salesiq.floatwindow.minimize();
+      }
+    }
+
+    onLoad();
+  }
+
+  function hideDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('open');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('hide');
+    }, 450);
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      var $contactForm = document.getElementById('contactus-form-stickydiv');
+      if($contactForm) {
+        $contactForm.classList.add('move-dropup-up');
+      }
+      $zoho.salesiq.floatbutton.visible('show');
+    }
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.remove('hide');
+
+    
+    var body = document.body;
+    body.style.height = '';
+    body.style.overflowY = '';
+  }
+</script>
+
+<div class="contactus-form-stickydiv demo-only" id="contactus-form-stickydiv">
+  <button type="button" class="demo-sticky" id="trigger-sticky" onclick="showDemoRequestModal()">
+    <div class="demo-pop-over">
+      Request a demo
+    </div>
+  </button>
+</div>
+
+
+  
+
+<script src="../../js/prd-common.js"></script>
+
+
+
+  
+  
+    <script src="https://iplocation.zoho.com/" type="text/javascript"></script>
+
+
+<script src="../js/index5e1f.js?v=2" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var name = "ZohoExpenseRef";
+  var pageURL = "ZohoExpensePageURL.html";
+  createCookie(name,pageURL);
+
+  
+
+  function zohoGASignupEvent() { }
+  function zohoFedClickEvent() { }
+  function zcTrackClick() { }
+
+   
+</script>
+
+
+
+
+<script type="text/javascript">
+
+  
+  var showChatSupport = false;
+
+  
+  
+    showChatSupport = true;
+  
+
+  if (showChatSupport) {
+    var $zoho = $zoho || {};
+    $zoho.salesiq = $zoho.salesiq || {};
+
+    $zoho.salesiq.ready =  function() {
+      var $contactForm = d.getElementById('contactus-form-stickydiv');
+      if($contactForm) {
+        $contactForm.classList.add('move-dropup-up');
+      }
+      var username = decodeHexString && window.zohouser && decodeHexString(window.zohouser.DISPLAY_NAME) || '';
+      $zoho.salesiq.visitor.name(username);
+      $zoho.salesiq.floatbutton.visible("show");
+      $zoho.salesiq.visitor.info({
+        'Chat Info:': 'Zoho Expense Website'
+      });
+    };
+
+    var siquts = document.getElementById('siquts');
+
+    if (!siquts) {
+      var d=document;
+      s=d.createElement("script");
+      s.type="text/javascript";
+      s.id="siquts";
+      s.defer=true;
+      s.src="../../../widgets.zohosalesiq.com/app3913.js?widgetcode=7aa0180e0bbf15740d80f4d8e4b6d6699a2adc996238d3075d72214170435b43";
+      t=d.getElementsByTagName("script")[0];
+      t.parentNode.insertBefore(s,t);
+      d.write("<div id='siquts'></div>");
+    }
+  }
+
+</script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+<!-- Mirrored from www.zoho.com.cn/expense/per-diem/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 23:18:45 GMT -->
+</html>

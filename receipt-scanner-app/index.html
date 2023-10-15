@@ -1,0 +1,1310 @@
+
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/expense-common-header-footer.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<!-- Mirrored from www.zoho.com.cn/expense/receipt-scanner-app/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 23:18:29 GMT -->
+<head>
+<!-- InstanceBeginEditable name="TDK-Canonical" -->
+<title>收据管理软件_收据管理系统_收据扫描- Zoho Expense报销系统</title>
+<meta name="description" content="使用Zoho Expense报销系统进行收据扫描，可应用程序扫描、存储、跟踪收据并将其转换为费用。跳过手动文书工作并节省时间。立即免费试用！" />
+<meta name="keywords" content="收据管理,收据管理软件,收据管理系统,收据扫描,报销系统" />
+<link rel="canonical" href="index.html">
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="target-densitydpi=device-dpi" name="viewport">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title">
+<link rel="SHORTCUT ICON" href="../favicon3860.ico?v=1" type="image/x-icon">
+<link href="../../css/common-header-footer.css" rel="stylesheet" type="text/css">
+<link href="../../css/prd-common-inner.css" rel="stylesheet" type="text/css">
+<link href="../css/expense-footer.css" rel="stylesheet" type="text/css">
+<link href="../css/expense.css" rel="stylesheet" type="text/css">
+<link href="../../css/prd-home.css" rel="stylesheet" type="text/css">
+
+<script src="../../js/getMarkVal.js"></script>
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="../../../cdn.pagesense.cn/ztmjs/7fe34041c5e3453fb29411d97b45d939.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+
+<!-- InstanceBeginEditable name="head" -->
+  
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<style type="text/css">
+
+      body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.ze-dropdown-menu {
+  position: relative;
+}
+
+.sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+  display: none !important;
+}
+
+.ze-dropdown-cover {
+  visibility: hidden;
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+
+.ze-dropdown-list {
+  visibility: hidden;
+  position: absolute;
+  width: 508px;
+  left: -292px;
+  top: 60px;
+  padding: 25px 40px;
+  background: #fff;
+  text-align: left;
+  font-size: 14px;
+  z-index: 10000;
+  box-shadow: 0 20px 50px rgba(28, 67, 140, 0.15);
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+  border-top: 2px solid #f55d49;
+}
+
+.ze-solutions .ze-dropdown-list {
+  width: 220px;
+  left: -40px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-more .ze-dropdown-list {
+  width: 85px;
+  left: -100px;
+  padding: 10px 50px 10px 25px;
+}
+
+.ze-dropdown-menu:hover .ze-dropdown-list,
+.ze-dropdown-menu:hover .ze-dropdown-cover {
+  visibility: visible !important;
+  opacity: 1;
+}
+
+.product-header, .product-header-inner {
+  overflow: visible !important;
+}
+
+.ze-dropdown-list > ul > li {
+  margin-left: 67px;
+  cursor: pointer;
+  line-height: 25.2px;
+}
+
+.ze-dropdown-list > ul a {
+  color: #000 !important;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px;
+}
+
+.ze-solutions .ze-dropdown-list > ul a, .ze-more .ze-dropdown-list > ul a {
+  padding: 5px 0 !important;
+}
+
+.ze-dropdown-list > ul a:hover {
+  color: #009DF7 !important;
+}
+
+.integrations-header {
+  color: #000 !important;
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+a + .integrations-header {
+  margin-top: 20px;
+}
+
+.ze-dropdown-list > ul a.more-integrations {
+  color: #009DF7 !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+}
+
+.ze-dropdown-menu .ze-arrow-down {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #444;
+}
+
+.more-integrations .ze-caret-arrow-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #009DF7;
+  border-top: 4px solid transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .ze-dropdown-menu:hover .ze-dropdown-list, .ze-dropdown-cover {
+    visibility: hidden !important;
+  }
+
+  .ze-dropdown-menu .ze-arrow-down, .ze-solutions.ze-dropdown-menu, .ze-more.ze-dropdown-menu {
+    display: none;
+  }
+
+  .sub-menu-customer, .sub-menu-gstguide, .sub-menu-resources, .sub-menu-help, .sub-menu-faq, .sub-menu-mobile {
+    display: block !important;
+  }
+}
+
+      .product-header {
+        background-color: #fff !important;
+        border-bottom: 0;
+      }
+
+      .hero-section {
+        min-height: 275px;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .hero-section h1 {
+        font-size: 30px;
+        font-family: Georgia, 'proxima_nova_rgbold', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        letter-spacing: -.25px;
+        max-width: 900px;
+        margin: 0 auto 20px;
+        line-height: 1.3;
+      }
+
+      .hero-section .sub-heading {
+        font-size: 18px;
+        font-family: 'proxima_nova_rgregular', Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        letter-spacing: -0.25px;
+        margin: 9px auto 24px;
+        line-height: 2;
+        max-width: 600px;
+      }
+
+      .btn {
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 280px;
+        padding: 14px 0;
+        border: 0;
+      }
+
+      .ze-access {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .ze-btn-filled {
+        background-color: #f55d49;
+        color: #fff;
+        border: 1px solid #f55d49;
+      }
+
+      .ze-btn-filled:hover {
+        background-color: #d2503f;
+        border: 1px solid #d2503f;
+      }
+
+      .ze-demo {
+        border: 1px solid #333;
+        background: none;
+        color: #333;
+      }
+
+      .hero-section .ze-demo:hover {
+        background: #333;
+        color: #fff;
+      }
+
+      .header-image-container {
+        max-width: 1440px;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+
+      .header-image-container img {
+        margin: 30px auto;
+      }
+
+      .ze-feature-section {
+        max-width: 420px;
+        margin: 0 auto;
+        padding: 0 20px;
+        clear: both;
+        text-align: center;
+      }
+
+      .ze-feature-left, .ze-feature-right, .ze-feature {
+        padding: 30px 0;
+      }
+
+      .ze-feature {
+        padding-bottom: 60px;
+      }
+
+      h2 {
+        margin: 20px auto;
+        padding: 0 5px;
+        font-family: Georgia, 'proxima_nova_rgbold', Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+        max-width: 700px;
+      }
+
+      h3 {
+        font-family: Georgia, 'proxima_nova_rgbold', Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.3;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.7;
+      }
+
+      .bottom-section {
+        padding: 45px 30px;
+        background: #000;
+        text-align: center;
+      }
+
+      .bottom-section h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #fff;
+        max-width: 860px;
+        margin: 0 auto;
+        line-height: 1.3;
+        letter-spacing: 0.3125px;
+      }
+
+      .bottom-section .ze-demo {
+        border: 1px solid #fff;
+        background: none;
+        color: #fff;
+      }
+
+      .bottom-section .ze-demo:hover {
+        background: #fff;
+        color: #162722;
+      }
+
+      .ze-feature-img {
+        height: 110px;
+        margin-bottom: 10px;
+      }
+
+      .ze-mobile-container {
+        max-width: 1600px;
+        width: 95%;
+        margin: 80px auto 100px;
+      }
+
+      .ze-mobile-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ze-mobile-images {
+        width: 48%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .ze-iphone-img,.ze-android-img {
+        margin: 15px;
+      }
+
+      .ze-iphone-img {
+        width: 250px;
+      }
+
+      .ze-android-img {
+        width: 278px;
+      }
+
+      .ze-mobile {
+        width: 40%;
+        margin-left: 20px;
+        max-width: 550px;
+      }
+
+      .ze-mobile h2 {
+        text-align: left;
+        padding: 0;
+        max-width: 480px;
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+
+      .ze-mobile p {
+        max-width: 435px;
+        padding-bottom: 30px;
+      }
+
+      .ze-mobile-apps-footer img {
+        width: 150px;
+        height: 45px;
+        margin: 0;
+      }
+
+      .ze-mobile-apps-footer a {
+        width: 100%;
+        display: block;
+        margin: 15px 25px 15px 0;
+        font-size: 20px;
+        color: #006be6;
+      }
+
+      .ze-mobile-apps-logos {
+        margin: 15px 15px 15px 0;
+      }
+
+      .ze-mobile-apps-logos a {
+        width: 150px;
+        height: 45px;
+        display: inline;
+      }
+
+      .mobile-app-link {
+        padding-top: 10px;
+      }
+
+      .mobile-app-link span {
+        font-size: 24px;
+      }
+
+      .customer-testimony {
+        max-width: 800px;
+        padding: 80px 20px;
+        margin: auto;
+      }
+
+      .customer-testimony h3 {
+        text-align: center;
+      }
+
+      .cx-testimony-card {
+        box-shadow: 2px 4px 10px 2px #ddd;
+        display: flex;
+        margin-top: 20px;
+      }
+
+      .testimony-quote {
+        position: absolute;
+        transform: scale(1.2, 1);
+        font-size: 340px;
+        font-family: 'proxima_nova_regular', Arial, Helvetica, sans-serif;
+        left: -15px;
+        top: -70px;
+        color: #fff;
+        opacity: 0.4;
+      }
+
+      .testimony-left {
+        width: 400px;
+        background: #03b28a;
+        padding: 15px;
+        float: left;
+        position: relative;
+        padding-left: 48px;
+      }
+
+      .testimony-details-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .testimony-left:after {
+        content: "";
+        position: absolute;
+        top: 27px;
+        right: -21px;
+        border-style: solid;
+        border-width: 11px;
+        border-color: transparent transparent transparent #03b28a;
+        display: block;
+        width: 0;
+        z-index: 1;
+      }
+
+      .testimony-right {
+        font-style: italic;
+        padding: 25px 5px 25px 12px;
+        float: right;
+        line-height: 1.8;
+      }
+
+      .testimony-cx-image {
+        width: 75px;
+        border: 3px #fff solid;
+        border-radius: 50%;
+      }
+      .testimony-cx-name {
+        margin-left: 10px;
+        color: #fff;
+      }
+
+      .cx-name {
+        border-bottom: 1px dotted #fff;
+        font-weight: bold;
+        padding: 5px 0;
+        margin-bottom: 5px;
+      }
+
+      .cx-user {
+        font-size: 80%;
+      }
+
+      .yt-video-header {
+        max-width: 900px;
+        padding: 90px 0 50px;
+        line-height: 1.6;
+      }
+
+      .yt-video-section {
+        background: url(video-bg-wave.svg) no-repeat;
+        background-size: 100% 100%;
+        background-position: 0 20px;
+        padding: 0 20px;
+      }
+
+      .yt-video-container {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .yt-preview-img {
+        border-radius: 6px;
+        box-shadow: 0 0 12px 1px #d6ece4;
+        cursor: pointer;
+      }
+
+      .watch-container {
+        position: absolute;
+        top: 44%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 200px;
+        padding: 40px;
+      }
+
+      .watch-container .watch {
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 10px 12px 4px;
+        border-radius: 30px;
+      }
+
+      .watch-container .watch-content {
+        font-size: 13px;
+      }
+
+      .social-media {
+        font-size: 13px;
+        padding: 10px;
+        text-align: right;
+        border: 1px solid #ededed;
+      }
+
+      .access-btn-center {
+        margin: 100px auto 50px;
+        display: block;
+        text-align: center;
+        padding: 8px;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .video-player {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        opacity: 0;
+        padding: 100px;
+        z-index: 1001;
+        transition: opacity 0.3s;
+      }
+
+      .video-player.open {
+        opacity: 1;
+      }
+
+      .video-player .player-wrapper {
+        max-width: 800px;
+        margin: auto;
+      }
+
+      .video-player .player {
+        position: relative;
+        padding-bottom: 56.25%;
+         
+        height: 0;
+      }
+
+      .video-player .player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .close {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+        width: 32px;
+        height: 32px;
+        opacity: 0.3;
+        transition: opacity 0.25s;
+        cursor: pointer;
+      }
+
+      .close:hover {
+        opacity: 1;
+      }
+
+      .close:before,
+      .close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #666;
+      }
+
+      .close:before {
+        transform: rotate(45deg);
+      }
+
+      .close:after {
+        transform: rotate(-45deg);
+      }
+
+      .social-twitter-btn,
+      .social-fb-btn {
+        display: inline-block;
+        padding: 2px 8px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .social-twitter-btn {
+        background-color: #41B7D8;
+      }
+
+      .social-fb-btn {
+        background-color: #3B5997;
+      }
+
+      @media screen and (min-width: 768px) {
+        .hero-section {
+          padding-top: 70px;
+        }
+
+        .hero-section h1 {
+          font-size: 45px;
+          margin-top: 0;
+        }
+
+        .hero-section .sub-heading {
+          font-size: 22px;
+          max-width: 920px;
+        }
+
+        .btn {
+          font-size: 17px;
+          width: 320px;
+          padding: 16px 0;
+        }
+
+        h2 {
+          font-size: 34px;
+          margin-bottom: 50px;
+        }
+
+        h3 {
+          font-size: 26px;
+        }
+
+        .ze-feature-section {
+          max-width: 991px;
+          padding: 0 40px;
+          text-align: left;
+        }
+
+        .ze-feature-left {
+          width: 36%;
+          float: left;
+          padding: 40px 0 40px 4%;
+        }
+
+        .ze-feature-right {
+          width: 36%;
+          float: right;
+          padding: 40px 4% 40px 0;
+        }
+
+        .ze-feature-img {
+          height: 130px;
+        }
+
+        .processing-cost {
+          max-width: 340px;
+        }
+
+        .ze-feature {
+          max-width: 37%;
+          margin: auto;
+          padding-top: 50px;
+          text-align: center;
+        }
+
+        .access-btn-center {
+          padding: 10px 0;
+        }
+      }
+
+      @media screen and (min-width: 720px) {
+        .testimony-details-container {
+          flex-direction: row;
+          align-items: center;
+        }
+        .testimony-right {
+          padding: 25px;
+        }
+      }
+
+      @media screen and (max-width: 1200px) {
+
+        .ze-mobile-container {
+          position:relative;
+          margin-bottom: 50px;
+        }
+
+        .ze-mobile-wrapper{
+          display: block;
+          margin-top: 230px;
+        }
+
+        .ze-mobile-images{
+          width:80%;
+          margin:auto;
+          justify-content: center;
+        }
+
+        .ze-mobiles-header{
+          position:absolute;
+          top:-200px;
+        }
+
+        .ze-mobile{
+          width:100%;
+          max-width: 100%;
+          display: block;
+          text-align: center;
+          margin-left: 0px;
+        }
+
+        .ze-mobile-apps-logos{
+          display: flex;
+          justify-content:space-evenly;
+          max-width: 60%;
+          margin: auto;
+        }
+
+        .ze-mobile-apps-footer a{
+          margin: 30px 25px 0 0;
+        }
+
+        .ze-mobile h2 {
+          text-align: center;
+          max-width: none;
+          margin-bottom: 10px;
+        }
+
+        .ze-mobile p {
+          text-align: center;
+          max-width: 80%;
+          margin: auto;
+        }
+      }
+
+      @media screen and (max-width: 650px) {
+        .bottom-section {
+          padding: 45px 15px;
+        }
+
+        .btn {
+          font-size: 12px;
+          width: 230px;
+        }
+
+        .ze-mobile-images{
+          display: block;
+        }
+
+        .ze-iphone-img,.ze-android-img{
+          margin: 30px auto;
+        }
+
+        .ze-mobile-apps-footer img{
+          height: 60px;
+          width: 200px;
+          margin-top: 30px;
+        }
+
+        .ze-mobile-apps-footer a{
+          margin-top: 75px;
+        }
+
+        .ze-mobile-apps-logos{
+          display:block;
+        }
+
+        .ze-mobile-apps-logos a{
+          display: block;
+          width: 200px;
+          margin: 30px auto;
+        }
+
+        .ze-android-img{
+          display: none;
+        }
+
+        .ze-mobile-wrapper {
+          margin-top: 250px;
+        }
+
+        .ze-mobiles-header{
+          top:-235px;
+        }
+
+        .yt-video-header {
+          padding: 40px 0;
+        }
+
+        .access-btn-center {
+          margin: 50px auto 0;
+        }
+
+        .video-player {
+          padding: 120px 15px;
+        }
+      }
+
+      @media only screen and (max-width: 463px) {
+        .ze-mobile-wrapper {
+          margin-top: 315px;
+        }
+
+        .ze-mobiles-header{
+          top:-300px;
+        }
+
+        .testimony-left {
+          padding-left: 15px;
+        }
+
+        .testimony-quote {
+          display: none;
+        }
+      }
+
+      @media only screen and (max-width: 350px) {
+        .ze-mobile-wrapper {
+          margin-top: 365px;
+        }
+
+        .ze-mobiles-header{
+          top:-350px;
+        }
+      }
+
+      body {
+        font-family: 'proxima_nova_rgregular', Arial, Helvetica, sans-serif;
+      }
+
+    </style>
+<!-- InstanceEndEditable -->
+<!-- header start -->
+<div class="header">
+  <a class="logo" href="https://www.zoho.com.cn/"> ZOHO  </a>
+  <div class="signing">
+    <span class="user-det">"Welcome "+username+</span>
+    <a class="signup" href="../signup/index.html">Registro</a>
+    <a class="signin" href="https://accounts.zoho.com.cn/signin?servicename=ZohoExpense&amp;service_language=zh&amp;signupurl=https://www.zoho.com.cn/expense/signup">登录</a>
+  </div>
+</div>
+<div class="product-header">
+  <div class="product-header-inner clearfix">
+    <a class="product-logo" href="../index.html">Expense</a>
+    <span class="sub-menu-icon">Menu</span>
+    <ul class="product-menu scale">
+      
+      <li class="tour"><a href="../receipt-tracking/index.html">Funciones</a></li>
+      <li class="pricing"><a href="../pricing/index.html">Precios</a></li>
+      <li class="tour"><a href="../mobile-apps/index.html">Apps</a></li>
+      <li class="tour"><a href="../contact-us.html">Contacto</a></li>
+    </ul>
+  </div>
+</li>
+    </ul>
+  </div>
+</div>
+<!-- header end -->
+
+<!-- InstanceBeginEditable name="EditRegion4" -->
+ <div class="main" style="background-color:#fff;">
+      <header class="hero-section">
+        <div class="hero-section-inner">
+          <h1>通过Zoho收据管理软件，随时随地进行报销费用处理</h1>
+          <div class="sub-heading">
+            Zoho Expense报销系统通过收据扫描，快速地将收据变成了费用，帮助您节省更多报销时间。
+          </div>
+
+          <a href="../signup/index.html" class="btn ze-btn-filled ze-access">
+            立即免费试用
+          </a>
+
+          <!--<button type="button" class="btn ze-demo" onclick="showDemoRequestModal()">
+            请求演示
+          </button>-->
+          <a class="btn ze-demo" href="../request-demo.html" target="_blank">请求演示</a>
+        </div>
+      </header>
+
+      <div class="header-image-container">
+        <h2>准确、简单、高效</h2>
+        <img alt="Receipt Scanner App" src="receipt-scanner-app.png"/>
+      </div>
+
+      <section class="ze-feature-section">
+        <h2>Zoho的收据扫描应用如何简化您的收据管理？</h2>
+
+        <div class="ze-feature-left">
+          <img class="ze-feature-img" alt="Receipt scanner app that travels with you" src="travels-with-you.svg"/>
+          <div>
+            <h3>伴您左右</h3>
+            <p>
+              没有纸和笔？不用担心，有了Zoho Expense的收据扫描Funciones，您就可以快速生成收据的照片，自动生成各项费用条目。
+            </p>
+          </div>
+        </div>
+
+        <div class="ze-feature-right">
+          <img class="ze-feature-img" alt="Duplicate detection" src="detects-duplicates.svg"/>
+          <div>
+            <h3>检测重复录入</h3>
+            <p>
+              如果您两次扫描同一张收据，请不要担心。Zoho Expense会自动比较所有费用条目的日期、金额和货币，并在可能重复时通知您。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ze-feature-section">
+        <div class="ze-feature-left">
+          <img class="ze-feature-img" alt="Smart Receipt scanner app scanning " src="gets-smarter.svg"/>
+          <div>
+            <h3>更加智能</h3>
+            <p>
+              随着时间的推移，使用Zoho Expense报销系统进行收据扫描将变得更方便、更智能。当您扫描来自商家的收据并将其标记为相关类别时，Zoho Expense会在下一次自动识别商家，从而省去了重新输入详细信息的麻烦。
+            </p>
+          </div>
+        </div>
+
+        <div class="ze-feature-right">
+          <img class="ze-feature-img" alt="Avoid receipt loss or damage" src="prevents-lost-or-damaged-receipts.svg"/>
+          <div>
+            <h3>防止收据丢失</h3>
+            <p>
+              收据丢失或损坏总会带来不必要的麻烦。费用产生后，请立即扫描收据，并将其附加到Zoho Expense中的费用上。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ze-feature-section">
+        <div class="ze-feature">
+          <img class="ze-feature-img" alt="Manage receipts efficiently" src="manage-your-e-receipts.svg"/>
+          <div>
+            <h3>管理收件箱中的收据</h3>
+            <p>
+              Zoho的收据扫描Funciones还可以将您的电子收据转换为费用。将收据从您的邮箱转发到您唯一的Zoho Expense收据收件地址，并找到自动创建为费用的收据。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="ze-mobile-container">
+        <div class="ze-mobile-wrapper">
+          <div class="ze-mobile-images">
+            <div class="ze-iphone-img"><img alt="Zoho Expense app for Iphone" src="iphone.png"></div>
+            <div class="ze-android-img"><img alt="Zoho Expense app for Android-phone" src="../common/android-phone.png"></div>
+          </div>
+          <div class="ze-mobile">
+            <div class="ze-mobiles-header">
+              <h2>利用收据管理应用进行快速扫描录入收据</h2>
+              <p>Zoho Expense的收据扫描应用程序会导入收据，并将收据转换为专业费用，其中包含您的雇主需要查看您的所有信息。</p>
+            </div>
+            <div class="ze-mobile-apps-footer">
+              <div class="ze-mobile-apps-logos">
+                <a target="_blank" rel="noopener noreferrer" href="https://itunes.apple.com/cn/app/id966094166?mt=8"><img alt="iOS expense reporting app" src="../expense-report-automation/app-store.png"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://workdrive.zohopublic.com.cn/external/d7fcbc3c0d3e57b23ad465822af5435379bbfbc079f8ecd7bc862fc95e4f8d85/download"><img alt="Android expense reporting app" src="../expense-report-automation/google-play.png"></a>
+              </div>
+              <a target="_blank" rel="noopener noreferrer" class="mobile-app-link" href="../mobile-apps/index.html">了解更多<span>&nbsp;&#187;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="yt-video-header">不仅仅是收据扫描，您还可以使用Zoho Expense自动化整个费用管理流程</h2>
+
+      <!--<div class="yt-video-section">
+        <div class="yt-video-container">
+          <img id="product-video" class="yt-preview-img" alt="Zoho Expense Overview" src="/expense/receipt-scanner-app/expense-video-overview.png"/>
+        </div>
+      </div>-->
+
+      <a href="../signup/index.html" class="btn ze-btn-filled ze-access access-btn-center">
+        立即实现自动化
+      </a>
+
+      <div class="customer-testimony">
+        <h3>让用户喜爱的收据扫描应用</h3>
+        <div class="cx-testimony-card">
+          <div class="testimony-left">
+            <div class="testimony-quote">‘</div>
+            <div class="testimony-details-container">
+              <div>
+                <img class="testimony-cx-image" alt="Customer testimony" src="matt-kruszewski.png"/>
+              </div>
+              <div class="testimony-cx-name">
+                <div class="cx-name">
+                  Matt Kruszewski
+                </div>
+                <div class="cx-user">
+                  Cruise Planners
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimony-right">
+            应用程序的便利性和自动的费用记录使团队成员更轻松、更快捷地提交费用。
+          </div>
+        </div>
+      </div>
+
+      <footer class="bottom-section">
+        <h2>选择智能收据扫描应用，使您的费用记录井井有条</h2>
+        <div>
+          <a href="../signup/index.html" class="btn ze-btn-filled ze-access">
+            立即免费试用
+          </a>
+
+          <!--<button type="button" class="btn ze-demo" onclick="showDemoRequestModal()">
+            请求演示
+          </button>-->
+          <a class="btn ze-demo" href="../request-demo.html" target="_blank">请求演示</a>
+        </div>
+      </footer>
+    </div>
+
+    <div id="video-player" class="video-player hide">
+      <i class="close"></i>
+      <div class="player-wrapper">
+        <div id="player" class="player"></div>
+        <div class="social-media">
+          Liked this video? Help us spread the word by sharing it with your friends.
+        </div>
+      </div>
+    </div>
+<!-- InstanceEndEditable -->
+
+<!-- footer start -->
+
+ <div class="region region-footer">
+   <section id="block-zoho-navigation-links-product-pages-footer-links">
+    <div class="footer-sec-wrap two-column">
+     <div class="content-wrap">
+      <div class="promo-section-wrap">
+       <span class="article-list">
+		   <h3>文章列表</h3>
+		   <a href="https://www.zoho.com.cn/content/expense-automatic.html">让费用报销流程自动化的5个理由</a>
+		   <a href="https://www.zoho.com.cn/content/expense-management.html">“当我为发票报销抓狂的时候，Zoho Expense出现了”</a>
+		  </span>
+      </div>
+      <div class="footer-links-wrap">
+       <div class="product-links four-column">
+        <div class="footer-features">
+           <h4>产品Funciones</h4>
+         <ul>
+          <li><a href="../receipt-tracking/index.html">收据跟踪</a></li>
+          <li><a href="../connect-debit-credit-card/index.html">银行卡</a></li>
+          <li><a href="../expense-reports/index.html">报表</a></li>
+          <li><a href="../expense-report-approval/index.html">审批</a></li>
+		  <li><a href="../expense-report-analytics/index.html">分析</a></li>
+         </ul>
+        </div>
+        <div class="footer-explore">
+         <h4>产品Precios</h4>
+         <ul>
+          <li><a href="../pricing/index.html">Precios</a></li>
+          <li><a href="../pricing-comparison/index.html">版本Funciones对比</a></li>
+         </ul>
+        </div>
+        <div class="footer-solutions">
+         <h4>Apps</h4>
+         <ul>
+          <li><a href="../mobile-apps/index.html">APP</a></li>
+          <li><a href="index.html">收据扫描</a></li>
+         </ul>
+        </div>
+		<div class="footer-solutions">
+         <h4>快速链接</h4>
+         <ul>
+          <li><a href="../expense-management-software/index.html">费用管理软件</a></li>
+          <li><a href="../expense-reimbursement-software/index.html">费用报销软件</a></li>
+		  <li><a href="../per-diem/index.html">津贴管理应用</a></li>
+          <li><a href="../expense-report-automation/index.html">自动化费用报表</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="common-links common-links-js"></div>
+    </div>
+   </section>
+  </div>
+
+
+<div class="footer">
+  <div class="common-footer">
+    <div class="zoho-links">
+      <a href="https://www.zoho.com.cn/">Zoho首页</a>
+      <a href="https://www.zoho.com.cn/aboutus.html">关于我们</a>
+      <a href="https://www.zoho.com.cn/contactus.html">Contacto</a>
+      <a href="https://www.zoho.com.cn/security.html">安全保障</a>
+      <a href="https://www.zoho.com.cn/ipr-complaints.html">知识产权申诉</a>
+      <a href="https://www.zoho.com.cn/policy.html">反垃圾邮件政策</a>
+      <a href="https://www.zoho.com.cn/terms.html">服务条款</a>
+      <a href="https://www.zoho.com.cn/privacy.html">隐私政策</a>
+    </div>
+	  <div class="zoho-links"><p>© <span id="fyear">2023</span>, Proteus Digital Media SAS de CV. Todos los derechos reservados.</p></div>
+    <div class="zoho-links"><p>Av 1ro de mayo # 100, Acambaro, Gto. Col. Centro 400-660-8680 京ICP备15015257号 京ICP证150718号</p></div>
+  </div>
+</div>
+<!-- footer end -->
+
+<!-- InstanceBeginEditable name="EditRegion5" -->
+<script type="text/javascript">
+  function convertToTitleCase(text = '') {
+    var textSplit = text.toLowerCase().split(' ');
+    var titleCaseWords = [];
+
+    for(var i = 0; i < textSplit.length; i++) {
+      titleCaseWords.push(textSplit[i].charAt(0).toUpperCase() + textSplit[i].slice(1));
+    }
+
+    return titleCaseWords.join(' ');
+  }
+
+  function onLoad() {
+    if (window.CountryName) {
+      var demoLocation = $('#demo_location');
+      demoLocation.val(convertToTitleCase(window.CountryName));
+      demoLocation.addClass('text-black');
+
+      
+      if (window.CountryName === 'United States') {
+        $('#demo_state_wrapper').removeClass('hide');
+      }
+    }
+  }
+
+  
+  function reloadImg() {
+    if(document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
+      document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
+    }  else {
+      document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
+    }
+  }
+</script>
+
+<script type="text/javascript">"use strict";function validateForm(e){e&&($("#contact-name")[0].value=$("#email")[0].value);for(var o,t=["contact-name","email","message"],a=[],n=0;n<t.length;n++)!1===(o=validateField(t[n]))&&a.push(o);return $("#source-url").val(window.location.href),!(a.length>0)}function noOfUsersChanged(){var e=$("#demo_no_of_users");"No. of Users"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black")}function countryChanged(){var e=$("#demo_location");"Country"===e.find(":selected").text()?(e.addClass("select-placeholder"),e.removeClass("text-black")):e.addClass("text-black");var o=$("#demo_state_wrapper");"United States"===e.find(":selected").text()?o.removeClass("hide"):o.addClass("hide")}function validateDemoForm(){var e=decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent("ZohoExpenseRef").replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||"",o=document.querySelector('input[name="CASECF13"]');o&&(o.value=window.location.href);var t=document.querySelector('input[name="CASECF30"]');t&&(t.value=e);for(var a,n=["demo_name","demo_company_name","demo_job_title","demo_email","demo_message","demo_phone","demo_no_of_users","demo_location","enterdigest"],l=[],r=0;r<n.length;r++)!1===(a=validateField(n[r]))&&l.push(a);var d=l.length>0;d||(document.getElementById("spin").style.display="inline-block","United States"!==$("#demo_location").val()&&document.getElementById("demo_state").removeAttribute("name"));return!d}function validateField(e){var o=$("#"+e).val(),t=""!==(o=void 0!==o&&null!==o?o.trim():"");return toggleError(e,t),t}function toggleError(e,o){var t=$("#"+e).parents(".form-group"),a=$("#"+e+"_error");!o?(t.addClass("has-error"),a.css("display","block")):(t.removeClass("has-error"),a.css("display","none"))}</script>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  if (document.documentElement.clientWidth > 960) {
+    
+    var carouselScript = document.createElement('script');
+    carouselScript.src = '../js/carousel.js';
+    carouselScript.async = true;
+
+    document.getElementsByTagName('body')[0].append(carouselScript);
+  }
+</script>
+
+<script type="text/javascript">
+  function showDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('hide');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('open');
+    });
+
+    
+    var body = document.body;
+    body.style.height = '100vh';
+    body.style.overflowY = 'hidden';
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.add('hide');
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      $zoho.salesiq.floatbutton.visible('hide');
+      if ($zoho.salesiq.floatwindow) {
+        $zoho.salesiq.floatwindow.minimize();
+      }
+    }
+
+    onLoad();
+  }
+
+  function hideDemoRequestModal() {
+    
+    var demoRequestModal = document.getElementById('demorequest-modal');
+    demoRequestModal.classList.remove('open');
+    window.setTimeout(function() {
+      demoRequestModal.classList.add('hide');
+    }, 450);
+
+    if (window.showChatSupport && $zoho && $zoho.salesiq && $zoho.salesiq.floatbutton) {
+      var $contactForm = document.getElementById('contactus-form-stickydiv');
+      if($contactForm) {
+        $contactForm.classList.add('move-dropup-up');
+      }
+      $zoho.salesiq.floatbutton.visible('show');
+    }
+
+    var triggerSticky = document.getElementById('trigger-sticky');
+    triggerSticky.classList.remove('hide');
+
+    
+    var body = document.body;
+    body.style.height = '';
+    body.style.overflowY = '';
+  }
+</script>
+
+<!--<div class="contactus-form-stickydiv demo-only" id="contactus-form-stickydiv">
+  <button type="button" class="demo-sticky" id="trigger-sticky" onclick="showDemoRequestModal()">
+    <div class="demo-pop-over">
+      Request a demo
+    </div>
+  </button>
+</div>-->
+ 
+
+<script src="../../js/prd-common.js"></script>
+
+
+
+  
+  
+    <script src="https://iplocation.zoho.com/" type="text/javascript"></script>
+
+
+<script src="../js/index5e1f.js?v=2" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var name = "ZohoExpenseRef";
+  var pageURL = "ZohoExpensePageURL.html";
+  createCookie(name,pageURL);
+
+  
+
+  function zohoGASignupEvent() { }
+  function zohoFedClickEvent() { }
+  function zcTrackClick() { }
+
+   
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+      var app_id = "10116";var cvalue = "0";document.write(unescape(""));
+
+      $('#product-video').on('click', function(event) {
+        var videoPlayerContainer = $('#video-player');
+        videoPlayerContainer.removeClass('hide');
+        window.setTimeout(function() {
+          videoPlayerContainer.addClass('open');
+          videoPlayerContainer.find('#player').html(
+            '<iframe id="yt-product-video" src="https://www.youtube.com/embed/I0DEUEF3mAQ?autoplay=1&rel=0&showinfo=0&autohide=1&enablejsapi=1" frameborder="0" allowfullscreen></iframe>'
+          );
+        });
+        event.preventDefault();
+      });
+
+      $('#video-player').on('click', function() {
+        var $this = $(this);
+        $this.removeClass('open');
+        $this.find('#yt-product-video').remove();
+        window.setTimeout(function() {
+          $this.addClass('hide');
+        }, 450);
+      });
+    </script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+<!-- Mirrored from www.zoho.com.cn/expense/receipt-scanner-app/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 23:18:34 GMT -->
+</html>
